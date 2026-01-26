@@ -18,7 +18,7 @@ public class UI_DialogueManager : MonoBehaviour
     [SerializeField] private GameObject buttonParent;
     
     [Header("PlayerInput")]
-    [SerializeField] private PlayerInputSystem playerInput;
+    [SerializeField] private InputActionAsset inputAsset;
     
     [Header("Other")]
     [SerializeField] private GameObject dialoguePanel;
@@ -27,6 +27,15 @@ public class UI_DialogueManager : MonoBehaviour
     private DialogueLine currentDialogueLine;
     private bool isActive = false;
     private int currentIndex = 0;
+    
+    private InputActionMap playerInputMap;
+    private InputActionMap UIInputMap;
+
+    private void Awake()
+    {
+        playerInputMap = inputAsset.FindActionMap("Player");
+        UIInputMap = inputAsset.FindActionMap("UI");
+    }
 
     private void OnEnable()
     {
@@ -100,8 +109,8 @@ public class UI_DialogueManager : MonoBehaviour
 
     private void OpenPanel()
     {
-        playerInput.Player.Disable();
-        playerInput.UI.Enable();
+        playerInputMap.Disable();
+        UIInputMap.Enable();
         
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -112,8 +121,14 @@ public class UI_DialogueManager : MonoBehaviour
 
     private void ClosePanel()
     {
-        playerInput.Player.Enable();
-        playerInput.UI.Disable();
+        playerInputMap.Enable();
+        UIInputMap.Disable();
+        
+        foreach (var action in playerInputMap.actions)
+        {
+            action.Disable();
+            action.Enable();
+        }
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
