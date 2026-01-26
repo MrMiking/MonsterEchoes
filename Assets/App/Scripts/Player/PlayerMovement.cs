@@ -1,6 +1,7 @@
-using MVsToolkit.Dev;
 using UnityEngine;
+using MVsToolkit.Dev;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -8,45 +9,99 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpForce;
 
+    [Space(5)]
+    [SerializeField] float dashForce;
+    [SerializeField] float dashTime = .3f;
+    [SerializeField] float dashCooldown = .8f;
+
     [Space(10)]
     [SerializeField] Vector2 groundCheckPosOffset;
     [SerializeField] float groundCheckRadius;
     [SerializeField] LayerMask groundLayer;
 
+    Vector2 moveInput;
+
+    bool isDashing;
+    bool canDash = true;
+
+    bool isGrounded;
+
     [Foldout("References")]
     [SerializeField] Rigidbody2D rb;
+    [SerializeField] PlayerVisual visual;
 
     [Foldout("Inputs")]
-    [SerializeField] InputActionReference moveInput;
-    [SerializeField] InputActionReference jumpInput;
+    [SerializeField] InputActionReference moveInputIA;
+    [SerializeField] InputActionReference jumpInputIA;
+    [SerializeField] InputActionReference dashInputIA;
 
     private void OnEnable()
     {
-        jumpInput.action.started += Jump;
+        jumpInputIA.action.started += Jump;
+        dashInputIA.action.started += Dash;
     }
     private void OnDisable()
     {
-        jumpInput.action.started -= Jump;
+        jumpInputIA.action.started -= Jump;
+        dashInputIA.action.started -= Dash;
     }
 
     private void FixedUpdate()
     {
-        Move(moveInput.action.ReadValue<Vector2>());
+        moveInput = moveInputIA.action.ReadValue<Vector2>();
+        moveInput.y = 0;
+
+        isGrounded = IsGrounded();
+
+        if(!isDashing) Move(moveInput);
+
+        visual.SetGrounded(isGrounded);
+        visual.SetVerticalVelocity(rb.linearVelocityY);
+        visual.FlipX(moveInput.x);
     }
 
     void Move(Vector2 input)
     {
-        input.y = 0;
         rb.AddForce(input * moveSpeed);
+        visual.MoveAnim(input.x);
     }
 
     void Jump(InputAction.CallbackContext ctx)
     {
-        if (IsGrounded())
+        if (isGrounded && !isDashing)
         {
             rb.linearVelocityY = 0;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    void Dash(InputAction.CallbackContext ctx)
+    {
+        if (!canDash) return;
+
+        rb.linearVelocity = Vector2.zero;
+        rb.AddForce(moveInput * dashForce, ForceMode2D.Impulse);
+
+        StartCoroutine(DashTime());
+        StartCoroutine(DashCooldown());
+    }
+    IEnumerator DashTime()
+    {
+        visual.SetDash(true);
+        isDashing = true;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+        
+        yield return new WaitForSeconds(dashTime);
+
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        visual.SetDash(false);
+        isDashing = false;
+    }
+    IEnumerator DashCooldown()
+    {
+        canDash = false;
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 
     bool IsGrounded()
