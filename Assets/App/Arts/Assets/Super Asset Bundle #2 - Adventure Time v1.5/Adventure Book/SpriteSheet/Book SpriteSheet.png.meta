@@ -1,0 +1,7826 @@
+fileFormatVersion: 2
+guid: c6844bc96ed16784784854d8d45faa38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2996223603979340814
+    second: Book SpriteSheet_0
+  - first:
+      213: 3575316934897941177
+    second: Book SpriteSheet_1
+  - first:
+      213: -468936026530657983
+    second: Book SpriteSheet_2
+  - first:
+      213: -4544418027656585112
+    second: Book SpriteSheet_3
+  - first:
+      213: 2982543785895131914
+    second: Book SpriteSheet_4
+  - first:
+      213: 2856134694519821404
+    second: Book SpriteSheet_5
+  - first:
+      213: 9208884428596402334
+    second: Book SpriteSheet_6
+  - first:
+      213: -5551105280951326155
+    second: Book SpriteSheet_7
+  - first:
+      213: 2851157799993535243
+    second: Book SpriteSheet_8
+  - first:
+      213: -5612554713927454630
+    second: Book SpriteSheet_9
+  - first:
+      213: 7405494789591608583
+    second: Book SpriteSheet_10
+  - first:
+      213: 2258851294172610538
+    second: Book SpriteSheet_11
+  - first:
+      213: -659391070092906600
+    second: Book SpriteSheet_12
+  - first:
+      213: -8389619997977403531
+    second: Book SpriteSheet_13
+  - first:
+      213: -6398434240860830132
+    second: Book SpriteSheet_14
+  - first:
+      213: 4201081773191447442
+    second: Book SpriteSheet_15
+  - first:
+      213: 2693746067191311050
+    second: Book SpriteSheet_16
+  - first:
+      213: 8502346016478881877
+    second: Book SpriteSheet_17
+  - first:
+      213: -4177550181390935241
+    second: Book SpriteSheet_18
+  - first:
+      213: 2949385013664339632
+    second: Book SpriteSheet_19
+  - first:
+      213: 4367889583282761466
+    second: Book SpriteSheet_20
+  - first:
+      213: 5638743709087833779
+    second: Book SpriteSheet_21
+  - first:
+      213: 3291819004944611251
+    second: Book SpriteSheet_22
+  - first:
+      213: -2024492369844210094
+    second: Book SpriteSheet_23
+  - first:
+      213: 4555613197049185598
+    second: Book SpriteSheet_24
+  - first:
+      213: 2612386415175225661
+    second: Book SpriteSheet_25
+  - first:
+      213: -6618120069216320085
+    second: Book SpriteSheet_26
+  - first:
+      213: 3044112552199943898
+    second: Book SpriteSheet_27
+  - first:
+      213: -8892860223287362127
+    second: Book SpriteSheet_28
+  - first:
+      213: 651682758818772796
+    second: Book SpriteSheet_29
+  - first:
+      213: 1195500628479862704
+    second: Book SpriteSheet_30
+  - first:
+      213: 3961092791060479493
+    second: Book SpriteSheet_31
+  - first:
+      213: -4335198424684101599
+    second: Book SpriteSheet_32
+  - first:
+      213: 2625764675651791323
+    second: Book SpriteSheet_33
+  - first:
+      213: 3682014596965161506
+    second: Book SpriteSheet_34
+  - first:
+      213: 168269411988166182
+    second: Book SpriteSheet_35
+  - first:
+      213: 1351389975099856762
+    second: Book SpriteSheet_36
+  - first:
+      213: 5552523247762187648
+    second: Book SpriteSheet_37
+  - first:
+      213: -8926687831572939412
+    second: Book SpriteSheet_38
+  - first:
+      213: -9051347977565694141
+    second: Book SpriteSheet_39
+  - first:
+      213: 6502616862475167010
+    second: Book SpriteSheet_40
+  - first:
+      213: 9088423417181454933
+    second: Book SpriteSheet_41
+  - first:
+      213: 887649791290631418
+    second: Book SpriteSheet_42
+  - first:
+      213: -1463477247606745350
+    second: Book SpriteSheet_43
+  - first:
+      213: 2471423697296958233
+    second: Book SpriteSheet_44
+  - first:
+      213: -7202964124244350953
+    second: Book SpriteSheet_45
+  - first:
+      213: -4054648566758088699
+    second: Book SpriteSheet_46
+  - first:
+      213: -719794726980794941
+    second: Book SpriteSheet_47
+  - first:
+      213: -8634434293373291614
+    second: Book SpriteSheet_48
+  - first:
+      213: -4483083991714865738
+    second: Book SpriteSheet_49
+  - first:
+      213: -6614182984773816515
+    second: Book SpriteSheet_50
+  - first:
+      213: 781109719390541539
+    second: Book SpriteSheet_51
+  - first:
+      213: -5441485630979095157
+    second: Book SpriteSheet_52
+  - first:
+      213: -2731726880235939237
+    second: Book SpriteSheet_53
+  - first:
+      213: -5040447151402695076
+    second: Book SpriteSheet_54
+  - first:
+      213: 6263249067668972743
+    second: Book SpriteSheet_55
+  - first:
+      213: -6694221118467057433
+    second: Book SpriteSheet_56
+  - first:
+      213: 6274331731307165413
+    second: Book SpriteSheet_57
+  - first:
+      213: -5332563075541638293
+    second: Book SpriteSheet_58
+  - first:
+      213: -8508683963130657104
+    second: Book SpriteSheet_59
+  - first:
+      213: -1319080837194790514
+    second: Book SpriteSheet_60
+  - first:
+      213: 2012388753833254361
+    second: Book SpriteSheet_61
+  - first:
+      213: 4780019824998855161
+    second: Book SpriteSheet_62
+  - first:
+      213: 3506431226411358337
+    second: Book SpriteSheet_63
+  - first:
+      213: 4627223844565620190
+    second: Book SpriteSheet_64
+  - first:
+      213: 1339429537111962351
+    second: Book SpriteSheet_65
+  - first:
+      213: 6830587689323685748
+    second: Book SpriteSheet_66
+  - first:
+      213: 805838563325317641
+    second: Book SpriteSheet_67
+  - first:
+      213: 2242294762391542738
+    second: Book SpriteSheet_68
+  - first:
+      213: 7700751363756131827
+    second: Book SpriteSheet_69
+  - first:
+      213: 2385139843173896350
+    second: Book SpriteSheet_70
+  - first:
+      213: 2787729130433792283
+    second: Book SpriteSheet_71
+  - first:
+      213: -6225908786465201797
+    second: Book SpriteSheet_72
+  - first:
+      213: -170099623013867944
+    second: Book SpriteSheet_73
+  - first:
+      213: -3660145740362919067
+    second: Book SpriteSheet_74
+  - first:
+      213: 8691117048052593261
+    second: Book SpriteSheet_75
+  - first:
+      213: -8216168751808593772
+    second: Book SpriteSheet_76
+  - first:
+      213: -5566796235872040998
+    second: Book SpriteSheet_77
+  - first:
+      213: -2593856220821014654
+    second: Book SpriteSheet_78
+  - first:
+      213: -7609363934821905538
+    second: Book SpriteSheet_79
+  - first:
+      213: -1913829340670814711
+    second: Book SpriteSheet_80
+  - first:
+      213: 3592605469112488169
+    second: Book SpriteSheet_81
+  - first:
+      213: -8100304491171774912
+    second: Book SpriteSheet_82
+  - first:
+      213: -8144767708313398435
+    second: Book SpriteSheet_83
+  - first:
+      213: -4295207067228689776
+    second: Book SpriteSheet_84
+  - first:
+      213: -8152851547124882342
+    second: Book SpriteSheet_85
+  - first:
+      213: -129473724002363829
+    second: Book SpriteSheet_86
+  - first:
+      213: 2689772915727363570
+    second: Book SpriteSheet_87
+  - first:
+      213: -5513602867605283546
+    second: Book SpriteSheet_88
+  - first:
+      213: 4641000957212426666
+    second: Book SpriteSheet_89
+  - first:
+      213: 7663630478281041606
+    second: Book SpriteSheet_90
+  - first:
+      213: 3327502711267236835
+    second: Book SpriteSheet_91
+  - first:
+      213: 8597144966579090144
+    second: Book SpriteSheet_92
+  - first:
+      213: 4823912106806652104
+    second: Book SpriteSheet_93
+  - first:
+      213: -6378217495699409845
+    second: Book SpriteSheet_94
+  - first:
+      213: -8846450535335111684
+    second: Book SpriteSheet_95
+  - first:
+      213: 7045547870819413359
+    second: Book SpriteSheet_96
+  - first:
+      213: 6849898550298431012
+    second: Book SpriteSheet_97
+  - first:
+      213: -2491895240366772678
+    second: Book SpriteSheet_98
+  - first:
+      213: -6173915240464148494
+    second: Book SpriteSheet_99
+  - first:
+      213: -6347419424664513458
+    second: Book SpriteSheet_100
+  - first:
+      213: -8309364928984065197
+    second: Book SpriteSheet_101
+  - first:
+      213: -2288869577503697932
+    second: Book SpriteSheet_102
+  - first:
+      213: 2809112551970051699
+    second: Book SpriteSheet_103
+  - first:
+      213: -4459273280286359034
+    second: Book SpriteSheet_104
+  - first:
+      213: 8923777814369816301
+    second: Book SpriteSheet_105
+  - first:
+      213: 3889275261257337019
+    second: Book SpriteSheet_106
+  - first:
+      213: -6802519717698428073
+    second: Book SpriteSheet_107
+  - first:
+      213: 5156998202921839977
+    second: Book SpriteSheet_108
+  - first:
+      213: 4399835508679436608
+    second: Book SpriteSheet_109
+  - first:
+      213: -8877246329533604999
+    second: Book SpriteSheet_110
+  - first:
+      213: -2861424372157282584
+    second: Book SpriteSheet_111
+  - first:
+      213: -7522174809158535709
+    second: Book SpriteSheet_112
+  - first:
+      213: -7446113973534160931
+    second: Book SpriteSheet_113
+  - first:
+      213: -845460327194123171
+    second: Book SpriteSheet_114
+  - first:
+      213: 2503793250562598679
+    second: Book SpriteSheet_115
+  - first:
+      213: -414732172935056418
+    second: Book SpriteSheet_116
+  - first:
+      213: -8441808306390500909
+    second: Book SpriteSheet_117
+  - first:
+      213: -9016379249851278231
+    second: Book SpriteSheet_118
+  - first:
+      213: 7330981746441536023
+    second: Book SpriteSheet_119
+  - first:
+      213: 2561757196762060297
+    second: Book SpriteSheet_120
+  - first:
+      213: -2281133920288411449
+    second: Book SpriteSheet_121
+  - first:
+      213: 1841950620441053173
+    second: Book SpriteSheet_122
+  - first:
+      213: -1730319376167055193
+    second: Book SpriteSheet_123
+  - first:
+      213: -8617074583374212474
+    second: Book SpriteSheet_124
+  - first:
+      213: -2758427841770055929
+    second: Book SpriteSheet_125
+  - first:
+      213: 3868664471704798571
+    second: Book SpriteSheet_126
+  - first:
+      213: 1688135904962707110
+    second: Book SpriteSheet_127
+  - first:
+      213: 709168210114563326
+    second: Book SpriteSheet_128
+  - first:
+      213: -1701059696144220893
+    second: Book SpriteSheet_129
+  - first:
+      213: -2138549940586530185
+    second: Book SpriteSheet_130
+  - first:
+      213: -3293144027316217761
+    second: Book SpriteSheet_131
+  - first:
+      213: 5097271784842007310
+    second: Book SpriteSheet_132
+  - first:
+      213: -6910730121704939350
+    second: Book SpriteSheet_133
+  - first:
+      213: -3891827565225235732
+    second: Book SpriteSheet_134
+  - first:
+      213: 3662613721145595057
+    second: Book SpriteSheet_135
+  - first:
+      213: -2301362162502332419
+    second: Book SpriteSheet_136
+  - first:
+      213: 3980864982351892791
+    second: Book SpriteSheet_137
+  - first:
+      213: 8430618460030666158
+    second: Book SpriteSheet_138
+  - first:
+      213: 5812416345288792945
+    second: Book SpriteSheet_139
+  - first:
+      213: 7781569284433454422
+    second: Book SpriteSheet_140
+  - first:
+      213: -6210675288958295210
+    second: Book SpriteSheet_141
+  - first:
+      213: 6325671838089022242
+    second: Book SpriteSheet_142
+  - first:
+      213: -3546509418054507412
+    second: Book SpriteSheet_143
+  - first:
+      213: -2656550449000235551
+    second: Book SpriteSheet_144
+  - first:
+      213: 1325849312435715330
+    second: Book SpriteSheet_145
+  - first:
+      213: 4513395829908524589
+    second: Book SpriteSheet_146
+  - first:
+      213: -8390314226140138985
+    second: Book SpriteSheet_147
+  - first:
+      213: 2501847284181818377
+    second: Book SpriteSheet_148
+  - first:
+      213: -5043873779019249132
+    second: Book SpriteSheet_149
+  - first:
+      213: 4677502467941655442
+    second: Book SpriteSheet_150
+  - first:
+      213: -8664426282296642325
+    second: Book SpriteSheet_151
+  - first:
+      213: -2753302089413215780
+    second: Book SpriteSheet_152
+  - first:
+      213: 2582155821164187825
+    second: Book SpriteSheet_153
+  - first:
+      213: 8713281857849164565
+    second: Book SpriteSheet_154
+  - first:
+      213: 8849151731154083359
+    second: Book SpriteSheet_155
+  - first:
+      213: 5089539613945703859
+    second: Book SpriteSheet_156
+  - first:
+      213: 5871109216762560325
+    second: Book SpriteSheet_157
+  - first:
+      213: -1366999722101174643
+    second: Book SpriteSheet_158
+  - first:
+      213: -7831728092515130024
+    second: Book SpriteSheet_159
+  - first:
+      213: -7188924971211091665
+    second: Book SpriteSheet_160
+  - first:
+      213: -5336649434370060241
+    second: Book SpriteSheet_161
+  - first:
+      213: 2378650140932446791
+    second: Book SpriteSheet_162
+  - first:
+      213: 4897276130696793313
+    second: Book SpriteSheet_163
+  - first:
+      213: 8411615052738853466
+    second: Book SpriteSheet_164
+  - first:
+      213: 5005214920992321675
+    second: Book SpriteSheet_165
+  - first:
+      213: 6237860125281552804
+    second: Book SpriteSheet_166
+  - first:
+      213: -8684638268865310095
+    second: Book SpriteSheet_167
+  - first:
+      213: -3211954375293282082
+    second: Book SpriteSheet_168
+  - first:
+      213: -4621898731617619586
+    second: Book SpriteSheet_169
+  - first:
+      213: -552464593951262978
+    second: Book SpriteSheet_170
+  - first:
+      213: 4335478631448149127
+    second: Book SpriteSheet_171
+  - first:
+      213: 7888662643715773994
+    second: Book SpriteSheet_172
+  - first:
+      213: -1431822207864818294
+    second: Book SpriteSheet_173
+  - first:
+      213: -2010804766924637516
+    second: Book SpriteSheet_174
+  - first:
+      213: -5838159843963669383
+    second: Book SpriteSheet_175
+  - first:
+      213: 3340713943584984884
+    second: Book SpriteSheet_176
+  - first:
+      213: 3429028630049301928
+    second: Book SpriteSheet_177
+  - first:
+      213: 3884468374699068503
+    second: Book SpriteSheet_178
+  - first:
+      213: 9128555515681229086
+    second: Book SpriteSheet_179
+  - first:
+      213: -5352162224690012423
+    second: Book SpriteSheet_180
+  - first:
+      213: 4009891360345627530
+    second: Book SpriteSheet_181
+  - first:
+      213: 6377321997947630790
+    second: Book SpriteSheet_182
+  - first:
+      213: -6658233400490156862
+    second: Book SpriteSheet_183
+  - first:
+      213: 3851584783217880027
+    second: Book SpriteSheet_184
+  - first:
+      213: 4164524888393841756
+    second: Book SpriteSheet_185
+  - first:
+      213: 90549396358190279
+    second: Book SpriteSheet_186
+  - first:
+      213: -5643494314301763621
+    second: Book SpriteSheet_187
+  - first:
+      213: -3641204178378242907
+    second: Book SpriteSheet_188
+  - first:
+      213: 4455860269405478114
+    second: Book SpriteSheet_189
+  - first:
+      213: -288223293481566798
+    second: Book SpriteSheet_190
+  - first:
+      213: -1840354897905131370
+    second: Book SpriteSheet_191
+  - first:
+      213: 388864897403413758
+    second: Book SpriteSheet_192
+  - first:
+      213: -5483968852155378295
+    second: Book SpriteSheet_193
+  - first:
+      213: -3148724592604854315
+    second: Book SpriteSheet_194
+  - first:
+      213: -1127682350445769474
+    second: Book SpriteSheet_195
+  - first:
+      213: -221266644933370844
+    second: Book SpriteSheet_196
+  - first:
+      213: -3263425864909064086
+    second: Book SpriteSheet_197
+  - first:
+      213: -2356091060050088534
+    second: Book SpriteSheet_198
+  - first:
+      213: 2689234274880281562
+    second: Book SpriteSheet_199
+  - first:
+      213: -4114785650262318746
+    second: Book SpriteSheet_200
+  - first:
+      213: -1577856399349847257
+    second: Book SpriteSheet_201
+  - first:
+      213: -1246413778267616898
+    second: Book SpriteSheet_202
+  - first:
+      213: -6188124576655465382
+    second: Book SpriteSheet_203
+  - first:
+      213: 474492229017705674
+    second: Book SpriteSheet_204
+  - first:
+      213: 8949573617883224413
+    second: Book SpriteSheet_205
+  - first:
+      213: -404195408065736037
+    second: Book SpriteSheet_206
+  - first:
+      213: 5858208242755210979
+    second: Book SpriteSheet_207
+  - first:
+      213: -5810299657018663726
+    second: Book SpriteSheet_208
+  - first:
+      213: -664938691397814446
+    second: Book SpriteSheet_209
+  - first:
+      213: 7154402702577180240
+    second: Book SpriteSheet_210
+  - first:
+      213: 2005837373673011005
+    second: Book SpriteSheet_211
+  - first:
+      213: -2671511969965344948
+    second: Book SpriteSheet_212
+  - first:
+      213: -2589670148576350384
+    second: Book SpriteSheet_213
+  - first:
+      213: 7431855686788053345
+    second: Book SpriteSheet_214
+  - first:
+      213: -3379148991981048257
+    second: Book SpriteSheet_215
+  - first:
+      213: -8559904868436228564
+    second: Book SpriteSheet_216
+  - first:
+      213: 3759564678463909455
+    second: Book SpriteSheet_217
+  - first:
+      213: -4884210013038849992
+    second: Book SpriteSheet_218
+  - first:
+      213: -1981678893479150335
+    second: Book SpriteSheet_219
+  - first:
+      213: -3364627319880531220
+    second: Book SpriteSheet_220
+  - first:
+      213: 3594908652649885560
+    second: Book SpriteSheet_221
+  - first:
+      213: 929603129715569032
+    second: Book SpriteSheet_222
+  - first:
+      213: -6855299146591309915
+    second: Book SpriteSheet_223
+  - first:
+      213: 4609036694060613041
+    second: Book SpriteSheet_224
+  - first:
+      213: 5064776086506774232
+    second: Book SpriteSheet_225
+  - first:
+      213: 197197298203455496
+    second: Book SpriteSheet_226
+  - first:
+      213: 6966127153041725525
+    second: Book SpriteSheet_227
+  - first:
+      213: -9128033247542381725
+    second: Book SpriteSheet_228
+  - first:
+      213: 163780146322588709
+    second: Book SpriteSheet_229
+  - first:
+      213: 844221829652591185
+    second: Book SpriteSheet_230
+  - first:
+      213: -7048667627122737454
+    second: Book SpriteSheet_231
+  - first:
+      213: 1426697195810249937
+    second: Book SpriteSheet_232
+  - first:
+      213: 7536328878387463049
+    second: Book SpriteSheet_233
+  - first:
+      213: -6995547916758811571
+    second: Book SpriteSheet_234
+  - first:
+      213: 2550887597603324292
+    second: Book SpriteSheet_235
+  - first:
+      213: 1011517398576946153
+    second: Book SpriteSheet_236
+  - first:
+      213: 1410201680204421390
+    second: Book SpriteSheet_237
+  - first:
+      213: 3798695030345796551
+    second: Book SpriteSheet_238
+  - first:
+      213: -7374435725330375531
+    second: Book SpriteSheet_239
+  - first:
+      213: -2681860080611035787
+    second: Book SpriteSheet_240
+  - first:
+      213: -1135875492780832519
+    second: Book SpriteSheet_241
+  - first:
+      213: 6579163519653072907
+    second: Book SpriteSheet_242
+  - first:
+      213: 7040321495166356588
+    second: Book SpriteSheet_243
+  - first:
+      213: -3413036774474337140
+    second: Book SpriteSheet_244
+  - first:
+      213: 7319746645857790037
+    second: Book SpriteSheet_245
+  - first:
+      213: 4124941566594821605
+    second: Book SpriteSheet_246
+  - first:
+      213: 5632503985509758197
+    second: Book SpriteSheet_247
+  - first:
+      213: -7417064175625497477
+    second: Book SpriteSheet_248
+  - first:
+      213: -6126916962512542294
+    second: Book SpriteSheet_249
+  - first:
+      213: -5685405995757292934
+    second: Book SpriteSheet_250
+  - first:
+      213: 1190434081897650724
+    second: Book SpriteSheet_251
+  - first:
+      213: 4525364300905199202
+    second: Book SpriteSheet_252
+  - first:
+      213: 4941412703382044626
+    second: Book SpriteSheet_253
+  - first:
+      213: 640169488247733294
+    second: Book SpriteSheet_254
+  - first:
+      213: -7533454951429823694
+    second: Book SpriteSheet_255
+  - first:
+      213: -3318929821645113378
+    second: Book SpriteSheet_256
+  - first:
+      213: -33417576654392963
+    second: Book SpriteSheet_257
+  - first:
+      213: 9133785074931218150
+    second: Book SpriteSheet_258
+  - first:
+      213: -1961725333622686113
+    second: Book SpriteSheet_259
+  - first:
+      213: 1320783913739220686
+    second: Book SpriteSheet_260
+  - first:
+      213: -166310932689658941
+    second: Book SpriteSheet_261
+  - first:
+      213: -1236942854925346850
+    second: Book SpriteSheet_262
+  - first:
+      213: -1484875578388363949
+    second: Book SpriteSheet_263
+  - first:
+      213: 7874981445026820049
+    second: Book SpriteSheet_264
+  - first:
+      213: -6122766315993434844
+    second: Book SpriteSheet_265
+  - first:
+      213: -5427117027575348134
+    second: Book SpriteSheet_266
+  - first:
+      213: 7849684204541407495
+    second: Book SpriteSheet_267
+  - first:
+      213: 4558963087196294737
+    second: Book SpriteSheet_268
+  - first:
+      213: 818860265659924843
+    second: Book SpriteSheet_269
+  - first:
+      213: 8564344434475780638
+    second: Book SpriteSheet_270
+  - first:
+      213: 4018880241470343023
+    second: Book SpriteSheet_271
+  - first:
+      213: 2683983243585489209
+    second: Book SpriteSheet_272
+  - first:
+      213: -1256146032853269398
+    second: Book SpriteSheet_273
+  - first:
+      213: 2908400073579832752
+    second: Book SpriteSheet_274
+  - first:
+      213: 2555381486619466368
+    second: Book SpriteSheet_275
+  - first:
+      213: -2968551039771420691
+    second: Book SpriteSheet_276
+  - first:
+      213: -1955506287937975614
+    second: Book SpriteSheet_277
+  - first:
+      213: 2007537743184972683
+    second: Book SpriteSheet_278
+  - first:
+      213: 8030222787669717159
+    second: Book SpriteSheet_279
+  - first:
+      213: 8561875937993088971
+    second: Book SpriteSheet_280
+  - first:
+      213: 5958911189846834688
+    second: Book SpriteSheet_281
+  - first:
+      213: -5224756056430796218
+    second: Book SpriteSheet_282
+  - first:
+      213: 6901970119183245569
+    second: Book SpriteSheet_283
+  - first:
+      213: -7262669746553222001
+    second: Book SpriteSheet_284
+  - first:
+      213: -7587087362471794116
+    second: Book SpriteSheet_285
+  - first:
+      213: 352508599592827492
+    second: Book SpriteSheet_286
+  - first:
+      213: 2885272120822660489
+    second: Book SpriteSheet_287
+  - first:
+      213: -5718506886163707926
+    second: Book SpriteSheet_288
+  - first:
+      213: -8699005038659462552
+    second: Book SpriteSheet_289
+  - first:
+      213: 8929547369348636939
+    second: Book SpriteSheet_290
+  - first:
+      213: 4975144782653227343
+    second: Book SpriteSheet_291
+  - first:
+      213: 7954002918126630763
+    second: Book SpriteSheet_292
+  - first:
+      213: -7096204370310597516
+    second: Book SpriteSheet_293
+  - first:
+      213: 8184148520189630815
+    second: Book SpriteSheet_294
+  - first:
+      213: -4067582270165564467
+    second: Book SpriteSheet_295
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Book SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 4234
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3bb21c1864b66d0800000000000000
+      internalID: -2996223603979340814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 4234
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bab7083fc31e9130800000000000000
+      internalID: 3575316934897941177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 4234
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149c14c1b210e79f0800000000000000
+      internalID: -468936026530657983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 4234
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860e5a691ebfee0c0800000000000000
+      internalID: -4544418027656585112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 4234
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bf35565cf146920800000000000000
+      internalID: 2982543785895131914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3642
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54d5894f5703a720800000000000000
+      internalID: 2856134694519821404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 3642
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e985d18d8978ccf70800000000000000
+      internalID: 9208884428596402334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 3642
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ae912782386f2b0800000000000000
+      internalID: -5551105280951326155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 3642
+        width: 695
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0be23bb9e8519720800000000000000
+      internalID: 2851157799993535243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2986
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50f8e969333c12b0800000000000000
+      internalID: -5612554713927454630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 2991
+        width: 595
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d2d9f664a95c660800000000000000
+      internalID: 7405494789591608583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 2991
+        width: 322
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeff69db84d095f10800000000000000
+      internalID: 2258851294172610538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 2991
+        width: 322
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f2c0bb05f59d6f0800000000000000
+      internalID: -659391070092906600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 2986
+        width: 322
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f1b0cdf05129b80800000000000000
+      internalID: -8389619997977403531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 2986
+        width: 322
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c464bc255f13437a0800000000000000
+      internalID: -6398434240860830132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293c17b4d9d3d4a30800000000000000
+      internalID: 4201081773191447442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 4737
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca2b0aa6cb126520800000000000000
+      internalID: 2693746067191311050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 4762
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5586ea597a66ef570800000000000000
+      internalID: 8502346016478881877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b13de5e3c5606c0800000000000000
+      internalID: -4177550181390935241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6d25d1b025ee820800000000000000
+      internalID: 2949385013664339632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 3252
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afea2b51f6cdd9c30800000000000000
+      internalID: 4367889583282761466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4858
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be16af2787d04e40800000000000000
+      internalID: 5638743709087833779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b77a96b1f3eead20800000000000000
+      internalID: 3291819004944611251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 4908
+        y: 3252
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25672f47aee87e3e0800000000000000
+      internalID: -2024492369844210094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 4812
+        y: 3214
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35c238e01ac83f30800000000000000
+      internalID: 4555613197049185598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 3214
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3153948a9f014420800000000000000
+      internalID: 2612386415175225661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4862
+        y: 3214
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba54a718cd6b724a0800000000000000
+      internalID: -6618120069216320085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 4887
+        y: 3214
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad67f22ec3cde3a20800000000000000
+      internalID: 3044112552199943898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 4757
+        y: 3086
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd71c94eb6369480800000000000000
+      internalID: -8892860223287362127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37b3a1340e3b0900800000000000000
+      internalID: 651682758818772796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 4778
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b76c41dc75479010800000000000000
+      internalID: 1195500628479862704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 4786
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e358d18e0a8f630800000000000000
+      internalID: 3961092791060479493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 4794
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1200fd9600846d3c0800000000000000
+      internalID: -4335198424684101599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 4807
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd96ef38f07907420800000000000000
+      internalID: 2625764675651791323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 4815
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a59ed84c4291330800000000000000
+      internalID: 3682014596965161506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 3086
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265e108320d55200800000000000000
+      internalID: 168269411988166182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 4835
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77d9dab50a11c210800000000000000
+      internalID: 1351389975099856762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 4843
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085a6fda9768e0d40800000000000000
+      internalID: 5552523247762187648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 3086
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dfa4a76b80e1480800000000000000
+      internalID: -8926687831572939412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 4858
+        y: 3086
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3471fb278f6236280800000000000000
+      internalID: -9051347977565694141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 4865
+        y: 3086
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2252c46859fed3a50800000000000000
+      internalID: 6502616862475167010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 4873
+        y: 3086
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552417502f0902e70800000000000000
+      internalID: 9088423417181454933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2330
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4e3de38c0915c00800000000000000
+      internalID: 887649791290631418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 2330
+        width: 658
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af69887723fa0bbe0800000000000000
+      internalID: -1463477247606745350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 2330
+        width: 658
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9132ede22c24c4220800000000000000
+      internalID: 2471423697296958233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 2330
+        width: 658
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718688cba4ee90c90800000000000000
+      internalID: -7202964124244350953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 2330
+        width: 658
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50066596c9efab7c0800000000000000
+      internalID: -4054648566758088699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 2330
+        width: 658
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c54c1b6286c206f0800000000000000
+      internalID: -719794726980794941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 4687
+        y: 2330
+        width: 658
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b803e1c35c2880800000000000000
+      internalID: -8634434293373291614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1674
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd5897acd2e8c1c0800000000000000
+      internalID: -4483083991714865738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1674
+        width: 658
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3faf196e93b534a0800000000000000
+      internalID: -6614182984773816515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1674
+        width: 658
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6d0eab62f07da00800000000000000
+      internalID: 781109719390541539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 1674
+        width: 658
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85491b16a5fb74b0800000000000000
+      internalID: -5441485630979095157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 1674
+        width: 658
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a962030e4f61ad0800000000000000
+      internalID: -2731726880235939237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 1674
+        width: 658
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56438f650cbc0ab0800000000000000
+      internalID: -5040447151402695076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 4687
+        y: 1674
+        width: 658
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4a43ac7d78be650800000000000000
+      internalID: 6263249067668972743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1018
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e85ad93c595913a0800000000000000
+      internalID: -6694221118467057433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1018
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6768f7777e21750800000000000000
+      internalID: 6274331731307165413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 984
+        width: 658
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63e9fbc22eeef5b0800000000000000
+      internalID: -5332563075541638293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 1018
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6c88734051be980800000000000000
+      internalID: -8508683963130657104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 1018
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89caf4a7fea1bde0800000000000000
+      internalID: -1319080837194790514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 1018
+        width: 658
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddd836d8e07deb10800000000000000
+      internalID: 2012388753833254361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 725
+        width: 125
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1b16884ba065240800000000000000
+      internalID: 4780019824998855161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 767
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188169f5f9859a030800000000000000
+      internalID: 3506431226411358337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 767
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed51d8f0293373040800000000000000
+      internalID: 4627223844565620190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 766
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe27931411c969210800000000000000
+      internalID: 1339429537111962351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 766
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4776b4d305f1bce50800000000000000
+      internalID: 6830587689323685748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 782
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902115167e9ee2b00800000000000000
+      internalID: 805838563325317641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 793
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db111ac43b3e1f10800000000000000
+      internalID: 2242294762391542738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f50a44a0909eda60800000000000000
+      internalID: 7700751363756131827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90d204ec08b91120800000000000000
+      internalID: 2385139843173896350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19c385cfd000b620800000000000000
+      internalID: 2787729130433792283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7122cae1f02999a0800000000000000
+      internalID: -6225908786465201797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 784
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e94d94b4fa3adf0800000000000000
+      internalID: -170099623013867944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 783
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563528767dc843dc0800000000000000
+      internalID: -3660145740362919067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 783
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62348e58ec0d9870800000000000000
+      internalID: 8691117048052593261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 785
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490c8c52d0e4afd80800000000000000
+      internalID: -8216168751808593772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 783
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad78ddf4154ceb2b0800000000000000
+      internalID: -5566796235872040998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 783
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287b68f8285c00cd0800000000000000
+      internalID: -2593856220821014654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 783
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b854241db166690800000000000000
+      internalID: -7609363934821905538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 783
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9069894ca56b075e0800000000000000
+      internalID: -1913829340670814711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 733
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e05394c3af7bd130800000000000000
+      internalID: 3592605469112488169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 781
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e74378bffe59f80800000000000000
+      internalID: -8100304491171774912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 781
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5358ef0ce8f7fe80800000000000000
+      internalID: -8144767708313398435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 778
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a2619edeb5464c0800000000000000
+      internalID: -4295207067228689776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 778
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54a02ba6b04bde80800000000000000
+      internalID: -8152851547124882342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 748
+        width: 68
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4697118554043ef0800000000000000
+      internalID: -129473724002363829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 740
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd6560473ef35520800000000000000
+      internalID: 2689772915727363570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 751
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ddfcb776fbb73b0800000000000000
+      internalID: -5513602867605283546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 754
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa105e018c5286040800000000000000
+      internalID: 4641000957212426666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 769
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c66ccbf05faa5a60800000000000000
+      internalID: 7663630478281041606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 751
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb9b36061aad2e20800000000000000
+      internalID: 3327502711267236835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 772
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2fb772cc13f4770800000000000000
+      internalID: 8597144966579090144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 772
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccaae1c08af1f240800000000000000
+      internalID: 4823912106806652104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 771
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44b7ac1bf40c77a0800000000000000
+      internalID: -6378217495699409845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 771
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3594ecb181b3580800000000000000
+      internalID: -8846450535335111684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 759
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d6338a570d6c160800000000000000
+      internalID: 7045547870819413359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 764
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e400e607abf0f50800000000000000
+      internalID: 6849898550298431012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 764
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ea3744b720b6dd0800000000000000
+      internalID: -2491895240366772678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 754
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f793c2bcc8d15aa0800000000000000
+      internalID: -6173915240464148494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 754
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e441570d9af69e7a0800000000000000
+      internalID: -6347419424664513458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 750
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bd0da3f943fac80800000000000000
+      internalID: -8309364928984065197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 751
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f391b70f3d4c30e0800000000000000
+      internalID: -2288869577503697932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 751
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37614429bf8fbf620800000000000000
+      internalID: 2809112551970051699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 751
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602042ce39a7d12c0800000000000000
+      internalID: -4459273280286359034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 751
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee460854a0a7db70800000000000000
+      internalID: 8923777814369816301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 751
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb845fc6e3b79f530800000000000000
+      internalID: 3889275261257337019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 751
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753aef8ab589891a0800000000000000
+      internalID: -6802519717698428073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 751
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96deb78ea86519740800000000000000
+      internalID: 5156998202921839977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 755
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ecf4751b5f0d30800000000000000
+      internalID: 4399835508679436608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 755
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b52883f7fadc480800000000000000
+      internalID: -8877246329533604999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 746
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e68be9a1bd2a48d0800000000000000
+      internalID: -2861424372157282584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 746
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5b6b18ddddb9790800000000000000
+      internalID: -7522174809158535709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 740
+        width: 123
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd78c62dac61aa890800000000000000
+      internalID: -7446113973534160931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 746
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54a8e5df425444f0800000000000000
+      internalID: -845460327194123171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 746
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717edca12b24fb220800000000000000
+      internalID: 2503793250562598679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 743
+        width: 113
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3b74b39439e3af0800000000000000
+      internalID: -414732172935056418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 735
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9f6ab621ca8da80800000000000000
+      internalID: -8441808306390500909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 728
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c5964d7d26fd280800000000000000
+      internalID: -9016379249851278231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7124583ae01ecb560800000000000000
+      internalID: 7330981746441536023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 737
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9069dc109903d8320800000000000000
+      internalID: 2561757196762060297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 735
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c07d1419c8c750e0800000000000000
+      internalID: -2281133920288411449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 736
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f70339845cef8910800000000000000
+      internalID: 1841950620441053173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0569be1bbacf7e0800000000000000
+      internalID: -1730319376167055193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 736
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682dee652500a6880800000000000000
+      internalID: -8617074583374212474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 720
+        width: 80
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7079fb02e7818b9d0800000000000000
+      internalID: -2758427841770055929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 589
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65832707d140b530800000000000000
+      internalID: 3868664471704798571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 703
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae72e359a67d6710800000000000000
+      internalID: 1688135904962707110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 727
+        width: 113
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcc0e1dab877d900800000000000000
+      internalID: 709168210114563326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 721
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32df69d083f9468e0800000000000000
+      internalID: -1701059696144220893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 717
+        width: 94
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a38e8d8285252e0800000000000000
+      internalID: -2138549940586530185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 712
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f581e9974f66c42d0800000000000000
+      internalID: -3293144027316217761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 703
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03112b8ea52db640800000000000000
+      internalID: 5097271784842007310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 696
+        width: 82
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa06f25a1972810a0800000000000000
+      internalID: -6910730121704939350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 689
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea2daff2737df9c0800000000000000
+      internalID: -3891827565225235732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 691
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4da5626c734d230800000000000000
+      internalID: 3662613721145595057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 687
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff068c6e4bef00e0800000000000000
+      internalID: -2301362162502332419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 689
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73150e32c9fde3730800000000000000
+      internalID: 3980864982351892791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 689
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea58af272d29ff470800000000000000
+      internalID: 8430618460030666158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 689
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bdc9bded9d9a050800000000000000
+      internalID: 5812416345288792945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 674
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6552fb12900bdfb60800000000000000
+      internalID: 7781569284433454422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 674
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6532852fabf3fc9a0800000000000000
+      internalID: -6210675288958295210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 680
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b0dfa950d49c750800000000000000
+      internalID: 6325671838089022242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 674
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64a848797448cec0800000000000000
+      internalID: -3546509418054507412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 674
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edbf6f0179022bd0800000000000000
+      internalID: -2656550449000235551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 674
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d3d6dccec566210800000000000000
+      internalID: 1325849312435715330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 697
+        width: 71
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e4d64289dc2ae30800000000000000
+      internalID: 4513395829908524589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 667
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712b2054aad9f8b80800000000000000
+      internalID: -8390314226140138985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 697
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cdeef79d858b220800000000000000
+      internalID: 2501847284181818377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 661
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a86a5858f800ab0800000000000000
+      internalID: -5043873779019249132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 661
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293ecad46b3d9e040800000000000000
+      internalID: 4677502467941655442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 661
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4762dc336c1c780800000000000000
+      internalID: -8664426282296642325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 624
+        width: 100
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd93f29565e4ac9d0800000000000000
+      internalID: -2753302089413215780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 657
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0d23bd909a5d320800000000000000
+      internalID: 2582155821164187825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 672
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51384fc4fabcbe870800000000000000
+      internalID: 8713281857849164565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 672
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ed8fa5d908eca70800000000000000
+      internalID: 8849151731154083359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 674
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bd2387305da1a640800000000000000
+      internalID: 5089539613945703859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 674
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f77a6e9be5a7150800000000000000
+      internalID: 5871109216762560325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 674
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e0a14def0770de0800000000000000
+      internalID: -1366999722101174643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 674
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855203c4bcc105390800000000000000
+      internalID: -7831728092515130024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 677
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f211706c3decb3c90800000000000000
+      internalID: -7188924971211091665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 671
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20559d3d9960f5b0800000000000000
+      internalID: -5336649434370060241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 666
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a163753b9a20120800000000000000
+      internalID: 2378650140932446791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 654
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec8e29a1be96f340800000000000000
+      internalID: 4897276130696793313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 640
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5af3d5e25f0cb470800000000000000
+      internalID: 8411615052738853466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 653
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b807b3ea378167540800000000000000
+      internalID: 5005214920992321675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 657
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a90bfdfbb4519650800000000000000
+      internalID: 6237860125281552804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 661
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1721585f187f97780800000000000000
+      internalID: -8684638268865310095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 639
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8d1e96388dc63d0800000000000000
+      internalID: -3211954375293282082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 639
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e717a1a6797bbdfb0800000000000000
+      internalID: -4621898731617619586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 640
+        width: 73
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6fd8ef0604558f0800000000000000
+      internalID: -552464593951262978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 640
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c73ce48d6ba2c30800000000000000
+      internalID: 4335478631448149127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 640
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a269297e0e82a7d60800000000000000
+      internalID: 7888662643715773994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 641
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85b3beb945212ce0800000000000000
+      internalID: -1431822207864818294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 634
+        width: 80
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba7bcad7bf2814e0800000000000000
+      internalID: -2010804766924637516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 610
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9747896cd80bafea0800000000000000
+      internalID: -5838159843963669383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 610
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fc39fb1a99c5e20800000000000000
+      internalID: 3340713943584984884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 610
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5abba0f5b569f20800000000000000
+      internalID: 3429028630049301928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 610
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c4d2fe76768e530800000000000000
+      internalID: 3884468374699068503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 610
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19cc9850e42fae70800000000000000
+      internalID: 9128555515681229086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 610
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe561940dc49b5b0800000000000000
+      internalID: -5352162224690012423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 591
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b1f4962fef5a730800000000000000
+      internalID: 4009891360345627530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 591
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4f3f1919cc08850800000000000000
+      internalID: 6377321997947630790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 598
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc9424cff33993a0800000000000000
+      internalID: -6658233400490156862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 591
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb600a24f3937530800000000000000
+      internalID: 3851584783217880027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 418
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cfcf6425d5bc930800000000000000
+      internalID: 4164524888393841756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c45e8c3232b14100800000000000000
+      internalID: 90549396358190279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf4b1852d74ea1b0800000000000000
+      internalID: -5643494314301763621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c8197718d77dc0800000000000000
+      internalID: -3641204178378242907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 417
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec90be8e4566dd30800000000000000
+      internalID: 4455860269405478114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 415
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdb9001176000cf0800000000000000
+      internalID: -288223293481566798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 418
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690e6b198feb576e0800000000000000
+      internalID: -1840354897905131370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 418
+        width: 51
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4695b5096856500800000000000000
+      internalID: 388864897403413758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 415
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d8ff526705e3b0800000000000000
+      internalID: -5483968852155378295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 417
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7404a6aab7d44d0800000000000000
+      internalID: -3148724592604854315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcc33280eaa950f0800000000000000
+      internalID: -1127682350445769474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c9a14a827edecf0800000000000000
+      internalID: -221266644933370844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68f54b577bf5b2d0800000000000000
+      internalID: -3263425864909064086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 418
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadad3bf9ab7d4fd0800000000000000
+      internalID: -2356091060050088534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 398
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb5b082354125520800000000000000
+      internalID: 2689234274880281562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 365
+        width: 82
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6616d3d804855e6c0800000000000000
+      internalID: -4114785650262318746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 365
+        width: 67
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bec22f6f35a1ae0800000000000000
+      internalID: -1577856399349847257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 365
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79c43fb549d3bee0800000000000000
+      internalID: -1246413778267616898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 399
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54269ecb7d5f1aa0800000000000000
+      internalID: -6188124576655465382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 399
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc98471b2cb59600800000000000000
+      internalID: 474492229017705674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 399
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d591321e9c5433c70800000000000000
+      internalID: 8949573617883224413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 402
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92d56afa62046af0800000000000000
+      internalID: -404195408065736037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 400
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee80b1db598c4150800000000000000
+      internalID: 5858208242755210979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 400
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc14d80f3bad5fa0800000000000000
+      internalID: -5810299657018663726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 401
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257f1dd78c9a5c6f0800000000000000
+      internalID: -664938691397814446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 401
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e15333a5b894360800000000000000
+      internalID: 7154402702577180240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 401
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d377bf6c67a26db10800000000000000
+      internalID: 2005837373673011005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 405
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47f2018402ecead0800000000000000
+      internalID: -2671511969965344948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 399
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f6ca478b4af0cd0800000000000000
+      internalID: -2589670148576350384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f7f81f51432760800000000000000
+      internalID: 7431855686788053345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 387
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ea9d135e9da11d0800000000000000
+      internalID: -3379148991981048257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c8bddfdb153980800000000000000
+      internalID: -8559904868436228564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e62f1f728ac2430800000000000000
+      internalID: 3759564678463909455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830d96ceedcc73cb0800000000000000
+      internalID: -4884210013038849992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 386
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d3947bb89af74e0800000000000000
+      internalID: -1981678893479150335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 384
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce242f477417e41d0800000000000000
+      internalID: -3364627319880531220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 387
+        width: 56
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fac297f5ea3e130800000000000000
+      internalID: 3594908652649885560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 383
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881b9c80f1d96ec00800000000000000
+      internalID: 929603129715569032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 387
+        width: 56
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afe2624fb51dd0a0800000000000000
+      internalID: -6855299146591309915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 384
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd393a147696ff30800000000000000
+      internalID: 4609036694060613041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 386
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de112f2403b94640800000000000000
+      internalID: 5064776086506774232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800751ed5e59cb200800000000000000
+      internalID: 197197298203455496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5585141dcb7aca060800000000000000
+      internalID: 6966127153041725525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363f74eaf16b25180800000000000000
+      internalID: -9128033247542381725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 387
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524c1d2ec2dd54200800000000000000
+      internalID: 163780146322588709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 362
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152b21cf74747bb00800000000000000
+      internalID: 844221829652591185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 367
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2debd89732a1e2e90800000000000000
+      internalID: -7048667627122737454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 358
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcd0566a85acc310800000000000000
+      internalID: 1426697195810249937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 366
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9838dca8f2b669860800000000000000
+      internalID: 7536328878387463049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 372
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cfd54db32daee90800000000000000
+      internalID: -6995547916758811571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 370
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481881d31c2966320800000000000000
+      internalID: 2550887597603324292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_236
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 368
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb5e4af6b1a90e00800000000000000
+      internalID: 1011517398576946153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_237
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 368
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e095e32e4fa029310800000000000000
+      internalID: 1410201680204421390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_238
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 369
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb8dc5f00da7b430800000000000000
+      internalID: 3798695030345796551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_239
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 369
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c9bbc77cdb8a990800000000000000
+      internalID: -7374435725330375531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_240
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 369
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575f0ed377e18cad0800000000000000
+      internalID: -2681860080611035787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_241
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 369
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f80ab7e14f8c30f0800000000000000
+      internalID: -1135875492780832519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_242
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00512cfc52ed4b50800000000000000
+      internalID: 6579163519653072907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_243
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 323
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c00ff391f34b160800000000000000
+      internalID: 7040321495166356588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_244
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 318
+        width: 216
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84bc1cf22572a0d0800000000000000
+      internalID: -3413036774474337140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_245
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 323
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e530fac6f49560800000000000000
+      internalID: 7319746645857790037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_246
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 364
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eda02cff7cbe3930800000000000000
+      internalID: 4124941566594821605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_247
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4f744588caa2e40800000000000000
+      internalID: 5632503985509758197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b741197fd6b411990800000000000000
+      internalID: -7417064175625497477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_249
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5ef110c71d8faa0800000000000000
+      internalID: -6126916962512542294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_250
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 364
+        width: 87
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72b2039e516911b0800000000000000
+      internalID: -5685405995757292934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 364
+        width: 87
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a17048d75458010800000000000000
+      internalID: 1190434081897650724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_252
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26630b2fad25dce30800000000000000
+      internalID: 4525364300905199202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_253
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df70b94cac639440800000000000000
+      internalID: 4941412703382044626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_254
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 364
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cbc0ff1c652e800800000000000000
+      internalID: 640169488247733294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_255
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 364
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2332e98b2aac37790800000000000000
+      internalID: -7533454951429823694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_256
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 336
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7746269eac0f1d0800000000000000
+      internalID: -3318929821645113378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_257
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 340
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71b24e14e6498ff0800000000000000
+      internalID: -33417576654392963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_258
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 336
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e63a0ef129b1ce70800000000000000
+      internalID: 9133785074931218150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_259
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 323
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ef886e33d86c4e0800000000000000
+      internalID: -1961725333622686113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_260
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 321
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6f973c8fd545210800000000000000
+      internalID: 1320783913739220686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_261
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 338
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbd4ce761521bdf0800000000000000
+      internalID: -166310932689658941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_262
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 336
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed797bce60f75dee0800000000000000
+      internalID: -1236942854925346850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_263
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 336
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35542865789a46be0800000000000000
+      internalID: -1484875578388363949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_264
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 337
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfad9b96ed894d60800000000000000
+      internalID: 7874981445026820049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_265
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 337
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425fb74b970970ba0800000000000000
+      internalID: -6122766315993434844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_266
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 337
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54c5e841d10fa4b0800000000000000
+      internalID: -5427117027575348134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_267
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 337
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7017fa2d13eafec60800000000000000
+      internalID: 7849684204541407495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_268
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 314
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e047cf5c0b44f30800000000000000
+      internalID: 4558963087196294737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_269
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 318
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b618757b21d2d5b00800000000000000
+      internalID: 818860265659924843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_270
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 316
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ac50723e9aad670800000000000000
+      internalID: 8564344434475780638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_271
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 309
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f670da3694ee5c730800000000000000
+      internalID: 4018880241470343023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_272
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 309
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93983092a8c6f3520800000000000000
+      internalID: 2683983243585489209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_273
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 303
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64c3c5a6d5419ee0800000000000000
+      internalID: -1256146032853269398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_274
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 304
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b522722576bc5820800000000000000
+      internalID: 2908400073579832752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_275
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 306
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a109f4ce9867320800000000000000
+      internalID: 2555381486619466368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_276
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 294
+        width: 66
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7dec0be869dc6d0800000000000000
+      internalID: -2968551039771420691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_277
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 285
+        width: 94
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca0a6f4465acd4e0800000000000000
+      internalID: -1955506287937975614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_278
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 277
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bcab7e0f43cdb10800000000000000
+      internalID: 2007537743184972683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_279
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 260
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0fc465415117f60800000000000000
+      internalID: 8030222787669717159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_280
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 255
+        width: 88
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfda078dc4e1d670800000000000000
+      internalID: 8561875937993088971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_281
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 277
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ebbeec72e42b250800000000000000
+      internalID: 5958911189846834688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_282
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 277
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6422f527c00fd77b0800000000000000
+      internalID: -5224756056430796218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_283
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 255
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10127445149b8cf50800000000000000
+      internalID: 6901970119183245569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_284
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 213
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c08b34850d53b90800000000000000
+      internalID: -7262669746553222001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_285
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 208
+        width: 226
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a6300fd3045b690800000000000000
+      internalID: -7587087362471794116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_286
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 213
+        width: 158
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a300324bc54e400800000000000000
+      internalID: 352508599592827492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_287
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98df8f105bb8a0820800000000000000
+      internalID: 2885272120822660489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_288
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 159
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae74694f848c3a0b0800000000000000
+      internalID: -5718506886163707926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_289
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a9e53b10de64780800000000000000
+      internalID: -8699005038659462552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_290
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01ac0b85002ceb70800000000000000
+      internalID: 8929547369348636939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_291
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f410f2402d34b0540800000000000000
+      internalID: 4975144782653227343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_292
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67bb5d038b426e60800000000000000
+      internalID: 7954002918126630763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_293
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474ff06f8b7358d90800000000000000
+      internalID: -7096204370310597516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_294
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 79
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5911f6b7bfe39170800000000000000
+      internalID: 8184148520189630815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Book SpriteSheet_295
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 75
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3ca1ce97b0d87c0800000000000000
+      internalID: -4067582270165564467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Book SpriteSheet_0: -2996223603979340814
+      Book SpriteSheet_1: 3575316934897941177
+      Book SpriteSheet_10: 7405494789591608583
+      Book SpriteSheet_100: -6347419424664513458
+      Book SpriteSheet_101: -8309364928984065197
+      Book SpriteSheet_102: -2288869577503697932
+      Book SpriteSheet_103: 2809112551970051699
+      Book SpriteSheet_104: -4459273280286359034
+      Book SpriteSheet_105: 8923777814369816301
+      Book SpriteSheet_106: 3889275261257337019
+      Book SpriteSheet_107: -6802519717698428073
+      Book SpriteSheet_108: 5156998202921839977
+      Book SpriteSheet_109: 4399835508679436608
+      Book SpriteSheet_11: 2258851294172610538
+      Book SpriteSheet_110: -8877246329533604999
+      Book SpriteSheet_111: -2861424372157282584
+      Book SpriteSheet_112: -7522174809158535709
+      Book SpriteSheet_113: -7446113973534160931
+      Book SpriteSheet_114: -845460327194123171
+      Book SpriteSheet_115: 2503793250562598679
+      Book SpriteSheet_116: -414732172935056418
+      Book SpriteSheet_117: -8441808306390500909
+      Book SpriteSheet_118: -9016379249851278231
+      Book SpriteSheet_119: 7330981746441536023
+      Book SpriteSheet_12: -659391070092906600
+      Book SpriteSheet_120: 2561757196762060297
+      Book SpriteSheet_121: -2281133920288411449
+      Book SpriteSheet_122: 1841950620441053173
+      Book SpriteSheet_123: -1730319376167055193
+      Book SpriteSheet_124: -8617074583374212474
+      Book SpriteSheet_125: -2758427841770055929
+      Book SpriteSheet_126: 3868664471704798571
+      Book SpriteSheet_127: 1688135904962707110
+      Book SpriteSheet_128: 709168210114563326
+      Book SpriteSheet_129: -1701059696144220893
+      Book SpriteSheet_13: -8389619997977403531
+      Book SpriteSheet_130: -2138549940586530185
+      Book SpriteSheet_131: -3293144027316217761
+      Book SpriteSheet_132: 5097271784842007310
+      Book SpriteSheet_133: -6910730121704939350
+      Book SpriteSheet_134: -3891827565225235732
+      Book SpriteSheet_135: 3662613721145595057
+      Book SpriteSheet_136: -2301362162502332419
+      Book SpriteSheet_137: 3980864982351892791
+      Book SpriteSheet_138: 8430618460030666158
+      Book SpriteSheet_139: 5812416345288792945
+      Book SpriteSheet_14: -6398434240860830132
+      Book SpriteSheet_140: 7781569284433454422
+      Book SpriteSheet_141: -6210675288958295210
+      Book SpriteSheet_142: 6325671838089022242
+      Book SpriteSheet_143: -3546509418054507412
+      Book SpriteSheet_144: -2656550449000235551
+      Book SpriteSheet_145: 1325849312435715330
+      Book SpriteSheet_146: 4513395829908524589
+      Book SpriteSheet_147: -8390314226140138985
+      Book SpriteSheet_148: 2501847284181818377
+      Book SpriteSheet_149: -5043873779019249132
+      Book SpriteSheet_15: 4201081773191447442
+      Book SpriteSheet_150: 4677502467941655442
+      Book SpriteSheet_151: -8664426282296642325
+      Book SpriteSheet_152: -2753302089413215780
+      Book SpriteSheet_153: 2582155821164187825
+      Book SpriteSheet_154: 8713281857849164565
+      Book SpriteSheet_155: 8849151731154083359
+      Book SpriteSheet_156: 5089539613945703859
+      Book SpriteSheet_157: 5871109216762560325
+      Book SpriteSheet_158: -1366999722101174643
+      Book SpriteSheet_159: -7831728092515130024
+      Book SpriteSheet_16: 2693746067191311050
+      Book SpriteSheet_160: -7188924971211091665
+      Book SpriteSheet_161: -5336649434370060241
+      Book SpriteSheet_162: 2378650140932446791
+      Book SpriteSheet_163: 4897276130696793313
+      Book SpriteSheet_164: 8411615052738853466
+      Book SpriteSheet_165: 5005214920992321675
+      Book SpriteSheet_166: 6237860125281552804
+      Book SpriteSheet_167: -8684638268865310095
+      Book SpriteSheet_168: -3211954375293282082
+      Book SpriteSheet_169: -4621898731617619586
+      Book SpriteSheet_17: 8502346016478881877
+      Book SpriteSheet_170: -552464593951262978
+      Book SpriteSheet_171: 4335478631448149127
+      Book SpriteSheet_172: 7888662643715773994
+      Book SpriteSheet_173: -1431822207864818294
+      Book SpriteSheet_174: -2010804766924637516
+      Book SpriteSheet_175: -5838159843963669383
+      Book SpriteSheet_176: 3340713943584984884
+      Book SpriteSheet_177: 3429028630049301928
+      Book SpriteSheet_178: 3884468374699068503
+      Book SpriteSheet_179: 9128555515681229086
+      Book SpriteSheet_18: -4177550181390935241
+      Book SpriteSheet_180: -5352162224690012423
+      Book SpriteSheet_181: 4009891360345627530
+      Book SpriteSheet_182: 6377321997947630790
+      Book SpriteSheet_183: -6658233400490156862
+      Book SpriteSheet_184: 3851584783217880027
+      Book SpriteSheet_185: 4164524888393841756
+      Book SpriteSheet_186: 90549396358190279
+      Book SpriteSheet_187: -5643494314301763621
+      Book SpriteSheet_188: -3641204178378242907
+      Book SpriteSheet_189: 4455860269405478114
+      Book SpriteSheet_19: 2949385013664339632
+      Book SpriteSheet_190: -288223293481566798
+      Book SpriteSheet_191: -1840354897905131370
+      Book SpriteSheet_192: 388864897403413758
+      Book SpriteSheet_193: -5483968852155378295
+      Book SpriteSheet_194: -3148724592604854315
+      Book SpriteSheet_195: -1127682350445769474
+      Book SpriteSheet_196: -221266644933370844
+      Book SpriteSheet_197: -3263425864909064086
+      Book SpriteSheet_198: -2356091060050088534
+      Book SpriteSheet_199: 2689234274880281562
+      Book SpriteSheet_2: -468936026530657983
+      Book SpriteSheet_20: 4367889583282761466
+      Book SpriteSheet_200: -4114785650262318746
+      Book SpriteSheet_201: -1577856399349847257
+      Book SpriteSheet_202: -1246413778267616898
+      Book SpriteSheet_203: -6188124576655465382
+      Book SpriteSheet_204: 474492229017705674
+      Book SpriteSheet_205: 8949573617883224413
+      Book SpriteSheet_206: -404195408065736037
+      Book SpriteSheet_207: 5858208242755210979
+      Book SpriteSheet_208: -5810299657018663726
+      Book SpriteSheet_209: -664938691397814446
+      Book SpriteSheet_21: 5638743709087833779
+      Book SpriteSheet_210: 7154402702577180240
+      Book SpriteSheet_211: 2005837373673011005
+      Book SpriteSheet_212: -2671511969965344948
+      Book SpriteSheet_213: -2589670148576350384
+      Book SpriteSheet_214: 7431855686788053345
+      Book SpriteSheet_215: -3379148991981048257
+      Book SpriteSheet_216: -8559904868436228564
+      Book SpriteSheet_217: 3759564678463909455
+      Book SpriteSheet_218: -4884210013038849992
+      Book SpriteSheet_219: -1981678893479150335
+      Book SpriteSheet_22: 3291819004944611251
+      Book SpriteSheet_220: -3364627319880531220
+      Book SpriteSheet_221: 3594908652649885560
+      Book SpriteSheet_222: 929603129715569032
+      Book SpriteSheet_223: -6855299146591309915
+      Book SpriteSheet_224: 4609036694060613041
+      Book SpriteSheet_225: 5064776086506774232
+      Book SpriteSheet_226: 197197298203455496
+      Book SpriteSheet_227: 6966127153041725525
+      Book SpriteSheet_228: -9128033247542381725
+      Book SpriteSheet_229: 163780146322588709
+      Book SpriteSheet_23: -2024492369844210094
+      Book SpriteSheet_230: 844221829652591185
+      Book SpriteSheet_231: -7048667627122737454
+      Book SpriteSheet_232: 1426697195810249937
+      Book SpriteSheet_233: 7536328878387463049
+      Book SpriteSheet_234: -6995547916758811571
+      Book SpriteSheet_235: 2550887597603324292
+      Book SpriteSheet_236: 1011517398576946153
+      Book SpriteSheet_237: 1410201680204421390
+      Book SpriteSheet_238: 3798695030345796551
+      Book SpriteSheet_239: -7374435725330375531
+      Book SpriteSheet_24: 4555613197049185598
+      Book SpriteSheet_240: -2681860080611035787
+      Book SpriteSheet_241: -1135875492780832519
+      Book SpriteSheet_242: 6579163519653072907
+      Book SpriteSheet_243: 7040321495166356588
+      Book SpriteSheet_244: -3413036774474337140
+      Book SpriteSheet_245: 7319746645857790037
+      Book SpriteSheet_246: 4124941566594821605
+      Book SpriteSheet_247: 5632503985509758197
+      Book SpriteSheet_248: -7417064175625497477
+      Book SpriteSheet_249: -6126916962512542294
+      Book SpriteSheet_25: 2612386415175225661
+      Book SpriteSheet_250: -5685405995757292934
+      Book SpriteSheet_251: 1190434081897650724
+      Book SpriteSheet_252: 4525364300905199202
+      Book SpriteSheet_253: 4941412703382044626
+      Book SpriteSheet_254: 640169488247733294
+      Book SpriteSheet_255: -7533454951429823694
+      Book SpriteSheet_256: -3318929821645113378
+      Book SpriteSheet_257: -33417576654392963
+      Book SpriteSheet_258: 9133785074931218150
+      Book SpriteSheet_259: -1961725333622686113
+      Book SpriteSheet_26: -6618120069216320085
+      Book SpriteSheet_260: 1320783913739220686
+      Book SpriteSheet_261: -166310932689658941
+      Book SpriteSheet_262: -1236942854925346850
+      Book SpriteSheet_263: -1484875578388363949
+      Book SpriteSheet_264: 7874981445026820049
+      Book SpriteSheet_265: -6122766315993434844
+      Book SpriteSheet_266: -5427117027575348134
+      Book SpriteSheet_267: 7849684204541407495
+      Book SpriteSheet_268: 4558963087196294737
+      Book SpriteSheet_269: 818860265659924843
+      Book SpriteSheet_27: 3044112552199943898
+      Book SpriteSheet_270: 8564344434475780638
+      Book SpriteSheet_271: 4018880241470343023
+      Book SpriteSheet_272: 2683983243585489209
+      Book SpriteSheet_273: -1256146032853269398
+      Book SpriteSheet_274: 2908400073579832752
+      Book SpriteSheet_275: 2555381486619466368
+      Book SpriteSheet_276: -2968551039771420691
+      Book SpriteSheet_277: -1955506287937975614
+      Book SpriteSheet_278: 2007537743184972683
+      Book SpriteSheet_279: 8030222787669717159
+      Book SpriteSheet_28: -8892860223287362127
+      Book SpriteSheet_280: 8561875937993088971
+      Book SpriteSheet_281: 5958911189846834688
+      Book SpriteSheet_282: -5224756056430796218
+      Book SpriteSheet_283: 6901970119183245569
+      Book SpriteSheet_284: -7262669746553222001
+      Book SpriteSheet_285: -7587087362471794116
+      Book SpriteSheet_286: 352508599592827492
+      Book SpriteSheet_287: 2885272120822660489
+      Book SpriteSheet_288: -5718506886163707926
+      Book SpriteSheet_289: -8699005038659462552
+      Book SpriteSheet_29: 651682758818772796
+      Book SpriteSheet_290: 8929547369348636939
+      Book SpriteSheet_291: 4975144782653227343
+      Book SpriteSheet_292: 7954002918126630763
+      Book SpriteSheet_293: -7096204370310597516
+      Book SpriteSheet_294: 8184148520189630815
+      Book SpriteSheet_295: -4067582270165564467
+      Book SpriteSheet_3: -4544418027656585112
+      Book SpriteSheet_30: 1195500628479862704
+      Book SpriteSheet_31: 3961092791060479493
+      Book SpriteSheet_32: -4335198424684101599
+      Book SpriteSheet_33: 2625764675651791323
+      Book SpriteSheet_34: 3682014596965161506
+      Book SpriteSheet_35: 168269411988166182
+      Book SpriteSheet_36: 1351389975099856762
+      Book SpriteSheet_37: 5552523247762187648
+      Book SpriteSheet_38: -8926687831572939412
+      Book SpriteSheet_39: -9051347977565694141
+      Book SpriteSheet_4: 2982543785895131914
+      Book SpriteSheet_40: 6502616862475167010
+      Book SpriteSheet_41: 9088423417181454933
+      Book SpriteSheet_42: 887649791290631418
+      Book SpriteSheet_43: -1463477247606745350
+      Book SpriteSheet_44: 2471423697296958233
+      Book SpriteSheet_45: -7202964124244350953
+      Book SpriteSheet_46: -4054648566758088699
+      Book SpriteSheet_47: -719794726980794941
+      Book SpriteSheet_48: -8634434293373291614
+      Book SpriteSheet_49: -4483083991714865738
+      Book SpriteSheet_5: 2856134694519821404
+      Book SpriteSheet_50: -6614182984773816515
+      Book SpriteSheet_51: 781109719390541539
+      Book SpriteSheet_52: -5441485630979095157
+      Book SpriteSheet_53: -2731726880235939237
+      Book SpriteSheet_54: -5040447151402695076
+      Book SpriteSheet_55: 6263249067668972743
+      Book SpriteSheet_56: -6694221118467057433
+      Book SpriteSheet_57: 6274331731307165413
+      Book SpriteSheet_58: -5332563075541638293
+      Book SpriteSheet_59: -8508683963130657104
+      Book SpriteSheet_6: 9208884428596402334
+      Book SpriteSheet_60: -1319080837194790514
+      Book SpriteSheet_61: 2012388753833254361
+      Book SpriteSheet_62: 4780019824998855161
+      Book SpriteSheet_63: 3506431226411358337
+      Book SpriteSheet_64: 4627223844565620190
+      Book SpriteSheet_65: 1339429537111962351
+      Book SpriteSheet_66: 6830587689323685748
+      Book SpriteSheet_67: 805838563325317641
+      Book SpriteSheet_68: 2242294762391542738
+      Book SpriteSheet_69: 7700751363756131827
+      Book SpriteSheet_7: -5551105280951326155
+      Book SpriteSheet_70: 2385139843173896350
+      Book SpriteSheet_71: 2787729130433792283
+      Book SpriteSheet_72: -6225908786465201797
+      Book SpriteSheet_73: -170099623013867944
+      Book SpriteSheet_74: -3660145740362919067
+      Book SpriteSheet_75: 8691117048052593261
+      Book SpriteSheet_76: -8216168751808593772
+      Book SpriteSheet_77: -5566796235872040998
+      Book SpriteSheet_78: -2593856220821014654
+      Book SpriteSheet_79: -7609363934821905538
+      Book SpriteSheet_8: 2851157799993535243
+      Book SpriteSheet_80: -1913829340670814711
+      Book SpriteSheet_81: 3592605469112488169
+      Book SpriteSheet_82: -8100304491171774912
+      Book SpriteSheet_83: -8144767708313398435
+      Book SpriteSheet_84: -4295207067228689776
+      Book SpriteSheet_85: -8152851547124882342
+      Book SpriteSheet_86: -129473724002363829
+      Book SpriteSheet_87: 2689772915727363570
+      Book SpriteSheet_88: -5513602867605283546
+      Book SpriteSheet_89: 4641000957212426666
+      Book SpriteSheet_9: -5612554713927454630
+      Book SpriteSheet_90: 7663630478281041606
+      Book SpriteSheet_91: 3327502711267236835
+      Book SpriteSheet_92: 8597144966579090144
+      Book SpriteSheet_93: 4823912106806652104
+      Book SpriteSheet_94: -6378217495699409845
+      Book SpriteSheet_95: -8846450535335111684
+      Book SpriteSheet_96: 7045547870819413359
+      Book SpriteSheet_97: 6849898550298431012
+      Book SpriteSheet_98: -2491895240366772678
+      Book SpriteSheet_99: -6173915240464148494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
