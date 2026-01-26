@@ -1,5 +1,3 @@
-using MVsToolkit.Utils;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerVisual : MonoBehaviour
@@ -47,4 +45,15 @@ public class PlayerVisual : MonoBehaviour
     {
         anim.SetBool("OnComboAttack", isOnCombo);
     }
+
+    public void AirAttack()
+    {
+        anim.SetTrigger("AirAttack");
+    }
+    public void SetAirAttack(bool isOnAirAttack)
+    {
+        anim.SetBool("OnAirAttack", isOnAirAttack);
+    }
+
+    public bool LookAtRight() => !graphics.flipX;
 }

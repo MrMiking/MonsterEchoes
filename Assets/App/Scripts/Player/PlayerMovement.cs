@@ -24,11 +24,13 @@ public class PlayerMovement : MonoBehaviour
     bool isDashing;
     bool canDash = true;
 
-    bool isGrounded;
+    [Space(10)]
+    [ReadOnly] public bool IsGrounded;
 
     [Foldout("References")]
     [SerializeField] Rigidbody2D rb;
     [SerializeField] PlayerVisual visual;
+    [SerializeField] PlayerCombat combat;
 
     [Foldout("Inputs")]
     [SerializeField] InputActionReference moveInputIA;
@@ -55,11 +57,11 @@ public class PlayerMovement : MonoBehaviour
         moveInput = moveInputIA.action.ReadValue<Vector2>();
         moveInput.y = 0;
 
-        isGrounded = IsGrounded();
+        IsGrounded = _IsGrounded();
 
-        if(!isDashing) Move(moveInput);
+        if(!isDashing && !combat.IsAttacking()) Move(moveInput);
 
-        visual.SetGrounded(isGrounded);
+        visual.SetGrounded(IsGrounded);
         visual.SetVerticalVelocity(rb.linearVelocityY);
         visual.FlipX(moveInput.x);
     }
@@ -72,8 +74,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Jump(InputAction.CallbackContext ctx)
     {
-        if (isGrounded && !isDashing)
+        if (IsGrounded && !isDashing)
         {
+            combat.OnComboEnd();
+
             rb.linearVelocityY = 0;
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
@@ -82,6 +86,8 @@ public class PlayerMovement : MonoBehaviour
     void Dash(InputAction.CallbackContext ctx)
     {
         if (!canDash) return;
+
+        combat.OnComboEnd();
 
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(moveInput * dashForce, ForceMode2D.Impulse);
@@ -108,7 +114,7 @@ public class PlayerMovement : MonoBehaviour
         canDash = true;
     }
 
-    bool IsGrounded()
+    bool _IsGrounded()
     {
         return Physics2D.OverlapCircle(
             (Vector2)transform.position + groundCheckPosOffset,

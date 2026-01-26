@@ -12,8 +12,8 @@ public class PlayerAttack
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
 
-    public virtual void Attack() 
+    public virtual void Attack(bool right = true) 
     {
-        rb.AddForce(Vector2.right * attackDashForce, ForceMode2D.Impulse);
+        rb.AddForce((right ? Vector2.right : Vector2.left) * attackDashForce, ForceMode2D.Impulse);
     }
 }

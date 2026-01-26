@@ -57,8 +57,14 @@ MonoBehaviour:
   - AttackTime: 0.5
     attackDashForce: 0
     rb: {fileID: 7907810552350743545}
+  airAttack:
+    AttackTime: 0.5
+    attackDashForce: 5
+    rb: {fileID: 7907810552350743545}
   comboInputTime: 0.1
   visual: {fileID: 852501840684602765}
+  movement: {fileID: 1888323115688617837}
+  rb: {fileID: 7907810552350743545}
   attackIA: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!1 &862919922202296896
 GameObject:
@@ -224,15 +230,17 @@ MonoBehaviour:
   moveSpeed: 65
   jumpForce: 30
   dashForce: 40
-  dashTime: 0.3
+  dashTime: 0.4
   dashCooldown: 0.8
   groundCheckPosOffset: {x: 0, y: -1}
   groundCheckRadius: 0.15
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  IsGrounded: 0
   rb: {fileID: 7907810552350743545}
   visual: {fileID: 852501840684602765}
+  combat: {fileID: 3557238275482721699}
   moveInputIA: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpInputIA: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   dashInputIA: {fileID: -7471211009204490832, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
