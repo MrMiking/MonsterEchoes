@@ -1,18 +1,27 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 
 public class UI_DialogueManager : MonoBehaviour
 {
-    [Header("References")]
+    [Header("RSE")]
     [SerializeField] private RSE_SendDialogue sendDialogue;
-    [Space(5)]
+    
+    [Header(("Text"))]
     [SerializeField] private TextMeshProUGUI speakerNameText;
     [SerializeField] private TextMeshProUGUI dialogueText;
-    [SerializeField] private GameObject dialoguePanel;
+    
+    [Header("Button")]
     [SerializeField] private DialogueButton buttonPrefab;
     [SerializeField] private GameObject buttonParent;
+    
+    [Header("PlayerInput")]
+    [SerializeField] private PlayerInputSystem playerInput;
+    
+    [Header("Other")]
+    [SerializeField] private GameObject dialoguePanel;
 
     private SSO_Dialogue currentDialogueData;
     private DialogueLine currentDialogueLine;
@@ -35,11 +44,7 @@ public class UI_DialogueManager : MonoBehaviour
         currentIndex = 0;
 
         // Activer le panel s'il est pas déja ouvert
-        if (!isActive)
-        {
-            isActive = true;
-            dialoguePanel.SetActive(isActive);
-        }
+        if (!isActive) OpenPanel();
 
         DisplayDialogueText();
     }
@@ -93,8 +98,26 @@ public class UI_DialogueManager : MonoBehaviour
         }
     }
 
+    private void OpenPanel()
+    {
+        playerInput.Player.Disable();
+        playerInput.UI.Enable();
+        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        
+        isActive = true;
+        dialoguePanel.SetActive(isActive);
+    }
+
     private void ClosePanel()
     {
+        playerInput.Player.Enable();
+        playerInput.UI.Disable();
+        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        
         isActive = false;
         dialoguePanel.SetActive(isActive);
     }
