@@ -37,6 +37,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnEnable()
     {
+        jumpInputIA.action.Enable();
+        dashInputIA.action.Enable();
+        moveInputIA.action.Enable();
+
         jumpInputIA.action.started += Jump;
         dashInputIA.action.started += Dash;
     }

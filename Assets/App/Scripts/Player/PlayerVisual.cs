@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerVisual : MonoBehaviour
@@ -31,5 +32,15 @@ public class PlayerVisual : MonoBehaviour
     {
         if (isDashing) anim.SetTrigger("Dash");
         anim.SetBool("IsDashing", isDashing);
+    }
+
+    public void ComboAttack()
+    {
+        anim.SetBool("OnComboAttack", true);
+        anim.SetTrigger("ComboAttack");
+    }
+    public void StopCombo()
+    {
+        anim.SetBool("OnComboAttack", false);
     }
 }
