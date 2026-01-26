@@ -1,7 +1,19 @@
+using UnityEngine;
+
 [System.Serializable]
 public class PlayerAttack
 {
-    public float attackTime;
+    [Header("References")]
+    public float AttackTime;
 
-    public virtual void Attack() { }
+    [Space(5)]
+    [SerializeField] float attackDashForce;
+
+    [Header("References")]
+    [SerializeField] Rigidbody2D rb;
+
+    public virtual void Attack() 
+    {
+        rb.AddForce(Vector2.right * attackDashForce, ForceMode2D.Impulse);
+    }
 }

@@ -1,3 +1,4 @@
+using MVsToolkit.Utils;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -34,13 +35,16 @@ public class PlayerVisual : MonoBehaviour
         anim.SetBool("IsDashing", isDashing);
     }
 
+    public void FirstComboAttack()
+    {
+        anim.SetTrigger("FirstComboAttack");
+    }
     public void ComboAttack()
     {
-        anim.SetBool("OnComboAttack", true);
         anim.SetTrigger("ComboAttack");
     }
-    public void StopCombo()
+    public void SetComboAttack(bool isOnCombo)
     {
-        anim.SetBool("OnComboAttack", false);
+        anim.SetBool("OnComboAttack", isOnCombo);
     }
 }

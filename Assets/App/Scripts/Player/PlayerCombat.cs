@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class PlayerCombat : MonoBehaviour
 {
     [Header("Settings")]
-    [SerializeField, Inline] PlayerAttack[] attacks;
+    [SerializeField] PlayerAttack[] attacks;
 
     [Space(10)]
     [SerializeField] float comboInputTime;
@@ -36,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
         if (currentAttackId < 0) return;
 
         currentAttackTimer += Time.deltaTime;
-        if (currentAttackTimer > attacks[currentAttackId].attackTime + comboInputTime)
+        if (currentAttackTimer > attacks[currentAttackId].AttackTime + comboInputTime)
             OnComboEnd();
     }
 
@@ -46,20 +46,25 @@ public class PlayerCombat : MonoBehaviour
         {
             currentAttackId = 0;
             currentAttackTimer = 0;
-            visual.ComboAttack();
+            visual.SetComboAttack(true);
+            visual.FirstComboAttack();
+
+            attacks[currentAttackId].Attack();
         }
         else if (currentAttackId >= attacks.Length - 1) ;
-        else if (currentAttackTimer >= attacks[currentAttackId].attackTime - comboInputTime)
+        else if (currentAttackTimer >= attacks[currentAttackId].AttackTime - comboInputTime)
         {
             currentAttackId++;
             currentAttackTimer = 0;
             visual.ComboAttack();
+
+            attacks[currentAttackId].Attack();
         }
     }
 
     void OnComboEnd()
     {
         currentAttackId = -1;
-        visual.StopCombo();
+        visual.SetComboAttack(false);
     }
 }
