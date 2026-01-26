@@ -1,21 +1,28 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public interface IDamageable
 {
-    //[Header("Settings")]
+    void TakeDamage(float damage);
+}
+
+public class PlayerController : MonoBehaviour, IDamageable
+{
     [Header("References")]
     public PlayerMovement Movement;
     public PlayerVisual Visual;
     public PlayerCombat Combat;
-
-    [Space(10)]
+    public PlayerHealth Health;
+    
+    [Header("RSO")]
     [SerializeField] RSO_Player player;
-
-    //[Header("Input")]
-    //[Header("Output")]
 
     private void Awake()
     {
         player.Set(this);
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Health.TakeDamage(damage);
     }
 }
