@@ -10,24 +10,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94f42016dcce0124f9afbd01d7d429f0, type: 3}
-  m_Name: SSO_Michellle
+  m_Name: SSO_God_1
   m_EditorClassIdentifier: Assembly-CSharp::SSO_Dialogue
-  speakerName: Michelle
+  speakerName: "Divinit\xE9"
   speakerVisual: {fileID: 0}
   lines:
   - speakerName: 
-    speakerText: Salut, je suis Michelle !
+    speakerText: "Tu as bien dormi ? tu as \xE9tait tuer par le terrible monstre
+      de la foret."
     choices: []
   - speakerName: 
-    speakerText: Blablabla 1
+    speakerText: En fonction de ton choix, le monstre sera moins puissant !
     choices: []
-  - speakerName: 
-    speakerText: Blablabla 2
-    choices: []
-  - speakerName: Michelle pas content
-    speakerText: 'tu m''a ecouter '
+  - speakerName: "Divinit\xE9 mode dev"
+    speakerText: Choisi un debuff sur le boss
     choices:
     - choiceText: Non conasse
+      nextDialogue: {fileID: 0}
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - choiceText: "R\xE9duire les pv par deux"
+      nextDialogue: {fileID: 0}
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls: []
+    - choiceText: Reduire l'attaque speed par deux
       nextDialogue: {fileID: 0}
       onChoiceSelected:
         m_PersistentCalls:

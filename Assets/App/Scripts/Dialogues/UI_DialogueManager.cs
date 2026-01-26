@@ -8,6 +8,7 @@ public class UI_DialogueManager : MonoBehaviour
 {
     [Header("RSE")]
     [SerializeField] private RSE_SendDialogue sendDialogue;
+    [SerializeField] private RSE_CloseDialogue closeDialogue;
     
     [Header(("Text"))]
     [SerializeField] private TextMeshProUGUI speakerNameText;
@@ -75,16 +76,30 @@ public class UI_DialogueManager : MonoBehaviour
         // Set Speaker Dialogues
         dialogueText.text = currentDialogueLine.speakerText;
         
-        // Set Choices
-        if (currentDialogueLine.choices.Length == 0 && currentIndex < currentDialogueData.lines.Length)
+        foreach (Transform child in buttonParent.transform)
         {
-            Debug.Log("Next Line");
+            Destroy(child.gameObject);
+        }
+        
+        // Set Choices
+        if (currentDialogueLine.choices.Length == 0)
+        {
+            if (currentIndex + 1 < currentDialogueData.lines.Length)
+            {
+                Debug.Log("Next Line");
             
-            currentIndex++;
+                currentIndex++;
             
-            DialogueButton button = Instantiate(buttonPrefab, buttonParent.transform);
+                DialogueButton button = Instantiate(buttonPrefab, buttonParent.transform);
             
-            button.SetData("Continue", () => DisplayDialogueText());
+                button.SetData("Continue", () => DisplayDialogueText());
+            }
+            else
+            {
+                DialogueButton button = Instantiate(buttonPrefab, buttonParent.transform);
+            
+                button.SetData("Close", () => ClosePanel());
+            }
         }
         else
         {
@@ -135,5 +150,7 @@ public class UI_DialogueManager : MonoBehaviour
         
         isActive = false;
         dialoguePanel.SetActive(isActive);
+        
+        closeDialogue.Call();
     }
 }

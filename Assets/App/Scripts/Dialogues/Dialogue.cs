@@ -1,19 +1,30 @@
-using System;
-using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Dialogue : MonoBehaviour
 {
+    [Header("Temp")]
+    [SerializeField] private int night = 0;
+    
     [Header("References")]
-    [SerializeField] private SSO_Dialogue dialogueData;
+    [SerializeField] private Dialogues[] dialogueData;
+    [SerializeField] private SSO_Dialogue defaultDialogue;
     [SerializeField] private RSE_SendDialogue sendDialogue;
+    [SerializeField] private RSE_CloseDialogue closeDialogue;
     [SerializeField] private GameObject inputVisual;
     
     [Header("Inputs")]
     [SerializeField] private InputActionReference interactInput;
 
     private bool canInteract;
+
+    [System.Serializable]
+    private class Dialogues
+    {
+        public SSO_Dialogue dialogueData;
+        public int timeCondition;
+        public bool completed;
+    }
 
     private void Awake()
     {
@@ -25,20 +36,43 @@ public class Dialogue : MonoBehaviour
     private void OnEnable()
     {
         interactInput.action.performed += TryInteract;
+
+        closeDialogue.Action += CloseDialogue;
     }
 
     private void OnDisable()
     {
         interactInput.action.performed -= TryInteract;
+        
+        closeDialogue.Action -= CloseDialogue;
     }
 
     private void TryInteract(InputAction.CallbackContext context)
     {
         if (!canInteract) return;
         
+        canInteract = false;
         inputVisual.SetActive(false);
+
+        foreach (Dialogues dialogue in dialogueData)
+        {
+            if (dialogue.dialogueData == null) break;
+            
+            if (!dialogue.completed && dialogue.timeCondition >= night)
+            {
+                dialogue.completed = true;
+                sendDialogue.Call(dialogue.dialogueData);
+                return;
+            }
+        }
         
-        sendDialogue.Call(dialogueData);
+        sendDialogue.Call(defaultDialogue);
+    }
+
+    private void CloseDialogue()
+    {
+        canInteract = true;
+        inputVisual.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

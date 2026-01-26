@@ -14,6 +14,5 @@ public class DialogueButton : MonoBehaviour
     {
         this.choiceText.text = choiceText;
         choiceButton.onClick.AddListener(choiceButtonEvent.Invoke);
-        choiceButton.onClick.AddListener(() => Destroy(this.gameObject));
     }
 }
