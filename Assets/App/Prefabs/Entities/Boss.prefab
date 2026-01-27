@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -150889491768633645, guid: 069aea5f33b648b428c5069cbea85054, type: 3}
+  m_Sprite: {fileID: 2723620956408996287, guid: 3329b6a30cbd76a46bbe0f8025407522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,6 +128,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
   anim: {fileID: 7651133410644179277}
   graphics: {fileID: 5962883798502030041}
+  OnAttack1Dmg:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6199511376564544175}
+        m_TargetAssemblyTypeName: BossAttack_1, Assembly-CSharp
+        m_MethodName: ApplyDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack2Dmg1:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 769696798432338036}
+        m_TargetAssemblyTypeName: BossAttack_2, Assembly-CSharp
+        m_MethodName: ApplyDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack2Dmg2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 769696798432338036}
+        m_TargetAssemblyTypeName: BossAttack_2, Assembly-CSharp
+        m_MethodName: ApplyDamage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack3Dmg1:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3457802154568886276}
+        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
+        m_MethodName: ApplyAttack1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack3Dmg2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3457802154568886276}
+        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
+        m_MethodName: ApplyAttack2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAttack3Dmg3:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3457802154568886276}
+        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
+        m_MethodName: ApplyAttack3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1683707821112734645
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +267,9 @@ MonoBehaviour:
   canHandle: 1
   isHandling: 0
   distanceRequire: 6
+  damage: 1
+  detectionOffset: {x: 0, y: 0.9}
+  detectionSize: {x: 13, y: 1.77}
   visual: {fileID: 9212568289292914908}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &1777036960172459066
@@ -277,6 +370,9 @@ MonoBehaviour:
   moveSpeed: 50
   maxDistance: 6
   timeBeforeStop: 0.6
+  detectionSize: {x: 4.31, y: 1.25}
+  detectionOffset: {x: 0, y: 1.08}
+  damage: 1
   rb: {fileID: 4222903799086521024}
   visual: {fileID: 9212568289292914908}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
@@ -330,6 +426,13 @@ MonoBehaviour:
   isHandling: 0
   distanceRequire: 5.5
   timeToTp: 0.8
+  damage: 1
+  attack1Offset: {x: 0, y: 0.5}
+  attack1Radius: 1.9
+  startAttack2Pos: {x: 1, y: 4.6}
+  endAttack2Pos: {x: 5.6, y: 0}
+  startAttack3Pos: {x: 1.5, y: 5.2}
+  endAttack3Pos: {x: 6.7, y: 0}
   visual: {fileID: 9212568289292914908}
   movement: {fileID: 8225301245680933261}
   rb: {fileID: 4222903799086521024}

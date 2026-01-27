@@ -8,6 +8,11 @@ public class BossAttack_2 : BossPatern
     [SerializeField] float maxDistance;
     [SerializeField] float timeBeforeStop;
 
+    [Space(10)]
+    [SerializeField] Vector2 detectionSize;
+    [SerializeField] Vector2 detectionOffset;
+    [SerializeField] int damage;
+
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
     [SerializeField] BossVisual visual;
@@ -46,9 +51,28 @@ public class BossAttack_2 : BossPatern
         yield return new WaitForSeconds(timeBeforeStop);
     }
 
+    public void ApplyDamage()
+    {
+        Collider2D[] hits = Physics2D.OverlapCapsuleAll(
+            (Vector2)transform.position + detectionOffset,
+            detectionSize,
+            detectionSize.y > detectionSize.x ? CapsuleDirection2D.Vertical : CapsuleDirection2D.Horizontal,
+            0);
+
+        foreach (Collider2D hit in hits)
+        {
+            if (hit.TryGetComponent(out PlayerHealth health))
+            {
+                health.TakeDamage(damage);
+            }
+        }
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, maxDistance);
+
+        MVsGizmos.Draw2DCapsule((Vector2)transform.position + detectionOffset, detectionSize, Color.blue);
     }
 }
