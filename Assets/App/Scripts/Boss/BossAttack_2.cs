@@ -31,8 +31,7 @@ public class BossAttack_2 : BossPatern
 
     public override IEnumerator Handle()
     {
-        base.Handle();
-
+        StartCoroutine(HandleCooldown());
         float t = 0;
         Vector2 dir = (player.Get().transform.position - transform.position).normalized;
         dir.y = 0;

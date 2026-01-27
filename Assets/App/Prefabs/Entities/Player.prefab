@@ -204,6 +204,7 @@ MonoBehaviour:
   Visual: {fileID: 852501840684602765}
   Combat: {fileID: 3557238275482721699}
   Health: {fileID: 112726000682078988}
+  rb: {fileID: 7907810552350743545}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!114 &112726000682078988
 MonoBehaviour:

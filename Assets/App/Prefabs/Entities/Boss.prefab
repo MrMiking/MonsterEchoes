@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d14a6bc3e7a35db4b94785fb3bef31dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAttack_1
-  cooldown: 2
+  cooldown: 10
   paternTime: 1
   canHandle: 1
   isHandling: 0
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81967a10c9d69c1488e43bd005a134c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAttack_2
-  cooldown: 1
+  cooldown: 10
   paternTime: 3
   canHandle: 1
   isHandling: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 635c29b9115d6a24089943241877ee0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossAttack_3
-  cooldown: 1
+  cooldown: 10
   paternTime: 4.5
   canHandle: 1
   isHandling: 0

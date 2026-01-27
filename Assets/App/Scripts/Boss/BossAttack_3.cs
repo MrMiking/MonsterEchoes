@@ -41,8 +41,7 @@ public class BossAttack_3 : BossPatern
 
     public override IEnumerator Handle()
     {
-        base.Handle();
-
+        StartCoroutine(HandleCooldown());
         rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
 
         visual.Attack3();
@@ -81,7 +80,7 @@ public class BossAttack_3 : BossPatern
                     else dir.x = -2;
                     dir = dir.normalized;
 
-                    rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
+                    player.rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
                 }
             }
         }
