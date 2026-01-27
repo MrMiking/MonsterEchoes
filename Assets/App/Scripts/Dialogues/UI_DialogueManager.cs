@@ -132,30 +132,12 @@ public class UI_DialogueManager : MonoBehaviour
 
     private void OpenPanel()
     {
-        playerInputMap.Disable();
-        UIInputMap.Enable();
-        
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
-        
         isActive = true;
         dialoguePanel.SetActive(isActive);
     }
 
     private void ClosePanel()
     {
-        playerInputMap.Enable();
-        UIInputMap.Disable();
-        
-        foreach (var action in playerInputMap.actions)
-        {
-            action.Disable();
-            action.Enable();
-        }
-        
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-        
         isActive = false;
         dialoguePanel.SetActive(isActive);
         
