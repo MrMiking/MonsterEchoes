@@ -65,6 +65,8 @@ public class PlayerCombat : MonoBehaviour
                 visual.FirstComboAttack();
 
                 attacks[currentAttackId].Attack(rb.position, visual.LookAtRight());
+
+                CameraController.Instance?.Shake(2, .07f);
             }
             else if (currentAttackId >= attacks.Length - 1) return;
             else if (currentAttackTimer >= attacks[currentAttackId].AttackTime - comboInputTime)
@@ -76,6 +78,7 @@ public class PlayerCombat : MonoBehaviour
                 visual.ComboAttack();
 
                 attacks[currentAttackId].Attack(rb.position, visual.LookAtRight());
+                CameraController.Instance?.Shake(2, .07f);
             }
         }
         else if(canDoAirAttack)
@@ -98,7 +101,8 @@ public class PlayerCombat : MonoBehaviour
             }, airAttack.AttackTime);
 
             airAttack.Attack(rb.position, visual.LookAtRight());
-        }        
+            CameraController.Instance?.Shake(2, .07f);
+        }
     }
 
     public void ResetAirAttack()=>canDoAirAttack = true;

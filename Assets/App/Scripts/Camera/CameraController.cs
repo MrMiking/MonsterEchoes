@@ -1,4 +1,5 @@
 using DG.Tweening;
+using MVsToolkit.Dev;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -18,6 +19,13 @@ public class CameraController : MonoBehaviour
 
     [Header("Fixed Settings")]
     [SerializeField] private Transform fixedPoint;
+
+    public static CameraController Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void LateUpdate()
     {
@@ -63,5 +71,13 @@ public class CameraController : MonoBehaviour
             transform.DOMove(fixedPoint.position, transitionDuration).SetEase(Ease.InOutSine);
             transform.DORotateQuaternion(fixedPoint.rotation, transitionDuration).SetEase(Ease.InOutSine);
         }
+    }
+
+    public void Shake(float intensity, float time)
+    {
+        transform.DOPunchRotation(Vector3.forward * intensity, time, 20, 1).OnComplete(() =>
+        {
+            transform.rotation = Quaternion.identity;
+        });
     }
 }

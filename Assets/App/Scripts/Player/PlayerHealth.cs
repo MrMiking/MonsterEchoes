@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isInvincible) return;
 
+        CameraController.Instance?.Shake(12, .3f);
         currentHealth.Set(currentHealth.Get() - damage);
 
         if (currentHealth.Get() <= 0)

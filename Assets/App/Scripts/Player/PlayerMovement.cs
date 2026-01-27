@@ -93,6 +93,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (!IsGrounded) canDashGrounded = false;
 
+        CameraController.Instance?.Shake(3, .1f);
+
         health.isInvincible = true;
 
         combat.OnComboEnd();
