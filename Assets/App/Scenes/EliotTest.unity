@@ -205,12 +205,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11600565}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.8, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1556927112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11600569
 MonoBehaviour:
@@ -393,6 +393,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &476046550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
+  m_PrefabInstance: {fileID: 1614533261405701020}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1282494691
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +429,56 @@ Transform:
   m_Children:
   - {fileID: 7355567327679880200}
   - {fileID: 3701840803113149272}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1556927110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556927112}
+  - component: {fileID: 1556927111}
+  m_Layer: 0
+  m_Name: CameraController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1556927111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556927110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce192fc157bbf404dbb07750d346c890, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraController
+  currentMode: 0
+  player: {fileID: 476046550}
+  offset: {x: 0, y: 5, z: -10}
+  smoothSpeed: 0.5
+  fixedPoint: {fileID: 0}
+--- !u!4 &1556927112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556927110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 11600568}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1565379314
@@ -828,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DayCicleManager
       objectReference: {fileID: 0}
+    - target: {fileID: 3707965484102222749, guid: 880ffa36f13a5a540b0a296632341f6c, type: 3}
+      propertyPath: currentCycle
+      value: 
+      objectReference: {fileID: 11400000, guid: 8296eb72bcb02314a8e958e232034bf2, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1155,8 +1214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308182d515472c42a7187823a514e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
+  defaultColor: {r: 0, g: 0, b: 0, a: 0}
   anim: {fileID: 3321593725492308316}
   graphics: {fileID: 1654661170714782408}
+  rseSetColor: {fileID: 0}
+  spriteRenderer: {fileID: 0}
   OnAttack1Dmg:
     m_PersistentCalls:
       m_Calls:
@@ -1631,9 +1693,9 @@ Rigidbody2D:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 11600568}
   - {fileID: 1614533261405701020}
   - {fileID: 2859228528431445938}
   - {fileID: 1565379315}
   - {fileID: 2186241950708894764}
   - {fileID: 1282494692}
+  - {fileID: 1556927112}

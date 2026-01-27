@@ -4,10 +4,14 @@ using UnityEngine.Events;
 
 public class BossVisual : MonoBehaviour
 {
-    //[Header("Settings")]
+    [Header("Settings")]
+    [ColorUsage(true, true)][SerializeField] private Color defaultColor;
+
     [Header("References")]
     [SerializeField] Animator anim;
     [SerializeField] SpriteRenderer graphics;
+    [SerializeField] private RSE_SetColor rseSetColor;
+    [SerializeField] private SpriteRenderer spriteRenderer;
 
     //[Header("Input")]
     [Foldout("Atk 1")]
@@ -21,6 +25,29 @@ public class BossVisual : MonoBehaviour
     [SerializeField] UnityEvent OnAttack3Dmg1;
     [SerializeField] UnityEvent OnAttack3Dmg2;
     [SerializeField] UnityEvent OnAttack3Dmg3;
+
+    private Material bossMaterial;
+
+    private void OnEnable()
+    {
+        rseSetColor.Action += SetColor;
+    }
+
+    private void OnDisable()
+    {
+        rseSetColor.Action -= SetColor;
+    }
+
+    private void Start()
+    {
+        bossMaterial = spriteRenderer.material;
+        SetColor(defaultColor);
+    }
+
+    private void SetColor(Color color)
+    {
+        bossMaterial.SetColor("_Color", color);
+    }
 
     public void SetMoveXInput(float input)
     {

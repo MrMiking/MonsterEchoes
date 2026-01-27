@@ -98,7 +98,11 @@ public class UI_DialogueManager : MonoBehaviour
             {
                 DialogueButton button = Instantiate(buttonPrefab, buttonParent.transform);
             
-                button.SetData("Close", () => ClosePanel());
+                button.SetData("Close", () =>
+                {
+                    ClosePanel();
+                    DayCycleManager.instance.HandleNextCycle();
+                });
             }
         }
         else
@@ -113,8 +117,12 @@ public class UI_DialogueManager : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("No Next Dialogue, close Panel");
-                    choice.onChoiceSelected.AddListener(() => ClosePanel());
+                    Debug.Log("No Next Dialogue, Add Choices");
+                    choice.onChoiceSelected.AddListener(() => 
+                    { 
+                        ClosePanel();
+                        DayCycleManager.instance.HandleNextCycle();
+                    } );
                 }
                 
                 button.SetData(choice.choiceText, () => choice.onChoiceSelected.Invoke());

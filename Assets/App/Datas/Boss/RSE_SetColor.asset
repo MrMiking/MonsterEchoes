@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fad70ba827be92419e8cdde689bd38e, type: 3}
-  m_Name: RSO_DayCicle
-  m_EditorClassIdentifier: Assembly-CSharp::RSO_DayCycle
+  m_Script: {fileID: 11500000, guid: bf4da1063f44037419037ce9ea1318c8, type: 3}
+  m_Name: RSE_SetColor
+  m_EditorClassIdentifier: Assembly-CSharp::RSE_SetColor
