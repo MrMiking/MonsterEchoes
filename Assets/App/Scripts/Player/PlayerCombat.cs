@@ -116,55 +116,7 @@ public class PlayerCombat : MonoBehaviour
     {
         foreach (PlayerAttack attack in attacks)
         {
-            DrawCapsuleGizmo(rb.position + attack.pos, attack.size, attack.debugColor);
+            MVsGizmos.Draw2DCapsule(rb.position + attack.pos, attack.size, attack.debugColor);
         }
     }
-
-    void DrawCapsuleGizmo(Vector2 center, Vector2 size, Color color)
-    {
-        Gizmos.color = color;
-
-        float radius = Mathf.Min(size.x, size.y) * 0.5f;
-        float height = Mathf.Max(size.x, size.y);
-        float cylinderLength = height - radius * 2f;
-
-        bool vertical = size.y > size.x;
-
-        if (vertical)
-        {
-            Vector2 top = center + Vector2.up * (cylinderLength * 0.5f);
-            Vector2 bottom = center + Vector2.down * (cylinderLength * 0.5f);
-
-            Gizmos.DrawLine(top + Vector2.left * radius, bottom + Vector2.left * radius);
-            Gizmos.DrawLine(top + Vector2.right * radius, bottom + Vector2.right * radius);
-
-            DrawCircleGizmo(top, radius);
-            DrawCircleGizmo(bottom, radius);
-        }
-        else
-        {
-            Vector2 right = center + Vector2.right * (cylinderLength * 0.5f);
-            Vector2 left = center + Vector2.left * (cylinderLength * 0.5f);
-
-            Gizmos.DrawLine(left + Vector2.up * radius, right + Vector2.up * radius);
-            Gizmos.DrawLine(left + Vector2.down * radius, right + Vector2.down * radius);
-
-            DrawCircleGizmo(left, radius);
-            DrawCircleGizmo(right, radius);
-        }
-    }
-    void DrawCircleGizmo(Vector2 center, float radius, int segments = 24)
-    {
-        float step = 360f / segments;
-        Vector3 prev = center + new Vector2(Mathf.Cos(0), Mathf.Sin(0)) * radius;
-
-        for (int i = 1; i <= segments; i++)
-        {
-            float rad = Mathf.Deg2Rad * (i * step);
-            Vector3 next = center + new Vector2(Mathf.Cos(rad), Mathf.Sin(rad)) * radius;
-            Gizmos.DrawLine(prev, next);
-            prev = next;
-        }
-    }
-
 }
