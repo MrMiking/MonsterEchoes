@@ -24,7 +24,6 @@ public class BossHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        Debug.Log(damage);
         currentHealth.Set(currentHealth.Get() - damage);
 
         if (currentHealth.Get() <= 0)

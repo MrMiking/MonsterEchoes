@@ -1,3 +1,4 @@
+using MVsToolkit.Dev;
 using UnityEngine;
 
 public interface IDamageable
@@ -12,7 +13,8 @@ public class PlayerController : MonoBehaviour, IDamageable
     public PlayerVisual Visual;
     public PlayerCombat Combat;
     public PlayerHealth Health;
-    
+    public Rigidbody2D rb;
+
     [Header("RSO")]
     [SerializeField] RSO_Player player;
 
