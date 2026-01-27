@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         
-        rsoHealth.Set(health);
+        rsoHealth.Set(currentHealth);
 
         if (currentHealth <= 0)
         {
