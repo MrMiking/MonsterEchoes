@@ -11,7 +11,7 @@ public class BossAttack_2 : BossPatern
     [Space(10)]
     [SerializeField] Vector2 detectionSize;
     [SerializeField] Vector2 detectionOffset;
-    [SerializeField] int damage;
+    [SerializeField] RSO_BossDamage damage;
 
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
@@ -62,7 +62,7 @@ public class BossAttack_2 : BossPatern
         {
             if (hit.TryGetComponent(out PlayerHealth health))
             {
-                health.TakeDamage(damage);
+                health.TakeDamage(damage.Get());
             }
         }
     }

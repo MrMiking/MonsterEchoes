@@ -1,0 +1,733 @@
+fileFormatVersion: 2
+guid: e895866d0ff4419499bad423da563720
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3541193753946380954
+    second: reaper attack 136x59_0
+  - first:
+      213: 5718789511425909661
+    second: reaper attack 136x59_1
+  - first:
+      213: 2448841555904200379
+    second: reaper attack 136x59_2
+  - first:
+      213: -8245925248344890927
+    second: reaper attack 136x59_3
+  - first:
+      213: -4424817803782703573
+    second: reaper attack 136x59_4
+  - first:
+      213: -828625852717449545
+    second: reaper attack 136x59_5
+  - first:
+      213: -7299355999388326629
+    second: reaper attack 136x59_6
+  - first:
+      213: 7913550415960898185
+    second: reaper attack 136x59_7
+  - first:
+      213: 399536255649155520
+    second: reaper attack 136x59_8
+  - first:
+      213: 6165457110870428046
+    second: reaper attack 136x59_9
+  - first:
+      213: -3109588270944187758
+    second: reaper attack 136x59_10
+  - first:
+      213: -7335352602460399744
+    second: reaper attack 136x59_11
+  - first:
+      213: -7078059512786804334
+    second: reaper attack 136x59_12
+  - first:
+      213: -5317377455360475169
+    second: reaper attack 136x59_13
+  - first:
+      213: -8496053266371473366
+    second: reaper attack 136x59_14
+  - first:
+      213: -859057878859689657
+    second: reaper attack 136x59_15
+  - first:
+      213: 8455858212975249198
+    second: reaper attack 136x59_16
+  - first:
+      213: 5373797104981329957
+    second: reaper attack 136x59_17
+  - first:
+      213: -501983138388601352
+    second: reaper attack 136x59_18
+  - first:
+      213: -8846554891500720071
+    second: reaper attack 136x59_19
+  - first:
+      213: -7231092311853686504
+    second: reaper attack 136x59_20
+  - first:
+      213: -2481222746487368762
+    second: reaper attack 136x59_21
+  - first:
+      213: 8887606586318257774
+    second: reaper attack 136x59_22
+  - first:
+      213: 2213954760820328712
+    second: reaper attack 136x59_23
+  - first:
+      213: -9081373661922067944
+    second: reaper attack 136x59_24
+  - first:
+      213: 2617257277978944487
+    second: reaper attack 136x59_25
+  - first:
+      213: -3274425474923494918
+    second: reaper attack 136x59_26
+  - first:
+      213: -8977826538266661434
+    second: reaper attack 136x59_27
+  - first:
+      213: 3497851574832593620
+    second: reaper attack 136x59_28
+  - first:
+      213: -4621030041203335138
+    second: reaper attack 136x59_29
+  - first:
+      213: 8596329818817627107
+    second: reaper attack 136x59_30
+  - first:
+      213: -6293833318940157929
+    second: reaper attack 136x59_31
+  - first:
+      213: 7920189357508313136
+    second: reaper attack 136x59_32
+  - first:
+      213: -3502211021770840680
+    second: reaper attack 136x59_33
+  - first:
+      213: 2452343042216837853
+    second: reaper attack 136x59_34
+  - first:
+      213: 976943951042367308
+    second: reaper attack 136x59_35
+  - first:
+      213: 5758882089693446249
+    second: reaper attack 136x59_36
+  - first:
+      213: 999795236518541669
+    second: reaper attack 136x59_37
+  - first:
+      213: -2295334329518183343
+    second: reaper attack 136x59_38
+  - first:
+      213: 9035089773485584171
+    second: reaper attack 136x59_39
+  - first:
+      213: 5846864744868690015
+    second: reaper attack 136x59_40
+  - first:
+      213: 2960027054193351640
+    second: reaper attack 136x59_41
+  - first:
+      213: -4067078380500567848
+    second: reaper attack 136x59_42
+  - first:
+      213: -3426496362729502015
+    second: reaper attack 136x59_43
+  - first:
+      213: -1925262772552756839
+    second: reaper attack 136x59_44
+  - first:
+      213: -6547285121644188967
+    second: reaper attack 136x59_45
+  - first:
+      213: -8783540780013824524
+    second: reaper attack 136x59_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reaper attack 136x59_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a5ec805f8d42130800000000000000
+      internalID: 3541193753946380954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9365cdd2c83d5f40800000000000000
+      internalID: 5718789511425909661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe72eaab680cf120800000000000000
+      internalID: 2448841555904200379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d16af7eca6909d80800000000000000
+      internalID: -8245925248344890927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2635b1b6a3e792c0800000000000000
+      internalID: -4424817803782703573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be321d5d212084f0800000000000000
+      internalID: -828625852717449545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15a757646a73ba90800000000000000
+      internalID: -7299355999388326629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_7
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a7e7fec2492dd60800000000000000
+      internalID: 7913550415960898185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_8
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c98bd09b107b8500800000000000000
+      internalID: 399536255649155520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_9
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89865b839a109550800000000000000
+      internalID: 6165457110870428046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_10
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a86a061f588d4d0800000000000000
+      internalID: -3109588270944187758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0875c142ca7933a90800000000000000
+      internalID: -7335352602460399744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_12
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291a441df5ea5cd90800000000000000
+      internalID: -7078059512786804334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_13
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf71948061e436b0800000000000000
+      internalID: -5317377455360475169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_14
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2091297194f71a80800000000000000
+      internalID: -8496053266371473366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_15
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741511129630414f0800000000000000
+      internalID: -859057878859689657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_16
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27857f5e3e395570800000000000000
+      internalID: 8455858212975249198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_17
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5284f61deff839a40800000000000000
+      internalID: 5373797104981329957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_18
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f59c19cef89809f0800000000000000
+      internalID: -501983138388601352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reaper attack 136x59_19
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 0
+        width: 136
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930fa1e7239ba3580800000000000000
+      internalID: -8846554891500720071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 358283f1f2a5d484da7d6eb652dbddf3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":136.0,"y":59.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      reaper attack 136x59_0: 3541193753946380954
+      reaper attack 136x59_1: 5718789511425909661
+      reaper attack 136x59_10: -3109588270944187758
+      reaper attack 136x59_11: -7335352602460399744
+      reaper attack 136x59_12: -7078059512786804334
+      reaper attack 136x59_13: -5317377455360475169
+      reaper attack 136x59_14: -8496053266371473366
+      reaper attack 136x59_15: -859057878859689657
+      reaper attack 136x59_16: 8455858212975249198
+      reaper attack 136x59_17: 5373797104981329957
+      reaper attack 136x59_18: -501983138388601352
+      reaper attack 136x59_19: -8846554891500720071
+      reaper attack 136x59_2: 2448841555904200379
+      reaper attack 136x59_3: -8245925248344890927
+      reaper attack 136x59_4: -4424817803782703573
+      reaper attack 136x59_5: -828625852717449545
+      reaper attack 136x59_6: -7299355999388326629
+      reaper attack 136x59_7: 7913550415960898185
+      reaper attack 136x59_8: 399536255649155520
+      reaper attack 136x59_9: 6165457110870428046
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

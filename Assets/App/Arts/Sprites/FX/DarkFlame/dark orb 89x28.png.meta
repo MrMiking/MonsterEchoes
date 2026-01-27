@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -167,12 +167,12 @@ TextureImporter:
       name: dark orb 89x28_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 117
-        height: 18
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: dark orb 89x28_1
       rect:
         serializedVersion: 2
-        x: 194
+        x: 89
         y: 0
-        width: 34
-        height: 19
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,12 +211,12 @@ TextureImporter:
       name: dark orb 89x28_2
       rect:
         serializedVersion: 2
-        x: 285
+        x: 178
         y: 0
-        width: 32
-        height: 20
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,12 +233,12 @@ TextureImporter:
       name: dark orb 89x28_3
       rect:
         serializedVersion: 2
-        x: 375
+        x: 267
         y: 0
-        width: 118
-        height: 20
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,12 +255,12 @@ TextureImporter:
       name: dark orb 89x28_4
       rect:
         serializedVersion: 2
-        x: 575
+        x: 356
         y: 0
-        width: 6
-        height: 6
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: dark orb 89x28_5
       rect:
         serializedVersion: 2
-        x: 664
+        x: 445
         y: 0
-        width: 9
-        height: 7
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: dark orb 89x28_6
       rect:
         serializedVersion: 2
-        x: 757
+        x: 534
         y: 0
-        width: 97
-        height: 16
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -321,12 +321,12 @@ TextureImporter:
       name: dark orb 89x28_7
       rect:
         serializedVersion: 2
-        x: 924
-        y: 1
-        width: 21
-        height: 19
+        x: 623
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -343,12 +343,12 @@ TextureImporter:
       name: dark orb 89x28_8
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 3
-        width: 24
-        height: 19
+        x: 712
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: dark orb 89x28_9
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 4
-        width: 26
-        height: 22
+        x: 801
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -387,12 +387,12 @@ TextureImporter:
       name: dark orb 89x28_10
       rect:
         serializedVersion: 2
-        x: 1169
-        y: 6
-        width: 34
-        height: 21
+        x: 890
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -409,12 +409,12 @@ TextureImporter:
       name: dark orb 89x28_11
       rect:
         serializedVersion: 2
-        x: 1203
-        y: 10
-        width: 29
-        height: 17
+        x: 979
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -431,12 +431,12 @@ TextureImporter:
       name: dark orb 89x28_12
       rect:
         serializedVersion: 2
-        x: 1205
-        y: 5
-        width: 9
-        height: 7
+        x: 1068
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -453,12 +453,12 @@ TextureImporter:
       name: dark orb 89x28_13
       rect:
         serializedVersion: 2
-        x: 1250
-        y: 11
-        width: 16
-        height: 7
+        x: 1157
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: dark orb 89x28_14
       rect:
         serializedVersion: 2
-        x: 1277
-        y: 6
-        width: 12
-        height: 22
+        x: 1246
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -497,12 +497,12 @@ TextureImporter:
       name: dark orb 89x28_15
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 5
-        width: 13
-        height: 22
+        x: 1335
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -519,12 +519,12 @@ TextureImporter:
       name: dark orb 89x28_16
       rect:
         serializedVersion: 2
-        x: 1316
-        y: 13
-        width: 26
-        height: 7
+        x: 1424
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -541,12 +541,12 @@ TextureImporter:
       name: dark orb 89x28_17
       rect:
         serializedVersion: 2
-        x: 1367
-        y: 1
-        width: 384
-        height: 27
+        x: 1513
+        y: 0
+        width: 89
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,11 +559,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: dark orb 89x28_18
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 0
+        width: 89
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a20599b3f16950499bd0ba81a50a09d
+      internalID: -1252195939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark orb 89x28_19
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 0
+        width: 89
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e8a4fda59922468acbb75ccdde687
+      internalID: 1493837753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b7a166f0dae01824e97c1582148f3939
     internalID: 0
     vertices: []
     indices: 
@@ -571,7 +615,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":89.0,"y":28.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       dark orb 89x28_0: -4581270725492221533
       dark orb 89x28_1: -4198241546335173459
@@ -583,6 +629,8 @@ TextureImporter:
       dark orb 89x28_15: -5805772559153422099
       dark orb 89x28_16: 2187177663772249010
       dark orb 89x28_17: -7362160814893376048
+      dark orb 89x28_18: -1252195939
+      dark orb 89x28_19: 1493837753
       dark orb 89x28_2: -7704366329779263359
       dark orb 89x28_3: -5361782749129126537
       dark orb 89x28_4: -3378522623017168099

@@ -460,10 +460,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce192fc157bbf404dbb07750d346c890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
+  dayCycle: {fileID: 0}
   currentMode: 0
   player: {fileID: 476046550}
   offset: {x: 0, y: 5, z: -10}
-  smoothSpeed: 0.5
+  smoothTime: 0.125
   fixedPoint: {fileID: 0}
 --- !u!4 &1556927112
 Transform:
@@ -624,8 +625,8 @@ MonoBehaviour:
   paternTime: 1
   canHandle: 1
   isHandling: 0
+  damage: {fileID: 0}
   distanceRequire: 6
-  damage: 1
   detectionOffset: {x: 0, y: 0.9}
   detectionSize: {x: 13, y: 1.77}
   visual: {fileID: 4318807616838303949}
@@ -959,6 +960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 0
   currentHealth: {fileID: 0}
+  isInvincible: 0
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -973,10 +975,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3457802154568886276, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: knockbackForce
-      value: 60
-      objectReference: {fileID: 0}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.84
@@ -1150,6 +1148,7 @@ MonoBehaviour:
   Visual: {fileID: 3223612233454077761}
   Combat: {fileID: 1600460714075426671}
   Health: {fileID: 0}
+  rb: {fileID: 0}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!4 &3701840803113149272
 Transform:
@@ -1339,6 +1338,7 @@ MonoBehaviour:
   rb: {fileID: 5392510916997581109}
   visual: {fileID: 3223612233454077761}
   combat: {fileID: 1600460714075426671}
+  health: {fileID: 0}
   moveInputIA: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpInputIA: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   dashInputIA: {fileID: -7471211009204490832, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
@@ -1379,6 +1379,7 @@ MonoBehaviour:
   Health: {fileID: 2478856866299273173}
   boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
+  damage: {fileID: 0}
 --- !u!50 &5392510916997581109
 Rigidbody2D:
   serializedVersion: 5
@@ -1479,7 +1480,7 @@ MonoBehaviour:
   timeBeforeStop: 0.6
   detectionSize: {x: 4.31, y: 1.25}
   detectionOffset: {x: 0, y: 1.08}
-  damage: 1
+  damage: {fileID: 0}
   rb: {fileID: 9127712361103231697}
   visual: {fileID: 4318807616838303949}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
@@ -1551,6 +1552,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3701840803113149272}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7250414940005495333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
 --- !u!4 &7355567327679880200
 Transform:
   m_ObjectHideFlags: 0
@@ -1636,7 +1694,7 @@ MonoBehaviour:
   isHandling: 0
   distanceRequire: 5.5
   timeToTp: 0.8
-  damage: 1
+  damage: {fileID: 0}
   attack1Offset: {x: 0, y: 0.5}
   attack1Radius: 1.9
   knockbackForce: 0
@@ -1704,3 +1762,4 @@ SceneRoots:
   - {fileID: 2186241950708894764}
   - {fileID: 1282494692}
   - {fileID: 1556927112}
+  - {fileID: 7250414940005495333}
