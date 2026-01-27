@@ -16,9 +16,17 @@ public class DayCycleManager : MonoBehaviour
     [SerializeField] private Color eveningAmbientColor;
     [SerializeField] private Color nightAmbientColor;
     [SerializeField] private Color bloodMoonAmbientColor;
+    [Space(10)]
+    [SerializeField] private Color daySkyColor;
+    [SerializeField] private Color eveningSkyColor;
+    [SerializeField] private Color nightSkyColor;
+    [SerializeField] private Color bloodMoonSkyColor;
+
 
     [Header("References")]
     [SerializeField] private Light2D ambientLight;
+    [SerializeField] private Transform skyTransform;
+    [SerializeField] private SpriteRenderer skyBackground;
 
     [Header("Output")]
     [SerializeField] private RSO_DayCount dayCount;
@@ -72,8 +80,10 @@ public class DayCycleManager : MonoBehaviour
 
     private IEnumerator HandleDay()
     {
-        if (bloodMoon) SetNewColor(bloodMoonAmbientColor);
-        else SetNewColor(dayAmbientColor);
+        SetNewColor(dayAmbientColor, daySkyColor);
+
+        skyTransform.rotation = Quaternion.Euler(0, 0, 75);
+        skyTransform.DORotate(new Vector3(0, 0, 200), duration).SetEase(Ease.InOutSine);
 
         yield return new WaitForSeconds(duration);
 
@@ -83,7 +93,9 @@ public class DayCycleManager : MonoBehaviour
 
     private IEnumerator HandleEvening()
     {
-        SetNewColor(eveningAmbientColor);
+        SetNewColor(eveningAmbientColor, eveningSkyColor);
+
+        skyTransform.rotation = Quaternion.Euler(0, 0, 0);
 
         yield return new WaitForSeconds(duration);
 
@@ -92,19 +104,29 @@ public class DayCycleManager : MonoBehaviour
 
     private IEnumerator HandleNight()
     {
-        SetNewColor(nightAmbientColor);
+        if (bloodMoon) SetNewColor(bloodMoonAmbientColor, bloodMoonSkyColor);
+        else SetNewColor(nightAmbientColor, nightSkyColor);
+
+        skyTransform.rotation = Quaternion.Euler(0, 0, 0);
+        skyTransform.DORotate(new Vector3(0, 0, 75), duration).SetEase(Ease.InOutSine);
 
         yield return new WaitForSeconds(duration);
 
         currentCycle.Set(DayCycleState.Night);
     }
 
-    private void SetNewColor(Color targetColor)
+    private void SetNewColor(Color targetAmbientColor, Color targetSkyColor)
     {
         DOTween.To(() => ambientLight.color,
                    x => ambientLight.color = x,
-                   targetColor,
+                   targetAmbientColor,
                    duration)
                .SetEase(Ease.InOutSine);
+
+        DOTween.To(() => skyBackground.color,
+                  x => skyBackground.color = x,
+                  targetSkyColor,
+                  duration)
+              .SetEase(Ease.InOutSine);
     }
 }
