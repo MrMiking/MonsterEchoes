@@ -29,4 +29,9 @@ public class BossVisual : MonoBehaviour
     {
         anim.SetTrigger("Attack2");
     }
+
+    public void Attack3()
+    {
+        anim.SetTrigger("Attack3");
+    }
 }

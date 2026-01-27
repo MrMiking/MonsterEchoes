@@ -6,6 +6,7 @@ public class BossAttack_2 : BossPatern
     [Header("Settings")]
     [SerializeField] float moveSpeed;
     [SerializeField] float maxDistance;
+    [SerializeField] float timeBeforeStop;
 
     [Header("References")]
     [SerializeField] Rigidbody2D rb;
@@ -34,13 +35,15 @@ public class BossAttack_2 : BossPatern
         visual.FlipX(dir.x);
         visual.Attack2();
 
-        while (t < paternTime)
+        while (t < paternTime - timeBeforeStop)
         {
             yield return new WaitForFixedUpdate();
             t += Time.fixedDeltaTime;
 
             rb.AddForce(dir * moveSpeed);
         }
+
+        yield return new WaitForSeconds(timeBeforeStop);
     }
 
     private void OnDrawGizmosSelected()

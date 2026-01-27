@@ -19,4 +19,10 @@ public class BossMovement : MonoBehaviour
         visual.FlipX(input.x);
         visual.SetMoveXInput(input.x);
     }
+
+    public void TpToo(Vector2 position)
+    {
+        rb.position = position;
+        rb.linearVelocity = Vector2.zero;
+    }
 }
