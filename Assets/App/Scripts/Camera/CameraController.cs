@@ -1,4 +1,5 @@
 using DG.Tweening;
+using MVsToolkit.Dev;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -13,10 +14,18 @@ public class CameraController : MonoBehaviour
 
     [Header("Follow Settings")]
     [SerializeField] private Vector3 offset = new Vector3(0, 5, -10);
-    [SerializeField] private float smoothSpeed = 0.125f;
+    [SerializeField] private float smoothTime = 0.125f;
+    Vector3 velocity;
 
     [Header("Fixed Settings")]
     [SerializeField] private Transform fixedPoint;
+
+    public static CameraController Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void LateUpdate()
     {
@@ -50,9 +59,7 @@ public class CameraController : MonoBehaviour
 
     private void ApplyFollowMode()
     {
-        Vector3 desiredPosition = player.position + offset;
-        transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.LookAt(player);
+        transform.position = Vector3.SmoothDamp(transform.position, player.position + offset, ref velocity, smoothTime);
     }
 
     public void SwitchMode(CameraMode newMode, float transitionDuration = 1f)
@@ -64,5 +71,13 @@ public class CameraController : MonoBehaviour
             transform.DOMove(fixedPoint.position, transitionDuration).SetEase(Ease.InOutSine);
             transform.DORotateQuaternion(fixedPoint.rotation, transitionDuration).SetEase(Ease.InOutSine);
         }
+    }
+
+    public void Shake(float intensity, float time)
+    {
+        transform.DOPunchRotation(Vector3.forward * intensity, time, 20, 1).OnComplete(() =>
+        {
+            transform.rotation = Quaternion.identity;
+        });
     }
 }

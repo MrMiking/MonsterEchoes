@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Rigidbody2D rb;
     [SerializeField] PlayerVisual visual;
     [SerializeField] PlayerCombat combat;
+    [SerializeField] PlayerHealth health;
 
     [Foldout("Inputs")]
     [SerializeField] InputActionReference moveInputIA;
@@ -92,6 +93,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (!IsGrounded) canDashGrounded = false;
 
+        CameraController.Instance?.Shake(3, .1f);
+
+        health.isInvincible = true;
+
         combat.OnComboEnd();
         combat.ResetAirAttack();
 
@@ -108,6 +113,7 @@ public class PlayerMovement : MonoBehaviour
 
         visual.SetDash(false);
         isDashing = false;
+        health.isInvincible = false;
     }
 
     Coroutine dashTimeCor;
@@ -122,6 +128,7 @@ public class PlayerMovement : MonoBehaviour
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
         visual.SetDash(false);
         isDashing = false;
+        health.isInvincible = false;
     }
     IEnumerator DashCooldown()
     {

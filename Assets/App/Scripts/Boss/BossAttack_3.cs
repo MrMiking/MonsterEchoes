@@ -41,8 +41,7 @@ public class BossAttack_3 : BossPatern
 
     public override IEnumerator Handle()
     {
-        base.Handle();
-
+        StartCoroutine(HandleCooldown());
         rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
 
         visual.Attack3();
@@ -74,14 +73,14 @@ public class BossAttack_3 : BossPatern
             {
                 playerHealth.TakeDamage(damage);
 
-                if(hit.TryGetComponent(out Rigidbody2D rb))
+                if(hit.TryGetComponent(out PlayerController player) && !player.Health.isInvincible)
                 {
                     Vector2 dir = Vector2.up;
-                    if (transform.position.x > player.Get().transform.position.x) dir.x = 2;
+                    if (transform.position.x > player.transform.position.x) dir.x = 2;
                     else dir.x = -2;
                     dir = dir.normalized;
 
-                    rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
+                    player.rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
                 }
             }
         }

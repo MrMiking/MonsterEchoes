@@ -203,6 +203,7 @@ MonoBehaviour:
   Visual: {fileID: 852501840684602765}
   Combat: {fileID: 3557238275482721699}
   Health: {fileID: 112726000682078988}
+  rb: {fileID: 7907810552350743545}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!114 &112726000682078988
 MonoBehaviour:
@@ -218,6 +219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 3
   currentHealth: {fileID: 11400000, guid: cae04e7bff7b6ec4dbc9dfb5f87dd145, type: 2}
+  isInvincible: 0
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -408,6 +410,7 @@ MonoBehaviour:
   rb: {fileID: 7907810552350743545}
   visual: {fileID: 852501840684602765}
   combat: {fileID: 3557238275482721699}
+  health: {fileID: 112726000682078988}
   moveInputIA: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jumpInputIA: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   dashInputIA: {fileID: -7471211009204490832, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

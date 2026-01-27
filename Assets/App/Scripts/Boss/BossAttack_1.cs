@@ -26,8 +26,7 @@ public class BossAttack_1 : BossPatern
 
     public override IEnumerator Handle()
     {
-        base.Handle();
-
+        StartCoroutine(HandleCooldown());
         visual.Attack1();
         yield return new WaitForSeconds(paternTime);
     }

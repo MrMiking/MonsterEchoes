@@ -13,7 +13,6 @@ public class BossPatern : MonoBehaviour
 
     public virtual IEnumerator Handle() 
     {
-        StartCoroutine(HandleCooldown());
         yield break;
     }
     public virtual bool CanHandle() { return canHandle; }
@@ -21,7 +20,7 @@ public class BossPatern : MonoBehaviour
     protected IEnumerator HandleCooldown()
     {
         canHandle = false;
-        yield return cooldown;
+        yield return new WaitForSeconds(cooldown);
         canHandle = true;
     }
 }

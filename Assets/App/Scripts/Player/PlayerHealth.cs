@@ -1,3 +1,4 @@
+using MVsToolkit.Dev;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,6 +6,9 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
     [SerializeField] private RSO_Health currentHealth;
+
+    [Space(5)]
+    [ReadOnly] public bool isInvincible = false;
 
     [Header("Output")]
     [SerializeField] private UnityEvent OnTakeDamage;
@@ -19,7 +23,9 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Debug.Log(damage);
+        if (isInvincible) return;
+
+        CameraController.Instance?.Shake(12, .3f);
         currentHealth.Set(currentHealth.Get() - damage);
 
         if (currentHealth.Get() <= 0)
