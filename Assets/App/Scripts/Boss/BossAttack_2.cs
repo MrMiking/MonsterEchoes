@@ -29,6 +29,7 @@ public class BossAttack_2 : BossPatern
 
         float t = 0;
         Vector2 dir = (player.Get().transform.position - transform.position).normalized;
+        dir.y = 0;
 
         visual.FlipX(dir.x);
         visual.Attack2();
