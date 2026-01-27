@@ -7,7 +7,7 @@ public class BossAttack_3 : BossPatern
     [Header("Settings")]
     [SerializeField] float distanceRequire;
     [SerializeField] float timeToTp;
-    [SerializeField] int damage;
+    [SerializeField] RSO_BossDamage damage;
 
     [Foldout("Attack")]
     [SerializeField] Vector2 attack1Offset;
@@ -71,7 +71,7 @@ public class BossAttack_3 : BossPatern
         {
             if(hit.TryGetComponent(out PlayerHealth playerHealth))
             {
-                playerHealth.TakeDamage(damage);
+                playerHealth.TakeDamage(damage.Get());
 
                 if(hit.TryGetComponent(out PlayerController player) && !player.Health.isInvincible)
                 {

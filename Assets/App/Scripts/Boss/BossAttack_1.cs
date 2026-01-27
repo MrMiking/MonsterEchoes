@@ -4,8 +4,8 @@ using UnityEngine;
 public class BossAttack_1 : BossPatern
 {
     [Header("Settings")]
+    [SerializeField] RSO_BossDamage damage;
     [SerializeField] float distanceRequire;
-    [SerializeField] int damage;
 
     [Space(10)]
     [SerializeField] Vector2 detectionOffset;
@@ -43,7 +43,7 @@ public class BossAttack_1 : BossPatern
         {
             if (hit.TryGetComponent(out PlayerHealth health))
             {
-                health.TakeDamage(damage);
+                health.TakeDamage(damage.Get());
             }
         }
     }

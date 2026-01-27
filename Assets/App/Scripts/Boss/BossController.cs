@@ -16,6 +16,7 @@ public class BossController : MonoBehaviour
 
     [SerializeField] RSO_Boss boss;
     [SerializeField] RSO_Player player;
+    [SerializeField] RSO_BossDamage damage;
 
     private void Awake()
     {
