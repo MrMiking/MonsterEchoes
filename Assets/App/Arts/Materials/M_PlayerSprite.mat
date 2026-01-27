@@ -54,10 +54,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _EnableExternalAlpha: 0
-    - _Tolerance: 0.96
+    - _Tolerance: 0.5
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 7.9999995, g: 4.535108, b: 0, a: 1}
+    - _Color: {r: 5.992157, g: 3.3968852, b: 0, a: 1}
     - _ColorToChange: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
