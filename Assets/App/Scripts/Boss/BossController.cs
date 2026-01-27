@@ -12,11 +12,15 @@ public class BossController : MonoBehaviour
     [Header("References")]
     [SerializeField] BossMovement movement;
     [SerializeField] BossVisual visual;
+    public BossHealth Health;
 
+    [SerializeField] RSO_Boss boss;
     [SerializeField] RSO_Player player;
 
-    //[Header("Input")]
-    //[Header("Output")]
+    private void Awake()
+    {
+        boss.Set(this);
+    }
 
     private void Start()
     {

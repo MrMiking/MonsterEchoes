@@ -8,12 +8,19 @@ public class BossHealth : MonoBehaviour
 
     [Header("References")]
     [SerializeField] BossVisual visual;
-    [SerializeField] RSO_Bosshealth currentHealth;
+    [SerializeField] RSO_BossHealth currentHealth;
 
     //[Header("Input")]
     [Header("Output")]
     [SerializeField] UnityEvent OnTakeDamage;
     [SerializeField] UnityEvent OnDeath;
+
+    public int GetMaxHealth { get { return maxHealth; } }
+
+    private void Start()
+    {
+        currentHealth.Set(maxHealth);
+    }
 
     public void TakeDamage(int damage)
     {

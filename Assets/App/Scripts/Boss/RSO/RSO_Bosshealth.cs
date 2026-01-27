@@ -1,5 +1,5 @@
 using UnityEngine;
 using MVsToolkit.Wrappers;
 
-[CreateAssetMenu(fileName = "RSO_Bosshealth", menuName = "RSO/Boss/RSO_Bosshealth")]
-public class RSO_Bosshealth : RuntimeScriptableObject<int>{}
+[CreateAssetMenu(fileName = "RSO_BossHealth", menuName = "RSO/Boss/RSO_BossHealth")]
+public class RSO_BossHealth : RuntimeScriptableObject<float>{}

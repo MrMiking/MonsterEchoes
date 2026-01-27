@@ -1,36 +1,39 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] private float health;
-    [SerializeField] private RSO_Health rsoHealth;
-    
-    private float currentHealth;
-    
-    public float GetCurrentHealth { get { return currentHealth; } }
-    public float GetMaxHealth { get { return health; } }
+    [SerializeField] private float maxHealth;
+    [SerializeField] private RSO_Health currentHealth;
+
+    [Header("Output")]
+    [SerializeField] private UnityEvent OnTakeDamage;
+    [SerializeField] private UnityEvent OnDeath;
+
+    public float GetMaxHealth { get { return maxHealth; } }
 
     private void Start()
     {
-        currentHealth = health;
-        rsoHealth.Set(currentHealth);
+        currentHealth.Set(maxHealth);
     }
 
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage;
-        
-        rsoHealth.Set(currentHealth);
+        Debug.Log(damage);
+        currentHealth.Set(currentHealth.Get() - damage);
 
-        if (currentHealth <= 0)
+        if (currentHealth.Get() <= 0)
         {
             Die();
+            return;
         }
+
+        OnTakeDamage?.Invoke();
     }
 
-    private void Die()
+    public void Die()
     {
-        Debug.Log("Player Is Dead");
+        OnDeath?.Invoke();
     }
 }

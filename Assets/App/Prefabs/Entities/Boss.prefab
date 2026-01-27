@@ -457,6 +457,8 @@ MonoBehaviour:
   - {fileID: 3457802154568886276}
   movement: {fileID: 8225301245680933261}
   visual: {fileID: 9212568289292914908}
+  Health: {fileID: 7372473430055931844}
+  boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!114 &7372473430055931844
 MonoBehaviour:
