@@ -28,6 +28,13 @@ public class GameManager : MonoBehaviour
         {
             SpawnBoss();
         }
+        else
+        {
+            if(currentBoss != null)
+            {
+                Destroy(currentBoss);
+            }
+        }
     }
 
     [Button]

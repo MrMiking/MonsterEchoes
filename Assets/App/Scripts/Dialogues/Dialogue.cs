@@ -2,21 +2,22 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Dialogue : MonoBehaviour
-{
-    [Header("Temp")]
-    [SerializeField] private int night = 0;
-    
+{ 
     [Header("References")]
+    [SerializeField] private RSO_DayCycle currentCycle;
+    [SerializeField] private RSO_DayCount dayCount;
     [SerializeField] private Dialogues[] dialogueData;
     [SerializeField] private SSO_Dialogue defaultDialogue;
     [SerializeField] private RSE_SendDialogue sendDialogue;
     [SerializeField] private RSE_CloseDialogue closeDialogue;
-    [SerializeField] private GameObject inputVisual;
+    [SerializeField] private GameObject interactVisual;
+    [SerializeField] private GameObject npcVisual;
     
     [Header("Inputs")]
     [SerializeField] private InputActionReference interactInput;
 
     private bool canInteract;
+    private bool isEnable;
 
     [System.Serializable]
     private class Dialogues
@@ -28,7 +29,7 @@ public class Dialogue : MonoBehaviour
 
     private void Awake()
     {
-        inputVisual.SetActive(false);
+        interactVisual.SetActive(false);
         
         interactInput.action.Enable();
     }
@@ -38,6 +39,8 @@ public class Dialogue : MonoBehaviour
         interactInput.action.performed += TryInteract;
 
         closeDialogue.Action += CloseDialogue;
+
+        currentCycle.OnChanged += UpdateNPC;
     }
 
     private void OnDisable()
@@ -45,20 +48,38 @@ public class Dialogue : MonoBehaviour
         interactInput.action.performed -= TryInteract;
         
         closeDialogue.Action -= CloseDialogue;
+
+        currentCycle.OnChanged -= UpdateNPC;
+    }
+
+    private void UpdateNPC(DayCycleState state)
+    {
+        if(state == DayCycleState.Night)
+        {
+            isEnable = false;
+            npcVisual.SetActive(false);
+            interactVisual.SetActive(false);
+        }
+        else
+        {
+            isEnable = true;
+            npcVisual.SetActive(true);
+        }
     }
 
     private void TryInteract(InputAction.CallbackContext context)
     {
         if (!canInteract) return;
+        if (!isEnable) return;
         
         canInteract = false;
-        inputVisual.SetActive(false);
+        interactVisual.SetActive(false);
 
         foreach (Dialogues dialogue in dialogueData)
         {
             if (dialogue.dialogueData == null) break;
             
-            if (!dialogue.completed && dialogue.timeCondition >= night)
+            if (!dialogue.completed && dialogue.timeCondition >= dayCount.Get())
             {
                 dialogue.completed = true;
                 sendDialogue.Call(dialogue.dialogueData);
@@ -72,18 +93,20 @@ public class Dialogue : MonoBehaviour
     private void CloseDialogue()
     {
         canInteract = true;
-        inputVisual.SetActive(true);
+        interactVisual.SetActive(true);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(!isEnable) return;
         if (other.CompareTag("Player")) canInteract = true;
-        inputVisual.SetActive(canInteract);
+        interactVisual.SetActive(canInteract);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (!isEnable) return;
         if (other.CompareTag("Player")) canInteract = false;
-        inputVisual.SetActive(canInteract);
+        interactVisual.SetActive(canInteract);
     }
 }

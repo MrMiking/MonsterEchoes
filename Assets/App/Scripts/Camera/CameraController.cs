@@ -5,6 +5,8 @@ public class CameraController : MonoBehaviour
 {
     public enum CameraMode { Follow, Fixed }
 
+    [SerializeField] private RSO_DayCycle dayCycle;
+
     [Header("Settings")]
     [SerializeField] private CameraMode currentMode = CameraMode.Follow;
     [SerializeField] private Transform player;
@@ -21,6 +23,28 @@ public class CameraController : MonoBehaviour
         if (currentMode == CameraMode.Follow && player != null)
         {
             ApplyFollowMode();
+        }
+    }
+
+    private void OnEnable()
+    {
+        dayCycle.OnChanged += UpdateCameraStateBasedOnCurrentCycle;
+    }
+
+    private void OnDisable()
+    {
+        dayCycle.OnChanged -= UpdateCameraStateBasedOnCurrentCycle;
+    }
+
+    private void UpdateCameraStateBasedOnCurrentCycle(DayCycleState state)
+    {
+        if (state == DayCycleState.Night)
+        {
+            SwitchMode(CameraMode.Fixed);
+        }
+        else
+        {
+            SwitchMode(CameraMode.Follow);
         }
     }
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5909391500255234139}
   m_Layer: 0
-  m_Name: Visual
+  m_Name: NPCVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,7 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7134d385621c53947b79a064f12679db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  night: 0
+  currentCycle: {fileID: 11400000, guid: 8296eb72bcb02314a8e958e232034bf2, type: 2}
+  dayCount: {fileID: 11400000, guid: a0b6719713ea5a44797afec9e5dd1e06, type: 2}
   dialogueData:
   - dialogueData: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
     timeCondition: 0
@@ -122,7 +123,8 @@ MonoBehaviour:
   defaultDialogue: {fileID: 11400000, guid: 595b78956658d2448955c09010f65481, type: 2}
   sendDialogue: {fileID: 11400000, guid: d2d12ca630f2fac48bdf59c0b52eb73d, type: 2}
   closeDialogue: {fileID: 11400000, guid: a660d7c93168cbc4b8d0135bba29ce58, type: 2}
-  inputVisual: {fileID: 2909005320846105811}
+  interactVisual: {fileID: 2909005320846105811}
+  npcVisual: {fileID: 480841027999929668}
   interactInput: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!61 &4739670947765633717
 BoxCollider2D:
