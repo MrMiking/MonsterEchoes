@@ -22,7 +22,8 @@ public class PlayerMovement : MonoBehaviour
     Vector2 moveInput;
 
     bool isDashing;
-    bool canDash = true;
+    bool canDashGrounded = true;
+    bool canDashCooldown = true;
 
     [Space(10)]
     [ReadOnly] public bool IsGrounded;
@@ -59,6 +60,8 @@ public class PlayerMovement : MonoBehaviour
 
         IsGrounded = _IsGrounded();
 
+        if (!canDashGrounded && IsGrounded) canDashGrounded = true;
+
         if(!isDashing && !combat.IsAttacking()) Move(moveInput);
 
         visual.SetGrounded(IsGrounded);
@@ -85,16 +88,29 @@ public class PlayerMovement : MonoBehaviour
 
     void Dash(InputAction.CallbackContext ctx)
     {
-        if (!canDash) return;
+        if (!canDashCooldown || !canDashGrounded) return;
+
+        if (!IsGrounded) canDashGrounded = false;
 
         combat.OnComboEnd();
+        combat.ResetAirAttack();
 
         rb.linearVelocity = Vector2.zero;
         rb.AddForce(moveInput * dashForce, ForceMode2D.Impulse);
 
-        StartCoroutine(DashTime());
+        dashTimeCor = StartCoroutine(DashTime());
         StartCoroutine(DashCooldown());
     }
+
+    public void StopDashTime()
+    {
+        if(dashTimeCor != null) StopCoroutine(dashTimeCor);
+
+        visual.SetDash(false);
+        isDashing = false;
+    }
+
+    Coroutine dashTimeCor;
     IEnumerator DashTime()
     {
         visual.SetDash(true);
@@ -109,9 +125,9 @@ public class PlayerMovement : MonoBehaviour
     }
     IEnumerator DashCooldown()
     {
-        canDash = false;
+        canDashCooldown = false;
         yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
+        canDashCooldown = true;
     }
 
     bool _IsGrounded()

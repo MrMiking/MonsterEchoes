@@ -1,6 +1,5 @@
 using MVsToolkit.Dev;
 using MVsToolkit.Utils;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -40,9 +39,9 @@ public class PlayerCombat : MonoBehaviour
 
     private void Update()
     {
-        if (currentAttackId < 0) return;
-
         if (!canDoAirAttack && movement.IsGrounded) canDoAirAttack = true;
+
+        if (currentAttackId < 0) return;
 
         currentAttackTimer += Time.deltaTime;
         if (currentAttackTimer > attacks[currentAttackId].AttackTime + comboInputTime)
@@ -51,14 +50,14 @@ public class PlayerCombat : MonoBehaviour
 
     public void Attack(InputAction.CallbackContext ctx)
     {
-        if (currentAttackId == -1)
+        if (movement.IsGrounded)
         {
-            rb.linearVelocity = Vector2.zero;
-
-            isAttacking = true;
-
-            if (movement.IsGrounded)
+            if (currentAttackId == -1)
             {
+                rb.linearVelocity = Vector2.zero;
+
+                isAttacking = true;
+
                 currentAttackId = 0;
                 currentAttackTimer = 0;
 
@@ -67,37 +66,42 @@ public class PlayerCombat : MonoBehaviour
 
                 attacks[currentAttackId].Attack(visual.LookAtRight());
             }
-            else if(canDoAirAttack)
+            else if (currentAttackId >= attacks.Length - 1) return;
+            else if (currentAttackTimer >= attacks[currentAttackId].AttackTime - comboInputTime)
             {
-                canDoAirAttack = false;
+                rb.linearVelocity = Vector2.zero;
 
-                visual.AirAttack();
-                visual.SetAirAttack(true);
-                rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+                currentAttackId++;
+                currentAttackTimer = 0;
+                visual.ComboAttack();
 
-                this.Delay(() =>
-                {
-                    visual.SetAirAttack(false);
-                    isAttacking = false;
-                    rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-                }, airAttack.AttackTime);
-
-                airAttack.Attack(visual.LookAtRight());
+                attacks[currentAttackId].Attack(visual.LookAtRight());
             }
-
         }
-        else if (currentAttackId >= attacks.Length - 1) return;
-        else if (currentAttackTimer >= attacks[currentAttackId].AttackTime - comboInputTime)
+        else if(canDoAirAttack)
         {
+            movement.StopDashTime();
             rb.linearVelocity = Vector2.zero;
 
-            currentAttackId++;
-            currentAttackTimer = 0;
-            visual.ComboAttack();
+            isAttacking = true;
+            canDoAirAttack = false;
 
-            attacks[currentAttackId].Attack(visual.LookAtRight());
-        }
+            visual.AirAttack();
+            visual.SetAirAttack(true);
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation | RigidbodyConstraints2D.FreezePositionY;
+
+            this.Delay(() =>
+            {
+                visual.SetAirAttack(false);
+                isAttacking = false;
+                rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+            }, airAttack.AttackTime);
+
+            airAttack.Attack(visual.LookAtRight());
+        }        
     }
+
+    public void ResetAirAttack()=>canDoAirAttack = true;
 
     public void OnComboEnd()
     {

@@ -256,6 +256,16 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!50 &230484028 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 4222903799086521024, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+  m_PrefabInstance: {fileID: 2859228528431445938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &230484030 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+  m_PrefabInstance: {fileID: 2859228528431445938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &302268779
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +419,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308182d515472c42a7187823a514e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
+--- !u!1 &1466002419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466002420}
+  - component: {fileID: 1466002421}
+  m_Layer: 0
+  m_Name: Attack2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466002420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466002419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 230484030}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1466002421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466002419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81967a10c9d69c1488e43bd005a134c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_2
+  cooldown: 1
+  paternTime: 3
+  canHandle: 1
+  isHandling: 0
+  moveSpeed: 50
+  maxDistance: 6
+  rb: {fileID: 230484028}
+  visual: {fileID: 677116017}
+  player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &1565379314
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +573,10 @@ PrefabInstance:
       propertyPath: visual
       value: 
       objectReference: {fileID: 677116017}
+    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: 'paterns.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1466002421}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.84
@@ -560,7 +627,10 @@ PrefabInstance:
       objectReference: {fileID: 677116015}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1466002420}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
 --- !u!1660057539 &9223372036854775807
