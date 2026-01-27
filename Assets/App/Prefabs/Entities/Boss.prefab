@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 7865583948854653601}
   - component: {fileID: 4222903799086521024}
   - component: {fileID: 963826713127171006}
+  - component: {fileID: 7372473430055931844}
   m_Layer: 6
   m_Name: Boss
   m_TagString: Untagged
@@ -451,7 +452,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossController
   checkingDelay: 0.3
   paterns:
+  - {fileID: 6199511376564544175}
+  - {fileID: 769696798432338036}
   - {fileID: 3457802154568886276}
   movement: {fileID: 8225301245680933261}
   visual: {fileID: 9212568289292914908}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
+--- !u!114 &7372473430055931844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158357657155362945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0312f66f201134983b86508458d002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossHealth
+  maxHealth: 100
+  visual: {fileID: 9212568289292914908}
+  currentHealth: {fileID: 11400000, guid: 3280d7ee11a74334da63a3e3a78bcb61, type: 2}
+  OnTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []

@@ -256,22 +256,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &92815161 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8225301245680933261, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-  m_PrefabInstance: {fileID: 2859228528431445938}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6c2557ff9b221348950cc1c6ce187c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossMovement
---- !u!50 &230484028 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 4222903799086521024, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-  m_PrefabInstance: {fileID: 2859228528431445938}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &302268779
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,17 +393,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &826734065 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3457802154568886276, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-  m_PrefabInstance: {fileID: 2859228528431445938}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 635c29b9115d6a24089943241877ee0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_3
 --- !u!1 &1565379314
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +436,10 @@ PrefabInstance:
     - target: {fileID: 862919922202296896, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521201168802847086, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
+      propertyPath: Health
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -574,26 +551,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: paterns.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: 'paterns.Array.data[0]'
-      value: 
-      objectReference: {fileID: 826734065}
-    - target: {fileID: 3457802154568886276, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: rb
-      value: 
-      objectReference: {fileID: 230484028}
-    - target: {fileID: 3457802154568886276, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: movement
-      value: 
-      objectReference: {fileID: 92815161}
-    - target: {fileID: 3457802154568886276, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
-      propertyPath: timeToTp
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.84
