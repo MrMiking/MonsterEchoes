@@ -12,6 +12,7 @@ public class BossAttack_3 : BossPatern
     [Foldout("Attack")]
     [SerializeField] Vector2 attack1Offset;
     [SerializeField] float attack1Radius;
+    [SerializeField] float knockbackForce;
 
     [Space(5)]
     [SerializeField] Vector2 startAttack2Pos;
@@ -72,6 +73,16 @@ public class BossAttack_3 : BossPatern
             if(hit.TryGetComponent(out PlayerHealth playerHealth))
             {
                 playerHealth.TakeDamage(damage);
+
+                if(hit.TryGetComponent(out Rigidbody2D rb))
+                {
+                    Vector2 dir = Vector2.up;
+                    if (transform.position.x > player.Get().transform.position.x) dir.x = 2;
+                    else dir.x = -2;
+                    dir = dir.normalized;
+
+                    rb.AddForce(dir * knockbackForce, ForceMode2D.Impulse);
+                }
             }
         }
     }
