@@ -1,17 +1,20 @@
 using DG.Tweening;
+using MVsToolkit.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UI_BossManager : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private RSO_Boss boss;
+    [SerializeField] private RSO_Boss rsoBoss;
     [SerializeField] RSO_DayCycle currentCycle;
 
     [Header("Health")]
-    [SerializeField] private float animDuration = 0.2f;
+    [SerializeField] private float delayBeforeAnim = 0.5f;
+    [SerializeField] private float animDuration = 0.5f;
     [SerializeField] private RSO_BossHealth rsoBossHealth;
-    [SerializeField] private Slider bossHealthSlider;
+    [SerializeField] private Slider healthSlider;
+    [SerializeField] private Slider innerHealthSlider;
 
     private void OnEnable()
     {
@@ -27,21 +30,22 @@ public class UI_BossManager : MonoBehaviour
 
     private void UpdateHealthBar(float newValue)
     {
-        Debug.Log("Health: " + newValue);
-        bossHealthSlider.maxValue = boss.Get().Health.GetMaxHealth;
+        innerHealthSlider.maxValue = rsoBoss.Get().Health.GetMaxHealth;
+        healthSlider.maxValue = rsoBoss.Get().Health.GetMaxHealth;
 
-        bossHealthSlider.DOValue(newValue, animDuration).SetEase(Ease.OutCubic);
+        healthSlider.value = newValue;
+        this.Delay(() => innerHealthSlider.DOValue(newValue, animDuration).SetEase(Ease.OutCubic), delayBeforeAnim);
     }
 
     private void HandleDayCycleChange(DayCycleState newCycle)
     {
         if (newCycle == DayCycleState.Night)
         {
-            bossHealthSlider.gameObject.SetActive(true);
+            healthSlider.gameObject.SetActive(true);
         }
         else
         {
-            bossHealthSlider.gameObject.SetActive(false);
+            healthSlider.gameObject.SetActive(false);
         }
     }
 }

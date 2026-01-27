@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1224398571
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2723620956408996287, guid: 3329b6a30cbd76a46bbe0f8025407522, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308182d515472c42a7187823a514e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
-  defaultColor: {r: 4.2370954, g: 0, b: 0, a: 1}
+  defaultColor: {r: 8.474189, g: 0.88734967, b: 0, a: 1}
   anim: {fileID: 7651133410644179277}
   graphics: {fileID: 5962883798502030041}
   rseSetColor: {fileID: 11400000, guid: 2815a007b7e329846b9e9963bca525d4, type: 2}

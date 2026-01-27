@@ -1,4 +1,5 @@
 using DG.Tweening;
+using MVsToolkit.Utils;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,11 +8,13 @@ public class UI_PlayerManager : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private RSO_Player rsoPlayer;
-    
+
     [Header("Health")]
-    [SerializeField] private float animDuration = 0.2f;
+    [SerializeField] private float delayBeforeAnim = 0.5f;
+    [SerializeField] private float animDuration = 0.5f;
     [SerializeField] private RSO_Health rsoPlayerHealth;
     [SerializeField] private Slider healthSlider;
+    [SerializeField] private Slider innerHealthSlider;
 
     [Header("Day")]
     [SerializeField] private TextMeshProUGUI dayCountText;
@@ -35,10 +38,12 @@ public class UI_PlayerManager : MonoBehaviour
 
     private void UpdateHealthBar(float newValue)
     {
-        Debug.Log("Health: " + newValue);
+        innerHealthSlider.maxValue = rsoPlayer.Get().Health.GetMaxHealth;
         healthSlider.maxValue = rsoPlayer.Get().Health.GetMaxHealth;
+
+        healthSlider.value = newValue;
+        this.Delay(() => innerHealthSlider.DOValue(newValue, animDuration).SetEase(Ease.OutCubic), delayBeforeAnim);
         
-        healthSlider.DOValue(newValue, animDuration) .SetEase(Ease.OutCubic);
     }
 
     private void UpdateDayCount(int newDay)
