@@ -46,20 +46,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   attacks:
   - AttackTime: 0.5
+    damage: 1
+    pos: {x: 1.7, y: -0.5}
+    size: {x: 3.5, y: 1.1}
+    debugColor: {r: 0, g: 0.22337532, b: 1, a: 1}
     attackDashForce: 10
     rb: {fileID: 7907810552350743545}
   - AttackTime: 0.5
+    damage: 2
+    pos: {x: 1.92, y: -0.35}
+    size: {x: 3.83, y: 1}
+    debugColor: {r: 0.6931238, g: 0, b: 1, a: 1}
     attackDashForce: 10
     rb: {fileID: 7907810552350743545}
   - AttackTime: 0.5
+    damage: 4
+    pos: {x: 1.47, y: -0.22}
+    size: {x: 3.65, y: 2.02}
+    debugColor: {r: 1, g: 0, b: 0, a: 1}
     attackDashForce: 5
     rb: {fileID: 7907810552350743545}
   - AttackTime: 0.5
-    attackDashForce: 0
+    damage: 8
+    pos: {x: 1.08, y: -0.56}
+    size: {x: 5.33, y: 1.03}
+    debugColor: {r: 1, g: 0.7315014, b: 0, a: 1}
+    attackDashForce: 15
     rb: {fileID: 7907810552350743545}
   airAttack:
     AttackTime: 0.5
-    attackDashForce: 5
+    damage: 1
+    pos: {x: 1.7, y: -0.5}
+    size: {x: 3.5, y: 1.1}
+    debugColor: {r: 0, g: 0.22337532, b: 1, a: 1}
+    attackDashForce: 10
     rb: {fileID: 7907810552350743545}
   comboInputTime: 0.1
   visual: {fileID: 852501840684602765}
@@ -183,7 +203,7 @@ MonoBehaviour:
   Movement: {fileID: 1888323115688617837}
   Visual: {fileID: 852501840684602765}
   Combat: {fileID: 3557238275482721699}
-  Health: {fileID: 0}
+  Health: {fileID: 8919480993405694876}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!114 &8919480993405694876
 MonoBehaviour:
@@ -341,7 +361,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: -2952918718154744243, guid: da56b6bceae5d534b985533b668fe7a9, type: 3}
+  m_Sprite: {fileID: -3687364420169907857, guid: 3e4529126e432a44282784aaba616f7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
