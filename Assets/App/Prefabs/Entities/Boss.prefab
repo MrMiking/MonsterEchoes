@@ -378,7 +378,7 @@ MonoBehaviour:
   paternTime: 5
   canHandle: 1
   isHandling: 0
-  groundPos: 0
+  groundPos: -3
   spacing: 3
   startXOffset: 3
   delayBetween: 0.4
@@ -499,7 +499,7 @@ MonoBehaviour:
   paternTime: 2
   canHandle: 1
   isHandling: 0
-  groundPos: 0
+  groundPos: -3
   startXOffset: -1
   reaper: {fileID: 8840278470273689077}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
@@ -616,7 +616,7 @@ MonoBehaviour:
   paternTime: 2
   canHandle: 1
   isHandling: 0
-  groundPos: 0
+  groundPos: -3
   spacing: 3
   startXOffset: 5
   delayBetween: 0.2
