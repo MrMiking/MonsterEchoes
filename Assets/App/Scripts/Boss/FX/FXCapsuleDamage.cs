@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class BossDarkFlameSword : MonoBehaviour
+public class FXCapsuleDamage : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] RSO_BossDamage damage;
 
     [SerializeField] Vector2 detectionOffset = Vector2.right;
     [SerializeField] Vector2 detectionSize;
+    [SerializeField] LayerMask detectionMask;
 
     [Header("References")]
     [SerializeField] SpriteRenderer graphics;
@@ -44,7 +45,8 @@ public class BossDarkFlameSword : MonoBehaviour
             center,
             detectionSize,
             detectionSize.y > detectionSize.x ? CapsuleDirection2D.Vertical : CapsuleDirection2D.Horizontal,
-            0f
+            0f,
+            detectionMask
         );
 
         foreach (Collider2D hit in hits)

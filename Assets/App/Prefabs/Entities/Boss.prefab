@@ -379,6 +379,59 @@ MonoBehaviour:
   rb: {fileID: 4222903799086521024}
   visual: {fileID: 9212568289292914908}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
+--- !u!1 &5758606108820856835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1055827099988959826}
+  - component: {fileID: 6705701873224039049}
+  m_Layer: 6
+  m_Name: Attack5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1055827099988959826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758606108820856835}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7607275543167676274}
+  m_Father: {fileID: 8604538517406102345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6705701873224039049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5758606108820856835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb182286e59ea084696924a0583a59be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_5
+  cooldown: 10
+  paternTime: 2
+  canHandle: 1
+  isHandling: 0
+  groundPos: 0
+  startXOffset: -1
+  reaper: {fileID: 8840278470273689077}
+  player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &6368815342765937730
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +593,7 @@ Transform:
   - {fileID: 4790821496146698856}
   - {fileID: 3398027733686325232}
   - {fileID: 4697306697844821920}
+  - {fileID: 1055827099988959826}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &7865583948854653601
@@ -624,6 +678,7 @@ MonoBehaviour:
   - {fileID: 769696798432338036}
   - {fileID: 3457802154568886276}
   - {fileID: 2601275381192862732}
+  - {fileID: 6705701873224039049}
   startingDamage: 2
   movement: {fileID: 8225301245680933261}
   visual: {fileID: 9212568289292914908}
@@ -883,3 +938,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
   m_PrefabInstance: {fileID: 4893434719579887754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7319669220028842658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1055827099988959826}
+    m_Modifications:
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.3500004
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987456938325701870, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameReaper
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+--- !u!4 &7607275543167676274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 866600511970258384, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+  m_PrefabInstance: {fileID: 7319669220028842658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8840278470273689077 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2250192540372068183, guid: 119c02cf14224894ab91b535b1435321, type: 3}
+  m_PrefabInstance: {fileID: 7319669220028842658}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FXCapsuleDamage

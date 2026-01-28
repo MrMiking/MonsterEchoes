@@ -10,7 +10,7 @@ public class BossAttack_4 : BossPatern
     [SerializeField] float delayBetween;
 
     [Header("References")]
-    [SerializeField] BossDarkFlameSword[] flames;
+    [SerializeField] FXCapsuleDamage[] flames;
     [SerializeField] RSO_Player player;
 
     //[Header("Input")]
