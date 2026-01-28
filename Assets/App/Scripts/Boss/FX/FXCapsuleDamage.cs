@@ -24,7 +24,6 @@ public class FXCapsuleDamage : MonoBehaviour
     public void PlayAnim()
     {
         anim.SetTrigger("Play");
-        transform.position = new Vector3(transform.position.x, 0, transform.position.z);
     }
 
     public void Flip(bool isRight)
