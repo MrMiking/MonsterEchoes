@@ -10,8 +10,6 @@ public class BossController : MonoBehaviour
     [SerializeField] List<BossPatern> paterns;
     [SerializeField] List<BossPatern> p2Paterns;
 
-    [SerializeField] int startingDamage;
-
     [Header("References")]
     public BossMovement movement;
     public BossVisual visual;
@@ -20,7 +18,6 @@ public class BossController : MonoBehaviour
 
     [SerializeField] RSO_Boss boss;
     [SerializeField] RSO_Player player;
-    [SerializeField] RSO_BossDamage damage;
 
     [Header("Input")]
     [SerializeField] RSE_OnBossMidLife OnMidLife;
@@ -41,7 +38,6 @@ public class BossController : MonoBehaviour
 
     private void Start()
     {
-        if(damage.Value == 0) damage.Value = startingDamage;
         StartCoroutine(CheckPatern());
 
         foreach (var patern in paterns)

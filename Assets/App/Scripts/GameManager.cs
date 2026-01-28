@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private BossController bossPrefab;
     [SerializeField] private Transform bossSpawnPoint;
 
+    [Space(5)]
+    [SerializeField] RSO_BossDamage bossDamage;
+    [SerializeField] int startingBossDamage;
+
     [Header("Input")]
     [SerializeField] private RSO_DayCycle dayCycle;
 
@@ -20,6 +24,11 @@ public class GameManager : MonoBehaviour
     private void OnDisable()
     {
         dayCycle.OnChanged -= HandleDayCycleChange;
+    }
+
+    private void Start()
+    {
+        bossDamage.Set(startingBossDamage);
     }
 
     private void HandleDayCycleChange(DayCycleState newCycle)
