@@ -75,13 +75,22 @@ public class DialogueManager : MonoBehaviour
             currentDialogue.onCompleted.Invoke();
         }
 
-        if (choice.closeDialogue || choice.nextDialogue == null)
+        if (choice.closeDialogue)
         {
             CloseDialogue();
         }
         else
         {
-            StartDialogue(choice.nextDialogue);
+            if (choice.nextDialogue == null)
+            {
+
+                StartDialogue(choice.nextDialogue);
+            }
+            else
+            {
+                lineIndex++;
+                ShowCurrentLine();
+            }
         }
     }
 

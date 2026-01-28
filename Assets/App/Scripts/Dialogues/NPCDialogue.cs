@@ -24,7 +24,7 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
             {
                 d.dialogueCondition.onCompleted.AddListener(() => d.available = true);
             }
-            else
+            else if (d.data != null)
             {
                 d.data.onCompleted.AddListener(() => d.completed = true);
             }
