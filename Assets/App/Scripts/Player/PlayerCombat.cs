@@ -1,5 +1,5 @@
 using MVsToolkit.Dev;
-using MVsToolkit.Utils;
+using MVsToolkit.Utilities;
 using UnityEngine;
 using UnityEngine.InputSystem;
 

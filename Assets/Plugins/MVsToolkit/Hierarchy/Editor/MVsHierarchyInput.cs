@@ -5,9 +5,9 @@ using MVsToolkit.SceneBrowser;
 namespace MVsToolkit
 {
     [InitializeOnLoad]
-    public static class MVsHierarchyInputManager
+    public static class MVsHierarchyInput
     {
-        static MVsHierarchyInputManager()
+        static MVsHierarchyInput()
         {
             EditorApplication.hierarchyWindowItemOnGUI += OnHierarchyGUI;
         }
@@ -19,7 +19,7 @@ namespace MVsToolkit
             Event e = Event.current;
             Object obj = EditorUtility.InstanceIDToObject(instanceID);
 
-            if (e.type == EventType.MouseDown && e.button == 0 && e.alt && selectionRect.Contains(e.mousePosition)) // On Alt Left click
+            if (e.type == EventType.MouseDown && e.button == 0 && selectionRect.Contains(e.mousePosition))
             {
                 if (obj == null)
                 {
