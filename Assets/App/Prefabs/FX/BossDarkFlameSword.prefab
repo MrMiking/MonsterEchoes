@@ -59,7 +59,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 7771c7e35cd5010438f439bb8802deee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -129,8 +129,5 @@ MonoBehaviour:
   damage: {fileID: 11400000, guid: 24fcd2d1ebd5e404ca96837041d902e7, type: 2}
   detectionOffset: {x: 0.43, y: 0.5}
   detectionSize: {x: 3.9, y: 1}
-  detectionMask:
-    serializedVersion: 2
-    m_Bits: 128
   graphics: {fileID: 3769607992092565723}
   anim: {fileID: 2568505083714245021}

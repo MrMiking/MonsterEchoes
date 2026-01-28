@@ -11,9 +11,8 @@ public class BossVisual : MonoBehaviour
     [SerializeField] Animator anim;
     [SerializeField] SpriteRenderer graphics;
     [SerializeField] private RSE_SetColor rseSetColor;
-    [SerializeField] private SpriteRenderer spriteRenderer;
-
-    //[Header("Input")]
+    [SerializeField] private Material bossMaterial;
+    
     [Foldout("Atk 1")]
     [SerializeField] UnityEvent OnAttack1Dmg;
     
@@ -25,8 +24,6 @@ public class BossVisual : MonoBehaviour
     [SerializeField] UnityEvent OnAttack3Dmg1;
     [SerializeField] UnityEvent OnAttack3Dmg2;
     [SerializeField] UnityEvent OnAttack3Dmg3;
-
-    private Material bossMaterial;
 
     private void OnEnable()
     {
@@ -40,7 +37,6 @@ public class BossVisual : MonoBehaviour
 
     private void Start()
     {
-        bossMaterial = spriteRenderer.material;
         SetColor(defaultColor);
     }
 
