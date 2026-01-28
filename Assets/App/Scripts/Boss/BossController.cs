@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
     [Header("Settings")]
     [SerializeField] float checkingDelay;
     [SerializeField] List<BossPatern> paterns;
+    [SerializeField] int startingDamage;
 
     [Header("References")]
     [SerializeField] BossMovement movement;
@@ -25,6 +26,7 @@ public class BossController : MonoBehaviour
 
     private void Start()
     {
+        if(damage.Value == 0) damage.Value = startingDamage;
         StartCoroutine(CheckPatern());
     }
 

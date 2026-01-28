@@ -256,6 +256,67 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1001 &279370776
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2012030868}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.110001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
 --- !u!1 &302268779
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +402,7 @@ Transform:
   m_GameObject: {fileID: 302268779}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 20.221968, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -397,6 +458,22 @@ BoxCollider2D:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
   m_PrefabInstance: {fileID: 1614533261405701020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &752279873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 1962401890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
+--- !u!4 &752279876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 1962401890}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1282494691
 GameObject:
@@ -514,6 +591,143 @@ Transform:
   - {fileID: 302268781}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1598129115 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 279370776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1598129118 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 279370776}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
+--- !u!1001 &1962401890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2012030868}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.110001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
+--- !u!1 &2012030867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012030868}
+  - component: {fileID: 2012030869}
+  m_Layer: 6
+  m_Name: Attack4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2012030868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012030867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7250414940005495334}
+  - {fileID: 1598129115}
+  - {fileID: 752279876}
+  m_Father: {fileID: 2859228528431445939}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2012030869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012030867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1cbe727f1a385c46a0e75bb54843a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_4
+  cooldown: 10
+  paternTime: 2
+  canHandle: 1
+  isHandling: 0
+  groundPos: 0
+  spacing: 3
+  startXOffset: 5
+  delayBetween: 0.2
+  flames:
+  - {fileID: 7250414940005495335}
+  - {fileID: 1598129118}
+  - {fileID: 752279873}
+  player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!95 &58987132709643915
 Animator:
   serializedVersion: 7
@@ -718,7 +932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -975,13 +1189,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: paterns.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: 'paterns.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2012030869}
+    - target: {fileID: 5962883798502030041, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7859669917245103422, guid: 069aea5f33b648b428c5069cbea85054, type: 3}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.84
       objectReference: {fileID: 0}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1021,9 +1247,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2012030868}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+--- !u!4 &2859228528431445939 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+  m_PrefabInstance: {fileID: 2859228528431445938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!70 &2963025800192713392
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1374,6 +1608,7 @@ MonoBehaviour:
   - {fileID: 1315038350635987646}
   - {fileID: 5663383739202515045}
   - {fileID: 7767150339787831317}
+  startingDamage: 0
   movement: {fileID: 3895826222618298780}
   visual: {fileID: 4318807616838303949}
   Health: {fileID: 2478856866299273173}
@@ -1558,19 +1793,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2012030868}
     m_Modifications:
     - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_Name
       value: BossDarkFlameSword
       objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.27
+      value: -11.110001
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1582,15 +1821,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1609,6 +1848,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
+--- !u!4 &7250414940005495334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 7250414940005495333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7250414940005495335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 7250414940005495333}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
 --- !u!4 &7355567327679880200
 Transform:
   m_ObjectHideFlags: 0
@@ -1762,4 +2017,3 @@ SceneRoots:
   - {fileID: 2186241950708894764}
   - {fileID: 1282494692}
   - {fileID: 1556927112}
-  - {fileID: 7250414940005495333}

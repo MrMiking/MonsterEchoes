@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 1224398571
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2723620956408996287, guid: 3329b6a30cbd76a46bbe0f8025407522, type: 3}
+  m_Sprite: {fileID: 7859669917245103422, guid: 069aea5f33b648b428c5069cbea85054, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -441,6 +441,66 @@ MonoBehaviour:
   movement: {fileID: 8225301245680933261}
   rb: {fileID: 4222903799086521024}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
+--- !u!1 &7954927640150503819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4697306697844821920}
+  - component: {fileID: 2601275381192862732}
+  m_Layer: 6
+  m_Name: Attack4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4697306697844821920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954927640150503819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8410900264477249238}
+  - {fileID: 4173405729390049844}
+  - {fileID: 1825548220324152792}
+  m_Father: {fileID: 8604538517406102345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2601275381192862732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954927640150503819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1cbe727f1a385c46a0e75bb54843a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_4
+  cooldown: 10
+  paternTime: 2
+  canHandle: 1
+  isHandling: 0
+  groundPos: 0
+  spacing: 3
+  startXOffset: 5
+  delayBetween: 0.2
+  flames:
+  - {fileID: 3111775605772962479}
+  - {fileID: 7384865661579345485}
+  - {fileID: 5098950231357227425}
+  player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &9158357657155362945
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +539,7 @@ Transform:
   - {fileID: 8431450531460060938}
   - {fileID: 4790821496146698856}
   - {fileID: 3398027733686325232}
+  - {fileID: 4697306697844821920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &7865583948854653601
@@ -562,12 +623,14 @@ MonoBehaviour:
   - {fileID: 6199511376564544175}
   - {fileID: 769696798432338036}
   - {fileID: 3457802154568886276}
+  - {fileID: 2601275381192862732}
+  startingDamage: 2
   movement: {fileID: 8225301245680933261}
   visual: {fileID: 9212568289292914908}
   Health: {fileID: 7372473430055931844}
   boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
-  damage: {fileID: 0}
+  damage: {fileID: 11400000, guid: 24fcd2d1ebd5e404ca96837041d902e7, type: 2}
 --- !u!114 &7372473430055931844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -589,3 +652,234 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &1061608915229682792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4697306697844821920}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.110001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
+--- !u!4 &4173405729390049844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 1061608915229682792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7384865661579345485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 1061608915229682792}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
+--- !u!1001 &3316016731960120196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4697306697844821920}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.110001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
+--- !u!4 &1825548220324152792 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 3316016731960120196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5098950231357227425 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 3316016731960120196}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
+--- !u!1001 &4893434719579887754
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4697306697844821920}
+    m_Modifications:
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_Name
+      value: BossDarkFlameSword
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851703950503425411, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.110001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d858a3253c036894098837e0531f0685, type: 3}
+--- !u!114 &3111775605772962479 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7550222782849454629, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 4893434719579887754}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf8085d34c2b96439eae7d82aa1f402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
+--- !u!4 &8410900264477249238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3986105448405702236, guid: d858a3253c036894098837e0531f0685, type: 3}
+  m_PrefabInstance: {fileID: 4893434719579887754}
+  m_PrefabAsset: {fileID: 0}

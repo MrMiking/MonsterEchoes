@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Reflection;
+using Codice.Client.BaseCommands;
 using MVsToolkit.Utilities;
 using UnityEditor;
 using UnityEngine;
@@ -423,7 +424,8 @@ namespace MVsToolkit.Dev
             }
 
             EditorGUILayout.EndVertical();
-            GUILayout.Space(4);
+
+            if (expanded) GUILayout.Space(4);
         }
 
         void DrawFoldoutGroup(MVsFoldoutGroup fg)

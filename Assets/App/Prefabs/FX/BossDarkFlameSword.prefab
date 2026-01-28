@@ -127,5 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossDarkFlameSword
   damage: {fileID: 11400000, guid: 24fcd2d1ebd5e404ca96837041d902e7, type: 2}
-  detectionOffset: {x: 2.85, y: 0.5}
+  detectionOffset: {x: 0.43, y: 0.5}
   detectionSize: {x: 3.9, y: 1}
+  graphics: {fileID: 3769607992092565723}
+  anim: {fileID: 2568505083714245021}
