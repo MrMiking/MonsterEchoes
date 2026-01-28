@@ -36,7 +36,7 @@ public class DialogueManager : MonoBehaviour
 
         dialoguePanel.SetupLine(nameToDisplay, line.speakerText);
 
-        if (lineIndex < currentDialogue.lines.Length - 1)
+        if (lineIndex < currentDialogue.lines.Length - 1 && line.choices.Length == 0)
         {
             dialoguePanel.CreateChoice("Next", () =>
             {
@@ -68,6 +68,11 @@ public class DialogueManager : MonoBehaviour
         if (choice.advanceDay)
         {
             DayCycleManager.Instance.HandleNextCycle();
+        }
+
+        if (!choice.failed)
+        {
+            currentDialogue.onCompleted.Invoke();
         }
 
         if (choice.closeDialogue || choice.nextDialogue == null)
