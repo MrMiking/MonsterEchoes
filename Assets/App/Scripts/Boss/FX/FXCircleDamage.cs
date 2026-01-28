@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class FXCapsuleDamage : MonoBehaviour
+public class FXCircleDamage : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] RSO_BossDamage damage;
 
     [SerializeField] Vector2 detectionOffset = Vector2.right;
-    [SerializeField] Vector2 detectionSize;
+    [SerializeField] float detectionRadius;
 
     [Header("References")]
     [SerializeField] SpriteRenderer graphics;
@@ -40,11 +40,9 @@ public class FXCapsuleDamage : MonoBehaviour
     {
         Vector2 center = (Vector2)transform.position + detectionOffset;
 
-        Collider2D[] hits = Physics2D.OverlapCapsuleAll(
+        Collider2D[] hits = Physics2D.OverlapCircleAll(
             center,
-            detectionSize,
-            detectionSize.y > detectionSize.x ? CapsuleDirection2D.Vertical : CapsuleDirection2D.Horizontal,
-            0f
+            detectionRadius
         );
 
         foreach (Collider2D hit in hits)
@@ -63,8 +61,9 @@ public class FXCapsuleDamage : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        // En mode édition, on essaie de garder le même comportement
         Vector2 center = (Vector2)transform.position + detectionOffset;
-        MVsGizmos.Draw2DCapsule(center, detectionSize, Color.blue);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(center, detectionRadius);
     }
 }
