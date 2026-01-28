@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NPCController : MonoBehaviour, IInteractable
 {
-    public enum NPCInteractionState { Idle, Available, Interacting }
+    private enum NPCInteractionState { Idle, Available, Interacting }
 
     [Header("References")]
     [SerializeField] private NPCVisual npcVisual;
@@ -15,9 +15,13 @@ public class NPCController : MonoBehaviour, IInteractable
     private bool playerInRange;
     private NPCInteractionState currentState = NPCInteractionState.Idle;
 
-    public bool CanInteract => currentState == NPCInteractionState.Available;
+    public bool CanInteract { get { return currentState == NPCInteractionState.Available;  } }
 
-    private void Start() => npcVisual.ShowInteract(false);
+    private void Start()
+    {
+        npcDialogue.SetupAllDialogues();
+        npcVisual.ShowInteract(false);
+    }
 
     private void OnEnable()=> closeDialogue.Action += OnDialogueClosed;
     private void OnDisable()=> closeDialogue.Action -= OnDialogueClosed;
@@ -34,7 +38,6 @@ public class NPCController : MonoBehaviour, IInteractable
         SSO_Dialogue dialogue = npcDialogue.GetDialogue();
         if (dialogue != null)
         {
-            npcDialogue.MarkAsCompleted();
             sendDialogue.Call(dialogue);
         }
     }

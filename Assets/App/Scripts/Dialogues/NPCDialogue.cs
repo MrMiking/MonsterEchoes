@@ -11,7 +11,24 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
     {
         public SSO_Dialogue data;
         public int dayCondition;
+        public SSO_Dialogue dialogueCondition;
         public bool completed;
+        public bool available;
+    }
+
+    public void SetupAllDialogues()
+    {
+        foreach (DialogueEntry d in dialogues)
+        {
+            if (d.dialogueCondition != null)
+            {
+                d.dialogueCondition.onCompleted.AddListener(() => d.available = true);
+            }
+            else
+            {
+                d.data.onCompleted.AddListener(() => d.completed = true);
+            }
+        }
     }
 
     public SSO_Dialogue GetDialogue()
@@ -24,17 +41,5 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
             }
         }
         return defaultDialogue;
-    }
-
-    public void MarkAsCompleted()
-    {
-        foreach (var d in dialogues)
-        {
-            if (!d.completed && dayCount.Get() >= d.dayCondition)
-            {
-                d.completed = true;
-                break;
-            }
-        }
     }
 }

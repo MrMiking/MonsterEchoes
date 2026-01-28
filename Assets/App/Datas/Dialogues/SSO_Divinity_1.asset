@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94f42016dcce0124f9afbd01d7d429f0, type: 3}
-  m_Name: SSO_God_1
+  m_Name: SSO_Divinity_1
   m_EditorClassIdentifier: Assembly-CSharp::SSO_Dialogue
   speakerName: "Divinit\xE9"
   speakerVisual: {fileID: 0}
@@ -27,16 +27,39 @@ MonoBehaviour:
     choices:
     - choiceText: Non conasse
       nextDialogue: {fileID: 0}
+      failed: 1
+      closeDialogue: 1
+      advanceDay: 0
       onChoiceSelected:
         m_PersistentCalls:
           m_Calls: []
     - choiceText: "R\xE9duire les pv par deux"
       nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 0
+      advanceDay: 0
       onChoiceSelected:
         m_PersistentCalls:
           m_Calls: []
     - choiceText: Reduire l'attaque speed par deux
       nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 0
+      advanceDay: 0
       onChoiceSelected:
         m_PersistentCalls:
           m_Calls: []
+  - speakerName: "Divinit\xE9 mode dev"
+    speakerText: "Okk partons mtn \xE0 l'aventure !"
+    choices:
+    - choiceText: Let's go, aller voir le garde
+      nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 1
+      advanceDay: 1
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  onCompleted:
+    m_PersistentCalls:
+      m_Calls: []
