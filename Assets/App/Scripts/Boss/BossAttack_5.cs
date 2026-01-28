@@ -22,7 +22,7 @@ public class BossAttack_5 : BossPatern
         reaper.Flip(isRight);
         reaper.transform.position = new Vector2(
             player.Value.transform.position.x + (isRight ? -1 : 1) * startXOffset, 
-            0);
+            groundPos);
         reaper.gameObject.SetActive(true);
         reaper.PlayAnim();
 

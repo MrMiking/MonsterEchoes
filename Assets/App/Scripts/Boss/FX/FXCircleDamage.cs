@@ -6,20 +6,13 @@ public class FXCircleDamage : MonoBehaviour
     [SerializeField] RSO_BossDamage damage;
 
     [SerializeField] Vector2 detectionOffset = Vector2.right;
+    Vector2 _detectionOffset;
+
     [SerializeField] float detectionRadius;
 
     [Header("References")]
     [SerializeField] SpriteRenderer graphics;
     [SerializeField] Animator anim;
-
-    // Offset de base (toujours configuré vers la droite dans l’inspecteur)
-    Vector2 baseDetectionOffset;
-    int facingSign = 1; // 1 = droite, -1 = gauche
-
-    void Awake()
-    {
-        baseDetectionOffset = detectionOffset;
-    }
 
     public void PlayAnim()
     {
@@ -29,15 +22,14 @@ public class FXCircleDamage : MonoBehaviour
     public void Flip(bool isRight)
     {
         graphics.flipX = isRight;
-        facingSign = isRight ? -1 : 1;
 
-        // On applique le flip uniquement sur l’axe X
-        detectionOffset = new Vector2(baseDetectionOffset.x * facingSign, baseDetectionOffset.y);
+        _detectionOffset = detectionOffset;
+        _detectionOffset.x *= isRight ? -1 : 1;
     }
 
     public void ApplyDamage()
     {
-        Vector2 center = (Vector2)transform.position + detectionOffset;
+        Vector2 center = (Vector2)transform.position + _detectionOffset;
 
         Collider2D[] hits = Physics2D.OverlapCircleAll(
             center,

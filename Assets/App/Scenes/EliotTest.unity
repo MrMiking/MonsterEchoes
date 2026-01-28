@@ -482,6 +482,17 @@ Transform:
   - {fileID: 302268781}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687123250 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6705701873224039049, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+  m_PrefabInstance: {fileID: 2859228528431445938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb182286e59ea084696924a0583a59be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAttack_5
 --- !u!95 &58987132709643915
 Animator:
   serializedVersion: 7
@@ -883,6 +894,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: paterns.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: 'paterns.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1687123250}
+    - target: {fileID: 6705701873224039049, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
+      propertyPath: cooldown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8604538517406102345, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.84

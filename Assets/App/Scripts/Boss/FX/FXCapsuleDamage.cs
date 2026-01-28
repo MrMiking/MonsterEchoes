@@ -6,20 +6,12 @@ public class FXCapsuleDamage : MonoBehaviour
     [SerializeField] RSO_BossDamage damage;
 
     [SerializeField] Vector2 detectionOffset = Vector2.right;
+    Vector2 _detectionOffset;
     [SerializeField] Vector2 detectionSize;
 
     [Header("References")]
     [SerializeField] SpriteRenderer graphics;
     [SerializeField] Animator anim;
-
-    // Offset de base (toujours configuré vers la droite dans l’inspecteur)
-    Vector2 baseDetectionOffset;
-    int facingSign = 1; // 1 = droite, -1 = gauche
-
-    void Awake()
-    {
-        baseDetectionOffset = detectionOffset;
-    }
 
     public void PlayAnim()
     {
@@ -29,15 +21,14 @@ public class FXCapsuleDamage : MonoBehaviour
     public void Flip(bool isRight)
     {
         graphics.flipX = isRight;
-        facingSign = isRight ? -1 : 1;
 
-        // On applique le flip uniquement sur l’axe X
-        detectionOffset = new Vector2(baseDetectionOffset.x * facingSign, baseDetectionOffset.y);
+        _detectionOffset = detectionOffset;
+        _detectionOffset.x *= isRight ? -1 : 1;
     }
 
     public void ApplyDamage()
     {
-        Vector2 center = (Vector2)transform.position + detectionOffset;
+        Vector2 center = (Vector2)transform.position + _detectionOffset;
 
         Collider2D[] hits = Physics2D.OverlapCapsuleAll(
             center,
@@ -45,6 +36,8 @@ public class FXCapsuleDamage : MonoBehaviour
             detectionSize.y > detectionSize.x ? CapsuleDirection2D.Vertical : CapsuleDirection2D.Horizontal,
             0f
         );
+
+        MVsDebug.Draw2DCapsule(center, detectionSize, Color.blue, 1);
 
         foreach (Collider2D hit in hits)
         {
@@ -62,7 +55,7 @@ public class FXCapsuleDamage : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        // En mode édition, on essaie de garder le même comportement
+        if (Application.isPlaying) return;
         Vector2 center = (Vector2)transform.position + detectionOffset;
         MVsGizmos.Draw2DCapsule(center, detectionSize, Color.blue);
     }
