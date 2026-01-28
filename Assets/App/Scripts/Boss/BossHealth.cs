@@ -14,6 +14,7 @@ public class BossHealth : MonoBehaviour
     [Header("Output")]
     [SerializeField] UnityEvent OnTakeDamage;
     [SerializeField] UnityEvent OnDeath;
+    [SerializeField] RSE_OnBossMidLife onMidLife;
 
     public int GetMaxHealth { get { return maxHealth; } }
 
@@ -24,7 +25,12 @@ public class BossHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        float lastHealth = currentHealth.Value;
         currentHealth.Set(currentHealth.Get() - damage);
+        if(lastHealth > maxHealth * .5f && currentHealth.Value < maxHealth * .5f)
+        {
+            onMidLife.Call();
+        }
 
         if (currentHealth.Get() <= 0)
         {

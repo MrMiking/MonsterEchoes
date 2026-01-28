@@ -8,6 +8,8 @@ public class BossController : MonoBehaviour
     [Header("Settings")]
     [SerializeField] float checkingDelay;
     [SerializeField] List<BossPatern> paterns;
+    [SerializeField] List<BossPatern> p2Paterns;
+
     [SerializeField] int startingDamage;
 
     [Header("References")]
@@ -19,6 +21,18 @@ public class BossController : MonoBehaviour
     [SerializeField] RSO_Boss boss;
     [SerializeField] RSO_Player player;
     [SerializeField] RSO_BossDamage damage;
+
+    [Header("Input")]
+    [SerializeField] RSE_OnBossMidLife OnMidLife;
+
+    private void OnEnable()
+    {
+        OnMidLife.Action += OnP2;
+    }
+    private void OnDisable()
+    {
+        OnMidLife.Action -= OnP2;
+    }
 
     private void Awake()
     {
@@ -41,6 +55,14 @@ public class BossController : MonoBehaviour
         BossPatern _patern = Instantiate(patern, transform);
         _patern.Init(this);
         paterns.Add(_patern);
+    }
+
+    public void OnP2()
+    {
+        foreach (var patern in p2Paterns)
+        {
+            AddPatern(patern);
+        }
     }
 
     IEnumerator CheckPatern(bool moveWhilWaiting = false)

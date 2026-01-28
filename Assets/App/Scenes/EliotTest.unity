@@ -838,6 +838,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
+  onMidLife: {fileID: 0}
 --- !u!4 &2636108753064461559
 Transform:
   m_ObjectHideFlags: 0
@@ -1192,6 +1193,7 @@ MonoBehaviour:
   - {fileID: 1315038350635987646}
   - {fileID: 5663383739202515045}
   - {fileID: 7767150339787831317}
+  p2Paterns: []
   startingDamage: 0
   movement: {fileID: 3895826222618298780}
   visual: {fileID: 4318807616838303949}
@@ -1200,6 +1202,7 @@ MonoBehaviour:
   boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
   damage: {fileID: 0}
+  OnMidLife: {fileID: 0}
 --- !u!50 &5392510916997581109
 Rigidbody2D:
   serializedVersion: 5
