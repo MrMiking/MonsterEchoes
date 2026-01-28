@@ -163,423 +163,436 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Guard 48x64_0
+      name: S_Guard_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ac294d182a76b8ed0800000000000000
-      internalID: -2410719227866213686
+      spriteID: aed35faca3a03244fbd85662ca85160d
+      internalID: 1219148983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_1
+      name: S_Guard_1
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d3a689d86fd7e220800000000000000
-      internalID: 2515224558328783833
+      spriteID: 05203096b90e19b469340af75ca3e10e
+      internalID: 781778432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_2
+      name: S_Guard_2
       rect:
         serializedVersion: 2
-        x: 133
+        x: 128
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 59ae530182a3f5ad0800000000000000
-      internalID: -2711384506908677483
+      spriteID: 45a820245e20a594d8d6aea7fb653cef
+      internalID: 343704863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_3
+      name: S_Guard_3
       rect:
         serializedVersion: 2
-        x: 197
+        x: 192
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b820a680872b54a0800000000000000
-      internalID: -6603640995640760142
+      spriteID: fd183c14287a7e64eafb9c461f5b51e7
+      internalID: -1776454170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_4
+      name: S_Guard_4
       rect:
         serializedVersion: 2
-        x: 261
+        x: 256
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fd8ce0f8792bdd960800000000000000
-      internalID: 7628449707845404895
+      spriteID: d878a2c1bb76fb847808e94a8f192502
+      internalID: 1511046129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_5
+      name: S_Guard_5
       rect:
         serializedVersion: 2
-        x: 325
+        x: 320
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6851b6bd772c1eb50800000000000000
-      internalID: 6620786747249464710
+      spriteID: 113c8f9ad1bbf95498cdddf94513d158
+      internalID: 359833057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_6
+      name: S_Guard_6
       rect:
         serializedVersion: 2
-        x: 389
+        x: 384
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f27560bffc64d9e40800000000000000
-      internalID: 5664761765385623343
+      spriteID: b47e1577bb157534eb0106b8fd97f8bc
+      internalID: -325223475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_7
+      name: S_Guard_7
       rect:
         serializedVersion: 2
-        x: 453
+        x: 448
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a4bc6d8a35d79a40800000000000000
-      internalID: 5374999127747507361
+      spriteID: c019524988b6f9f429edcef8639378b2
+      internalID: -444847960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_8
+      name: S_Guard_8
       rect:
         serializedVersion: 2
-        x: 517
+        x: 512
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db8d13f6bc17e5420800000000000000
-      internalID: 2620657151734044861
+      spriteID: 2bb91a47344c7fe4fab30a0a5c70ddca
+      internalID: -1737109993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_9
+      name: S_Guard_9
       rect:
         serializedVersion: 2
-        x: 581
+        x: 576
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db91e12cb3ce95290800000000000000
-      internalID: -7901024329840846403
+      spriteID: 89f24199fe616eb4f8c194d4c49ea85f
+      internalID: -2140570536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_10
+      name: S_Guard_10
       rect:
         serializedVersion: 2
-        x: 645
+        x: 640
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b74c54cc77d0b7b40800000000000000
-      internalID: 5438955783159399547
+      spriteID: 312031aaa8f9fa847bd7d8a20aceb977
+      internalID: -383281482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_11
+      name: S_Guard_11
       rect:
         serializedVersion: 2
-        x: 709
+        x: 704
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 757759a6049ee7700800000000000000
-      internalID: 540125468206397271
+      spriteID: fdaa657f4308474428618de34da43fe0
+      internalID: 1726578481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_12
+      name: S_Guard_12
       rect:
         serializedVersion: 2
-        x: 773
+        x: 768
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bea0788ddb4b6a7e0800000000000000
-      internalID: -1754516277339682069
+      spriteID: ceb0c741c4010cd48906f5aff3530135
+      internalID: -1808029577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_13
+      name: S_Guard_13
       rect:
         serializedVersion: 2
-        x: 837
+        x: 832
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e2a6a7c1b2ab3080800000000000000
-      internalID: -9206586128786349338
+      spriteID: 1cdea159d2bcc2147a3d105ecf8bee86
+      internalID: -881194265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_14
+      name: S_Guard_14
       rect:
         serializedVersion: 2
-        x: 901
+        x: 896
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26fa019bb0f3c7cb0800000000000000
-      internalID: -4864944177884909726
+      spriteID: 8c439ffc4fd0e6047b69cb97781aac5e
+      internalID: 1169354712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_15
+      name: S_Guard_15
       rect:
         serializedVersion: 2
-        x: 965
+        x: 960
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 38f3fba37eec2e4f0800000000000000
-      internalID: -800850291200147581
+      spriteID: f8e83c4b4bdc8c547be52ff11712a2e4
+      internalID: 1173118077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_16
+      name: S_Guard_16
       rect:
         serializedVersion: 2
-        x: 1029
+        x: 1024
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2abc9bcff47ac7a80800000000000000
-      internalID: -8467709237379085406
+      spriteID: 759beecd06a4ca3468cf6c766b20cbc3
+      internalID: 1242539843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_17
+      name: S_Guard_17
       rect:
         serializedVersion: 2
-        x: 1093
+        x: 1088
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00df4b8c47a4f10f0800000000000000
-      internalID: -1144113914884850432
+      spriteID: 4daf6180caa7e1b4a946a4d026515a6c
+      internalID: -1164684344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Guard 48x64_18
+      name: S_Guard_18
       rect:
         serializedVersion: 2
-        x: 1157
+        x: 1152
         y: 0
-        width: 44
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c68e363f13e62cd20800000000000000
-      internalID: 3297319038004488300
+      spriteID: 8d245ba5d5f82db46ab77e76b0be8c29
+      internalID: 1131483152
       vertices: []
       indices: 
       edges: []
@@ -588,7 +601,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1027c92643f333c42811ae636f08846b
     internalID: 0
     vertices: []
     indices: 
@@ -596,27 +609,29 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Guard 48x64_0: -2410719227866213686
-      Guard 48x64_1: 2515224558328783833
-      Guard 48x64_10: 5438955783159399547
-      Guard 48x64_11: 540125468206397271
-      Guard 48x64_12: -1754516277339682069
-      Guard 48x64_13: -9206586128786349338
-      Guard 48x64_14: -4864944177884909726
-      Guard 48x64_15: -800850291200147581
-      Guard 48x64_16: -8467709237379085406
-      Guard 48x64_17: -1144113914884850432
-      Guard 48x64_18: 3297319038004488300
-      Guard 48x64_2: -2711384506908677483
-      Guard 48x64_3: -6603640995640760142
-      Guard 48x64_4: 7628449707845404895
-      Guard 48x64_5: 6620786747249464710
-      Guard 48x64_6: 5664761765385623343
-      Guard 48x64_7: 5374999127747507361
-      Guard 48x64_8: 2620657151734044861
-      Guard 48x64_9: -7901024329840846403
+      S_Guard_0: 1219148983
+      S_Guard_1: 781778432
+      S_Guard_10: -383281482
+      S_Guard_11: 1726578481
+      S_Guard_12: -1808029577
+      S_Guard_13: -881194265
+      S_Guard_14: 1169354712
+      S_Guard_15: 1173118077
+      S_Guard_16: 1242539843
+      S_Guard_17: -1164684344
+      S_Guard_18: 1131483152
+      S_Guard_2: 343704863
+      S_Guard_3: -1776454170
+      S_Guard_4: 1511046129
+      S_Guard_5: 359833057
+      S_Guard_6: -325223475
+      S_Guard_7: -444847960
+      S_Guard_8: -1737109993
+      S_Guard_9: -2140570536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
