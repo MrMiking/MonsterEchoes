@@ -341,16 +341,19 @@ MonoBehaviour:
   bloodMoon: 0
   duration: 2
   dayAmbientColor: {r: 1, g: 1, b: 1, a: 1}
-  eveningAmbientColor: {r: 1, g: 0.4, b: 0.4, a: 1}
-  nightAmbientColor: {r: 0, g: 0, b: 1, a: 1}
-  bloodMoonAmbientColor: {r: 1, g: 0, b: 0, a: 1}
+  eveningAmbientColor: {r: 0.56078434, g: 0.1882353, b: 0.25882354, a: 1}
+  nightAmbientColor: {r: 0.5019608, g: 0.5019608, b: 1, a: 1}
+  bloodMoonAmbientColor: {r: 1, g: 0.20392157, b: 0.25490198, a: 1}
   daySkyColor: {r: 1, g: 1, b: 1, a: 1}
-  eveningSkyColor: {r: 1, g: 0.65, b: 0.65, a: 1}
+  eveningSkyColor: {r: 0.5411765, g: 0.32941177, b: 0.36078432, a: 1}
   nightSkyColor: {r: 0, g: 0.00691462, b: 0.3679245, a: 1}
-  bloodMoonSkyColor: {r: 0.05, g: 0.05, b: 0.05, a: 1}
+  bloodMoonSkyColor: {r: 0.4433962, g: 0.11921501, b: 0.11921501, a: 1}
+  baseMoonColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  bloodMoonColor: {r: 1, g: 0, b: 0, a: 1}
   ambientLight: {fileID: 1590022312}
   skyTransform: {fileID: 1823248180}
   skyBackground: {fileID: 404836391}
+  moon: {fileID: 1155277406}
   dayCount: {fileID: 11400000, guid: a0b6719713ea5a44797afec9e5dd1e06, type: 2}
   currentCycle: {fileID: 11400000, guid: 8296eb72bcb02314a8e958e232034bf2, type: 2}
 --- !u!1 &79204311
@@ -996,7 +999,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: ebd6fa48e9451359
@@ -1591,7 +1594,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: -10
   m_Sprite: {fileID: -1332020023354371984, guid: 2df5d8c657e8de04db665e1a0660cfab, type: 3}
-  m_Color: {r: 1, g: 0.7028302, b: 0.7028302, a: 1}
+  m_Color: {r: 0.5377358, g: 0.32720718, b: 0.35825753, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9556,7 +9559,7 @@ SpriteRenderer:
   m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 6937817954938267909, guid: 93ef8639bb2a74942a613730a1c5e333, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -10270,8 +10273,8 @@ MonoBehaviour:
   m_LightType: 4
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 0.5424528, b: 0.56175196, a: 1}
-  m_Intensity: 0.5
+  m_Color: {r: 0.56, g: 0.18754718, b: 0.25656727, a: 1}
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000

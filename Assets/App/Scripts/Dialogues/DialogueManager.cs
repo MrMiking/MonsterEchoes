@@ -67,7 +67,7 @@ public class DialogueManager : MonoBehaviour
       
         if (choice.advanceDay)
         {
-            DayCycleManager.instance.HandleNextCycle();
+            DayCycleManager.Instance.HandleNextCycle();
         }
 
         if (choice.closeDialogue || choice.nextDialogue == null)

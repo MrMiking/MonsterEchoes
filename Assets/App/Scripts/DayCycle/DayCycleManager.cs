@@ -21,24 +21,27 @@ public class DayCycleManager : MonoBehaviour
     [SerializeField] private Color eveningSkyColor;
     [SerializeField] private Color nightSkyColor;
     [SerializeField] private Color bloodMoonSkyColor;
-
+    [Space(10)]
+    [SerializeField] private Color baseMoonColor;
+    [SerializeField] private Color bloodMoonColor;
 
     [Header("References")]
     [SerializeField] private Light2D ambientLight;
     [SerializeField] private Transform skyTransform;
     [SerializeField] private SpriteRenderer skyBackground;
+    [SerializeField] private SpriteRenderer moon;
 
     [Header("Output")]
     [SerializeField] private RSO_DayCount dayCount;
     [SerializeField] private RSO_DayCycle currentCycle;
 
-    public static DayCycleManager instance;
+    public static DayCycleManager Instance;
 
     private void Start()
     {
-        if(instance == null)
+        if(Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {
@@ -80,42 +83,42 @@ public class DayCycleManager : MonoBehaviour
 
     private IEnumerator HandleDay()
     {
-        SetNewColor(dayAmbientColor, daySkyColor);
+        SetNewColor(dayAmbientColor, daySkyColor, baseMoonColor);
 
         skyTransform.rotation = Quaternion.Euler(0, 0, 75);
         skyTransform.DORotate(new Vector3(0, 0, 200), duration).SetEase(Ease.InOutSine);
 
         yield return new WaitForSeconds(duration);
 
-        dayCount.Set(dayCount.Get() + 1);
-        currentCycle.Set(DayCycleState.Day);
+        dayCount.Value++;
+        currentCycle.Value = DayCycleState.Day;
     }
 
     private IEnumerator HandleEvening()
     {
-        SetNewColor(eveningAmbientColor, eveningSkyColor);
+        SetNewColor(eveningAmbientColor, eveningSkyColor, baseMoonColor);
 
         skyTransform.rotation = Quaternion.Euler(0, 0, 0);
 
         yield return new WaitForSeconds(duration);
 
-        currentCycle.Set(DayCycleState.Evening);
+        currentCycle.Value = DayCycleState.Evening;
     }
 
     private IEnumerator HandleNight()
     {
-        if (bloodMoon) SetNewColor(bloodMoonAmbientColor, bloodMoonSkyColor);
-        else SetNewColor(nightAmbientColor, nightSkyColor);
+        if (bloodMoon) SetNewColor(bloodMoonAmbientColor, bloodMoonSkyColor, bloodMoonColor);
+        else SetNewColor(nightAmbientColor, nightSkyColor, baseMoonColor);
 
         skyTransform.rotation = Quaternion.Euler(0, 0, 0);
         skyTransform.DORotate(new Vector3(0, 0, 75), duration).SetEase(Ease.InOutSine);
 
         yield return new WaitForSeconds(duration);
 
-        currentCycle.Set(DayCycleState.Night);
+        currentCycle.Value = DayCycleState.Night;
     }
 
-    private void SetNewColor(Color targetAmbientColor, Color targetSkyColor)
+    private void SetNewColor(Color targetAmbientColor, Color targetSkyColor, Color moonColor)
     {
         DOTween.To(() => ambientLight.color,
                    x => ambientLight.color = x,
@@ -128,5 +131,11 @@ public class DayCycleManager : MonoBehaviour
                   targetSkyColor,
                   duration)
               .SetEase(Ease.InOutSine);
+        
+        DOTween.To(() => moon.color,
+                x => moon.color = x,
+                moonColor,
+                duration)
+            .SetEase(Ease.InOutSine);
     }
 }

@@ -126,11 +126,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308182d515472c42a7187823a514e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
-  defaultColor: {r: 8.474189, g: 0.88734967, b: 0, a: 1}
+  defaultColor: {r: 3.4750872, g: 0, b: 8.47419, a: 1}
   anim: {fileID: 7651133410644179277}
   graphics: {fileID: 5962883798502030041}
   rseSetColor: {fileID: 11400000, guid: 2815a007b7e329846b9e9963bca525d4, type: 2}
-  spriteRenderer: {fileID: 5962883798502030041}
+  bossMaterial: {fileID: 2100000, guid: 7771c7e35cd5010438f439bb8802deee, type: 2}
   OnAttack1Dmg:
     m_PersistentCalls:
       m_Calls:
