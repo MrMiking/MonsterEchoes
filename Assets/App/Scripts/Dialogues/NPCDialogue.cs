@@ -1,3 +1,4 @@
+using MVsToolkit.Dev;
 using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour, IDialogueProvider
@@ -12,8 +13,8 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
         public SSO_Dialogue data;
         public int dayCondition;
         public SSO_Dialogue dialogueCondition;
-        public bool completed;
-        public bool available;
+        [ReadOnly] public bool completed;
+        [ReadOnly] public bool locked;
     }
 
     public void SetupAllDialogues()
@@ -22,9 +23,10 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
         {
             if (d.dialogueCondition != null)
             {
-                d.dialogueCondition.onCompleted.AddListener(() => d.available = true);
+                d.locked = true;
+                d.dialogueCondition.onCompleted.AddListener(() => d.locked = false);
             }
-            else if (d.data != null)
+            if (d.data != null)
             {
                 d.data.onCompleted.AddListener(() => d.completed = true);
             }
@@ -35,7 +37,7 @@ public class NPCDialogue : MonoBehaviour, IDialogueProvider
     {
         foreach (var d in dialogues)
         {
-            if (!d.completed && dayCount.Get() >= d.dayCondition)
+            if (!d.completed && dayCount.Get() >= d.dayCondition && !d.locked && d.data != null)
             {
                 return d.data;
             }

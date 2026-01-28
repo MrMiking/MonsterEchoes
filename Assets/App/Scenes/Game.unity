@@ -314,8 +314,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -75, y: -62.5}
-  m_SizeDelta: {x: -150, y: -125}
+  m_AnchoredPosition: {x: -25, y: -62.5}
+  m_SizeDelta: {x: -50, y: -125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49966896
 MonoBehaviour:
@@ -433,6 +433,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Divinity
       objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: a990720018b35ba4cab93b80e4728fab, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: a990720018b35ba4cab93b80e4728fab, type: 3}
+      propertyPath: dialogues.Array.data[0].data
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
+    - target: {fileID: 8833747843219777199, guid: a990720018b35ba4cab93b80e4728fab, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogueCondition
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -486,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DayCycleManager
   startingCycle: 0
-  startingDay: 1
+  startingDay: 0
   bloodMoon: 0
   duration: 2
   dayAmbientColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2300,6 +2312,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Guard
       objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: defaultDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 71bd1b8506a4c2b42b5808689a30175a, type: 2}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[0].data
+      value: 
+      objectReference: {fileID: 11400000, guid: b3d60f98fc01b1547bb78e00bbbee82d, type: 2}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[1].data
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f3a9f2d85aa2a14592c9155f5b466a7, type: 2}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[0].locked
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[0].available
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[0].dayCondition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[1].dayCondition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogueCondition
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
+    - target: {fileID: 8833747843219777199, guid: dfcaed67f6c3a4744b1d8ea5114aa1f7, type: 3}
+      propertyPath: dialogues.Array.data[1].dialogueCondition
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3296,8 +3348,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661871301807368345, guid: dae139b1a77ddc148ba5fd18ca2c1ec7, type: 3}
       propertyPath: m_Name
-      value: NPC_Default
+      value: NPC_Pretress
       objectReference: {fileID: 0}
+    - target: {fileID: 6653050775913526698, guid: dae139b1a77ddc148ba5fd18ca2c1ec7, type: 3}
+      propertyPath: defaultDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 30b377f5c697af24bb8d9ed56520668d, type: 2}
+    - target: {fileID: 6653050775913526698, guid: dae139b1a77ddc148ba5fd18ca2c1ec7, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653050775913526698, guid: dae139b1a77ddc148ba5fd18ca2c1ec7, type: 3}
+      propertyPath: dialogues.Array.data[0].data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653050775913526698, guid: dae139b1a77ddc148ba5fd18ca2c1ec7, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogueCondition
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3871,8 +3939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7b4925732018e4282264d4e4c324da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI_DialoguePanel
-  typingSpeed: 0.02
-  postTypingDelay: 0.5
+  typingSpeed: 0
+  postTypingDelay: 0
   panel: {fileID: 634699652}
   nameTMP: {fileID: 1571589547}
   textTMP: {fileID: 1891303270}
@@ -21121,6 +21189,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Tiny
       objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: d2e9a0c2c9e4b354b959297077ba2dad, type: 3}
+      propertyPath: defaultDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 25575921088a39b45925dd1b5a061f81, type: 2}
+    - target: {fileID: 8833747843219777199, guid: d2e9a0c2c9e4b354b959297077ba2dad, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: d2e9a0c2c9e4b354b959297077ba2dad, type: 3}
+      propertyPath: dialogues.Array.data[0].data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: d2e9a0c2c9e4b354b959297077ba2dad, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogueCondition
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21181,6 +21265,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC_Fake
       objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: ae3aba7b805cb3147a1299dc731e284c, type: 3}
+      propertyPath: defaultDialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 017938598c61ae042aa44772ef6f4ef3, type: 2}
+    - target: {fileID: 8833747843219777199, guid: ae3aba7b805cb3147a1299dc731e284c, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: ae3aba7b805cb3147a1299dc731e284c, type: 3}
+      propertyPath: dialogues.Array.data[0].data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833747843219777199, guid: ae3aba7b805cb3147a1299dc731e284c, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogueCondition
+      value: 
+      objectReference: {fileID: 11400000, guid: d05b0c34625a56a47a05c18638cd03fe, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21532,11 +21632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -89.77
+      value: -3.39
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.19
+      value: -1.47
       objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22988,6 +23088,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   bossPrefab: {fileID: 963826713127171006, guid: 83c09a8136be82143abc3f5f22f6ed9e, type: 3}
   bossSpawnPoint: {fileID: 101670923}
+  bossDamage: {fileID: 11400000, guid: 24fcd2d1ebd5e404ca96837041d902e7, type: 2}
+  startingBossDamage: 20
   dayCycle: {fileID: 11400000, guid: 8296eb72bcb02314a8e958e232034bf2, type: 2}
 --- !u!1 &1823248179
 GameObject:

@@ -126,11 +126,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6308182d515472c42a7187823a514e3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossVisual
-  defaultColor: {r: 3.4750872, g: 0, b: 8.47419, a: 1}
+  defaultColor: {r: 5.656854, g: 5.656854, b: 5.656854, a: 1}
   anim: {fileID: 7651133410644179277}
   graphics: {fileID: 5962883798502030041}
-  rseSetColor: {fileID: 11400000, guid: 2815a007b7e329846b9e9963bca525d4, type: 2}
+  rsoBossColor: {fileID: 11400000, guid: ac6081845980a5d46acbacf4602eecec, type: 2}
   bossMaterial: {fileID: 2100000, guid: 7771c7e35cd5010438f439bb8802deee, type: 2}
+  redColor: {r: 5.656854, g: 0, b: 0, a: 1}
+  purpleColor: {r: 5.6218796, g: 0, b: 5.656854, a: 1}
+  greenColor: {r: 0, g: 5.656854, b: 0.056830134, a: 1}
 --- !u!1 &1777036960172459066
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,14 +305,12 @@ MonoBehaviour:
   p2Paterns:
   - {fileID: 8077215261576807449, guid: 976cde07f321fe146bb822c52497bb1b, type: 3}
   - {fileID: 7445036007956567345, guid: 7cc3dc81364510e41b2d6e1a40a35e74, type: 3}
-  startingDamage: 18
   movement: {fileID: 8225301245680933261}
   visual: {fileID: 9212568289292914908}
   Health: {fileID: 7372473430055931844}
   rb: {fileID: 4222903799086521024}
   boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
-  damage: {fileID: 11400000, guid: 24fcd2d1ebd5e404ca96837041d902e7, type: 2}
   OnMidLife: {fileID: 11400000, guid: 8a34c7c9dc334b24c8757e7417c98829, type: 2}
 --- !u!114 &7372473430055931844
 MonoBehaviour:

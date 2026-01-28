@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f42016dcce0124f9afbd01d7d429f0, type: 3}
+  m_Name: Guard_1
+  m_EditorClassIdentifier: Assembly-CSharp::SSO_Dialogue
+  speakerName: Guarde
+  speakerVisual: {fileID: 0}
+  lines:
+  - speakerName: 
+    speakerText: "Halte-l\xE0 ! On ne circule pas si pr\xE8s de la for\xEAt. Une
+      abomination r\xF4de, une faucheuse de cauchemar... mais ne crains rien, mon
+      acier est pr\xEAt \xE0 la d\xE9couper !"
+    choices: []
+  - speakerName: 
+    speakerText: "Les autres sont tous des l\xE2ches aux yeux clos, mais moi, je
+      l'ai fix\xE9e ! Cette chose \xE9mettait une lueur surnaturelle... une lumi\xE8re
+      de mort que j'ai \xE9t\xE9 le seul \xE0 braver."
+    choices: []
+  - speakerName: 
+    speakerText: "Ma torche m'a un peu \xE9bloui au moment de l'impact, alors ma
+      m\xE9moire flanche... De quelle couleur \xE9tait cette aura maudite que nous
+      sommes les seuls \xE0 avoir vue ?"
+    choices:
+    - choiceText: Rouge. Une lueur brutale et chaude
+      nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 1
+      advanceDay: 1
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: ac6081845980a5d46acbacf4602eecec, type: 2}
+            m_TargetAssemblyTypeName: RSO_BossColor, Assembly-CSharp
+            m_MethodName: Set
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 1
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - choiceText: "Violette. Une teinte \xE9lectrique et artificielle"
+      nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 1
+      advanceDay: 1
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: ac6081845980a5d46acbacf4602eecec, type: 2}
+            m_TargetAssemblyTypeName: RSO_BossColor, Assembly-CSharp
+            m_MethodName: Set
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 2
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - choiceText: "Verte. Une lueur f\xE9tide et p\xE2le"
+      nextDialogue: {fileID: 0}
+      failed: 0
+      closeDialogue: 1
+      advanceDay: 1
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 11400000, guid: ac6081845980a5d46acbacf4602eecec, type: 2}
+            m_TargetAssemblyTypeName: RSO_BossColor, Assembly-CSharp
+            m_MethodName: Set
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 3
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  onCompleted:
+    m_PersistentCalls:
+      m_Calls: []

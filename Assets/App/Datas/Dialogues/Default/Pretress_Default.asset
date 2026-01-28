@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94f42016dcce0124f9afbd01d7d429f0, type: 3}
+  m_Name: Pretress_Default
+  m_EditorClassIdentifier: Assembly-CSharp::SSO_Dialogue
+  speakerName: Pretresse du village
+  speakerVisual: {fileID: 0}
+  lines:
+  - speakerName: 
+    speakerText: "Les rumeurs de la journ\xE9e sont d\xE9j\xE0 scell\xE9es dans leurs
+      c\u0153urs. Va te pr\xE9parer, le ciel s'assombrit et la b\xEAte ne tardera
+      pas \xE0 se nourrir de ce qu'il en reste."
+    choices: []
+  onCompleted:
+    m_PersistentCalls:
+      m_Calls: []

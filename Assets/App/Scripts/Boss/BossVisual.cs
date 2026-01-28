@@ -3,6 +3,13 @@ using UnityEngine;
 using System;
 using UnityEngine.Events;
 
+public enum BossColor
+{
+    Red,
+    Purple,
+    Green,
+}
+
 public class BossVisual : MonoBehaviour
 {
     [Header("Settings")]
@@ -11,8 +18,13 @@ public class BossVisual : MonoBehaviour
     [Header("References")]
     [SerializeField] Animator anim;
     [SerializeField] SpriteRenderer graphics;
-    [SerializeField] private RSE_SetColor rseSetColor;
+    [SerializeField] private RSO_BossColor rsoBossColor;
     [SerializeField] private Material bossMaterial;
+
+    [Header("Colors")]
+    [ColorUsage(true, true)][SerializeField] private Color redColor;
+    [ColorUsage(true, true)][SerializeField] private Color purpleColor;
+    [ColorUsage(true, true)][SerializeField] private Color greenColor;
     
     [Foldout("Atk 1")]
     public Action OnAttack1Dmg;
@@ -26,24 +38,29 @@ public class BossVisual : MonoBehaviour
     public Action OnAttack3Dmg2;
     public Action OnAttack3Dmg3;
 
-    private void OnEnable()
-    {
-        rseSetColor.Action += SetColor;
-    }
-
-    private void OnDisable()
-    {
-        rseSetColor.Action -= SetColor;
-    }
-
     private void Start()
     {
-        SetColor(defaultColor);
+        SetColor(rsoBossColor.Value);
     }
 
-    private void SetColor(Color color)
+    private void SetColor(int color)
     {
-        bossMaterial.SetColor("_Color", color);
+        Color newColor = redColor;
+        
+        switch (color)
+        {
+            case 1:
+                newColor = redColor;
+                break;
+            case 2:
+                newColor = purpleColor;
+                break;
+            case 3:
+                newColor = greenColor;
+                break;
+        }
+        
+        bossMaterial.SetColor("_Color", newColor);
     }
 
     public void SetMoveXInput(float input)

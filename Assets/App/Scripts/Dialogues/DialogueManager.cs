@@ -63,7 +63,6 @@ public class DialogueManager : MonoBehaviour
     private void HandleChoice(DialogueChoice choice)
     {
         choice.onChoiceSelected?.Invoke();
-
       
         if (choice.advanceDay)
         {
@@ -75,15 +74,14 @@ public class DialogueManager : MonoBehaviour
             currentDialogue.onCompleted.Invoke();
         }
 
-        if (choice.closeDialogue)
+        if (choice.closeDialogue || lineIndex < currentDialogue.lines.Length)
         {
             CloseDialogue();
         }
         else
         {
-            if (choice.nextDialogue == null)
+            if (choice.nextDialogue != null)
             {
-
                 StartDialogue(choice.nextDialogue);
             }
             else

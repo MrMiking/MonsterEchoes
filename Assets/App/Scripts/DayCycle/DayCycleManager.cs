@@ -8,7 +8,7 @@ public class DayCycleManager : MonoBehaviour
 {
     [Header("Settings")]
     [SerializeField] private DayCycleState startingCycle;
-    [SerializeField] private int startingDay = 1;
+    [SerializeField] private int startingDay = 0;
     [SerializeField] private bool bloodMoon = false;
     [SerializeField] private float duration = 2f;
     [Space(10)]
