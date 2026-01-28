@@ -11,9 +11,10 @@ public class BossController : MonoBehaviour
     [SerializeField] int startingDamage;
 
     [Header("References")]
-    [SerializeField] BossMovement movement;
-    [SerializeField] BossVisual visual;
+    public BossMovement movement;
+    public BossVisual visual;
     public BossHealth Health;
+    public Rigidbody2D rb;
 
     [SerializeField] RSO_Boss boss;
     [SerializeField] RSO_Player player;
@@ -28,6 +29,18 @@ public class BossController : MonoBehaviour
     {
         if(damage.Value == 0) damage.Value = startingDamage;
         StartCoroutine(CheckPatern());
+
+        foreach (var patern in paterns)
+        {
+            patern.Init(this);
+        }
+    }
+
+    public void AddPatern(BossPatern patern)
+    {
+        BossPatern _patern = Instantiate(patern, transform);
+        _patern.Init(this);
+        paterns.Add(_patern);
     }
 
     IEnumerator CheckPatern(bool moveWhilWaiting = false)

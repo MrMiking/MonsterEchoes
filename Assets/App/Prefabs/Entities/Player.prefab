@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bfd454b21d191048b395af224c98019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 3
+  maxHealth: 100
   currentHealth: {fileID: 11400000, guid: cae04e7bff7b6ec4dbc9dfb5f87dd145, type: 2}
   isInvincible: 0
   anim: {fileID: 2862516587062572103}

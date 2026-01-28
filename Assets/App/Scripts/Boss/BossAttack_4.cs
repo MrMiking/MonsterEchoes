@@ -32,6 +32,6 @@ public class BossAttack_4 : BossPatern
             yield return new WaitForSeconds(delayBetween);
         }
 
-        yield return new WaitForSeconds(paternTime);
+        yield return new WaitForSeconds(paternTime * paternTimeMult.Value);
     }
 }

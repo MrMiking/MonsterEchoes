@@ -1,5 +1,6 @@
 using MVsToolkit.Dev;
 using UnityEngine;
+using System;
 using UnityEngine.Events;
 
 public class BossVisual : MonoBehaviour
@@ -14,16 +15,16 @@ public class BossVisual : MonoBehaviour
     [SerializeField] private Material bossMaterial;
     
     [Foldout("Atk 1")]
-    [SerializeField] UnityEvent OnAttack1Dmg;
+    public Action OnAttack1Dmg;
     
     [Foldout("Atk 2")]
-    [SerializeField] UnityEvent OnAttack2Dmg1;
-    [SerializeField] UnityEvent OnAttack2Dmg2;
+    public Action OnAttack2Dmg1;
+    public Action OnAttack2Dmg2;
 
     [Foldout("Atk 3")]
-    [SerializeField] UnityEvent OnAttack3Dmg1;
-    [SerializeField] UnityEvent OnAttack3Dmg2;
-    [SerializeField] UnityEvent OnAttack3Dmg3;
+    public Action OnAttack3Dmg1;
+    public Action OnAttack3Dmg2;
+    public Action OnAttack3Dmg3;
 
     private void OnEnable()
     {

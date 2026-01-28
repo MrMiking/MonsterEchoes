@@ -26,6 +26,6 @@ public class BossAttack_5 : BossPatern
         reaper.gameObject.SetActive(true);
         reaper.PlayAnim();
 
-        yield return new WaitForSeconds(paternTime);
+        yield return new WaitForSeconds(paternTime * paternTimeMult.Value);
     }
 }

@@ -11,6 +11,8 @@ public class BossPatern : MonoBehaviour
     [ReadOnly] public bool canHandle = true;
     [ReadOnly] public bool isHandling = false;
 
+    public RSO_BossPaternTimeMultiplier paternTimeMult;
+
     public virtual IEnumerator Handle() 
     {
         yield break;
@@ -23,4 +25,6 @@ public class BossPatern : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
         canHandle = true;
     }
+
+    public virtual void Init(BossController controller) { }
 }

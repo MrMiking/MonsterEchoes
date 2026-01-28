@@ -23,7 +23,7 @@ public class BossAttack_6 : BossPatern
         StartCoroutine(SpawnBombs(bombsL, Vector2.left, false));
         StartCoroutine(SpawnBombs(bombsR, Vector2.right, true));
 
-        yield return new WaitForSeconds(paternTime);
+        yield return new WaitForSeconds(paternTime * paternTimeMult.Value);
     }
 
     IEnumerator SpawnBombs(FXCircleDamage[] bombs, Vector2 dir, bool isRight)

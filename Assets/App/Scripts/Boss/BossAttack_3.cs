@@ -24,14 +24,24 @@ public class BossAttack_3 : BossPatern
     [CloseFoldout]
 
     [Header("References")]
-    [SerializeField] BossVisual visual;
-    [SerializeField] BossMovement movement;
-    [SerializeField] Rigidbody2D rb;
+    BossVisual visual;
+    BossMovement movement;
+    Rigidbody2D rb;
     [SerializeField] RSO_Player player;
 
     //[Header("References")]
     //[Header("Input")]
     //[Header("Output")]
+
+    public override void Init(BossController controller)
+    {
+        visual = controller.visual;
+        movement = controller.movement;
+        rb = controller.rb;
+        visual.OnAttack3Dmg1 += ApplyAttack1;
+        visual.OnAttack3Dmg2 += ApplyAttack2;
+        visual.OnAttack3Dmg3 += ApplyAttack3;
+    }
 
     public override bool CanHandle()
     {
@@ -46,7 +56,7 @@ public class BossAttack_3 : BossPatern
 
         visual.Attack3();
         StartCoroutine(TpTime());
-        yield return new WaitForSeconds(paternTime);
+        yield return new WaitForSeconds(paternTime * paternTimeMult.Value);
 
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
@@ -88,24 +98,32 @@ public class BossAttack_3 : BossPatern
 
     public void ApplyAttack2()
     {
-        RaycastHit2D[] hits = Physics2D.LinecastAll(startAttack2Pos, endAttack2Pos);
+        RayLine((Vector2)transform.position + startAttack2Pos,
+            (Vector2)transform.position + endAttack2Pos);
 
-        foreach (RaycastHit2D hit in hits)
-        {
-            if(hit.collider.TryGetComponent(out PlayerHealth playerHealth))
-            {
-                playerHealth.TakeDamage(damage);
-            }
-        }
+        Vector2 leftUp = new Vector2(-1, 1);
+        RayLine((Vector2)transform.position + startAttack2Pos * leftUp,
+            (Vector2)transform.position + endAttack2Pos * leftUp);
     }
 
     public void ApplyAttack3()
     {
-        RaycastHit2D[] hits = Physics2D.LinecastAll(startAttack3Pos, endAttack3Pos);
+        RayLine((Vector2)transform.position + startAttack3Pos,
+            (Vector2)transform.position + endAttack3Pos);
+
+        Vector2 leftUp = new Vector2(-1, 1);
+        RayLine((Vector2)transform.position + startAttack3Pos * leftUp,
+            (Vector2)transform.position + endAttack3Pos * leftUp);
+    }
+
+    void RayLine(Vector2 pos1, Vector2 pos2)
+    {
+        RaycastHit2D[] hits = Physics2D.LinecastAll(pos1, pos2);
+        Debug.DrawLine(pos1, pos2, Color.blue, 1);
 
         foreach (RaycastHit2D hit in hits)
         {
-            if(hit.collider.TryGetComponent(out PlayerHealth playerHealth))
+            if (hit.collider.TryGetComponent(out PlayerHealth playerHealth))
             {
                 playerHealth.TakeDamage(damage);
             }

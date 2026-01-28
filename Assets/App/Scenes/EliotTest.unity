@@ -593,11 +593,11 @@ MonoBehaviour:
   paternTime: 1
   canHandle: 1
   isHandling: 0
+  paternTimeMult: {fileID: 0}
   damage: {fileID: 0}
   distanceRequire: 6
   detectionOffset: {x: 0, y: 0.9}
   detectionSize: {x: 13, y: 1.77}
-  visual: {fileID: 4318807616838303949}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!4 &1413951596028276734
 Transform:
@@ -1130,96 +1130,6 @@ MonoBehaviour:
   graphics: {fileID: 1654661170714782408}
   rseSetColor: {fileID: 0}
   bossMaterial: {fileID: 0}
-  OnAttack1Dmg:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1315038350635987646}
-        m_TargetAssemblyTypeName: BossAttack_1, Assembly-CSharp
-        m_MethodName: ApplyDamage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack2Dmg1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5663383739202515045}
-        m_TargetAssemblyTypeName: BossAttack_2, Assembly-CSharp
-        m_MethodName: ApplyDamage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack2Dmg2:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5663383739202515045}
-        m_TargetAssemblyTypeName: BossAttack_2, Assembly-CSharp
-        m_MethodName: ApplyDamage
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack3Dmg1:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7767150339787831317}
-        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
-        m_MethodName: ApplyAttack1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack3Dmg2:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7767150339787831317}
-        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
-        m_MethodName: ApplyAttack2
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnAttack3Dmg3:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7767150339787831317}
-        m_TargetAssemblyTypeName: BossAttack_3, Assembly-CSharp
-        m_MethodName: ApplyAttack3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &4421558506662557089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1286,6 +1196,7 @@ MonoBehaviour:
   movement: {fileID: 3895826222618298780}
   visual: {fileID: 4318807616838303949}
   Health: {fileID: 2478856866299273173}
+  rb: {fileID: 0}
   boss: {fileID: 11400000, guid: bbfdfeb72c21f6047ab0f36c48540ca8, type: 2}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
   damage: {fileID: 0}
@@ -1384,14 +1295,13 @@ MonoBehaviour:
   paternTime: 3
   canHandle: 1
   isHandling: 0
+  paternTimeMult: {fileID: 0}
   moveSpeed: 50
   maxDistance: 6
   timeBeforeStop: 0.6
   detectionSize: {x: 4.31, y: 1.25}
   detectionOffset: {x: 0, y: 1.08}
   damage: {fileID: 0}
-  rb: {fileID: 9127712361103231697}
-  visual: {fileID: 4318807616838303949}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &6010997075251798948
 GameObject:
@@ -1544,6 +1454,7 @@ MonoBehaviour:
   paternTime: 4.5
   canHandle: 1
   isHandling: 0
+  paternTimeMult: {fileID: 0}
   distanceRequire: 5.5
   timeToTp: 0.8
   damage: {fileID: 0}
@@ -1554,9 +1465,6 @@ MonoBehaviour:
   endAttack2Pos: {x: 5.6, y: 0}
   startAttack3Pos: {x: 1.5, y: 5.2}
   endAttack3Pos: {x: 6.7, y: 0}
-  visual: {fileID: 4318807616838303949}
-  movement: {fileID: 3895826222618298780}
-  rb: {fileID: 9127712361103231697}
   player: {fileID: 11400000, guid: 62b5f0f5bd89bbc42add262d6fea2e43, type: 2}
 --- !u!1 &7768325914324309787
 GameObject:

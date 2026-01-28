@@ -13,15 +13,22 @@ public class BossAttack_2 : BossPatern
     [SerializeField] Vector2 detectionOffset;
     [SerializeField] RSO_BossDamage damage;
 
-    [Header("References")]
-    [SerializeField] Rigidbody2D rb;
-    [SerializeField] BossVisual visual;
+    Rigidbody2D rb;
+    BossVisual visual;
 
     [Space(5)]
     [SerializeField] RSO_Player player;
 
     //[Header("Input")]
     //[Header("Output")]
+
+    public override void Init(BossController controller)
+    {
+        rb = controller.rb;
+        visual = controller.visual;
+        visual.OnAttack2Dmg1 += ApplyDamage;
+        visual.OnAttack2Dmg2 += ApplyDamage;
+    }
 
     public override bool CanHandle()
     {
@@ -39,7 +46,7 @@ public class BossAttack_2 : BossPatern
         visual.FlipX(dir.x);
         visual.Attack2();
 
-        while (t < paternTime - timeBeforeStop)
+        while (t < paternTime * paternTimeMult.Value - timeBeforeStop)
         {
             yield return new WaitForFixedUpdate();
             t += Time.fixedDeltaTime;
@@ -65,6 +72,9 @@ public class BossAttack_2 : BossPatern
                 health.TakeDamage(damage.Get());
             }
         }
+
+        MVsDebug.Draw2DCapsule((Vector2)transform.position + detectionOffset,
+            detectionSize, Color.blue, 1);
     }
 
     private void OnDrawGizmosSelected()

@@ -12,11 +12,17 @@ public class BossAttack_1 : BossPatern
     [SerializeField] Vector2 detectionSize;
 
     [Header("References")]
-    [SerializeField] BossVisual visual;
     [SerializeField] RSO_Player player;
+    BossVisual visual;
 
     //[Header("Input")]
     //[Header("Output")]
+
+    public override void Init(BossController controller)
+    {
+        visual = controller.visual;
+        visual.OnAttack1Dmg += ApplyDamage;
+    }
 
     public override bool CanHandle()
     {
@@ -28,7 +34,7 @@ public class BossAttack_1 : BossPatern
     {
         StartCoroutine(HandleCooldown());
         visual.Attack1();
-        yield return new WaitForSeconds(paternTime);
+        yield return new WaitForSeconds(paternTime * paternTimeMult.Value);
     }
 
     public void ApplyDamage()
@@ -38,6 +44,10 @@ public class BossAttack_1 : BossPatern
             detectionSize,
             detectionSize.y > detectionSize.x ? CapsuleDirection2D.Vertical : CapsuleDirection2D.Horizontal,
             0);
+
+        MVsDebug.Draw2DCapsule(
+            (Vector2)transform.position + detectionOffset,
+            detectionSize, Color.blue, 1);
 
         foreach (Collider2D hit in hits)
         {
@@ -53,6 +63,7 @@ public class BossAttack_1 : BossPatern
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, distanceRequire);
 
+        if (Application.isPlaying) return;
         MVsGizmos.Draw2DCapsule((Vector2)transform.position + detectionOffset, detectionSize, Color.blue);
     }
 }
