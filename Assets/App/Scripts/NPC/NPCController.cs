@@ -27,7 +27,7 @@ public class NPCController : MonoBehaviour, IInteractable
         if (!CanInteract) return;
 
         currentState = NPCInteractionState.Interacting; 
-        UIContextManager.instance.PushContext(UIContext.Dialogue);
+        UIContextManager.Instance.PushContext(UIContext.Dialogue);
 
         RefreshInteractionState();
 
@@ -41,7 +41,7 @@ public class NPCController : MonoBehaviour, IInteractable
 
     private void OnDialogueClosed()
     {
-        UIContextManager.instance.PopContext(UIContext.Dialogue);
+        UIContextManager.Instance.PopContext(UIContext.Dialogue);
         currentState = playerInRange ? NPCInteractionState.Available : NPCInteractionState.Idle;
         RefreshInteractionState();
     }

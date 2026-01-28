@@ -680,10 +680,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 1414320152148372813, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4718675458381123268, guid: c5d0518296cbe004584c8f3683c597fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -872,6 +868,7 @@ MonoBehaviour:
   maxHealth: 0
   currentHealth: {fileID: 0}
   isInvincible: 0
+  anim: {fileID: 0}
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []

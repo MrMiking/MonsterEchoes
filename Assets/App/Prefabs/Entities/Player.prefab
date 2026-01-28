@@ -220,6 +220,7 @@ MonoBehaviour:
   maxHealth: 3
   currentHealth: {fileID: 11400000, guid: cae04e7bff7b6ec4dbc9dfb5f87dd145, type: 2}
   isInvincible: 0
+  anim: {fileID: 2862516587062572103}
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -237,7 +238,7 @@ GameObject:
   - component: {fileID: 1273623756052495435}
   - component: {fileID: 593820087778575061}
   - component: {fileID: 261613106320621543}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Interaction
   m_TagString: Untagged
   m_Icon: {fileID: 0}

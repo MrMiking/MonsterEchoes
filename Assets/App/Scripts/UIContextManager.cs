@@ -18,17 +18,17 @@ public class UIContextManager : MonoBehaviour
     private InputActionMap playerMap;
     private InputActionMap uiMap;
 
-    public static UIContextManager instance;
+    public static UIContextManager Instance;
 
     private void Awake()
     {
-        if(instance != null && instance != this)
+        if(Instance != null && Instance != this)
         {
             Destroy(this.gameObject);
             return;
         }
 
-        instance = this;
+        Instance = this;
 
         playerMap = inputAsset.FindActionMap("Player");
         uiMap = inputAsset.FindActionMap("UI");
